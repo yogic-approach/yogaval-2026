@@ -1,0 +1,34 @@
+[
+  {
+    "date": "Feb 9",
+    "date_es": "9 de feb",
+    "location": "Escuela de Yoga Satyam",
+    "title": "The Five Koshas",
+    "title_es": "Los Cinco Koshas",
+    "folder": "20260209-koshas-escuela-de-yoga-satyam"
+  },
+  {
+    "date": "Feb 10",
+    "date_es": "10 de feb",
+    "location": "Cl\u00ednica Vitola, Yoga Carrasco",
+    "title": "Living Fully In Yourself",
+    "title_es": "Habitar el Cuerpo por Completo",
+    "folder": "20260210-living-fully-in-yourself-yoga-carrasco"
+  },
+  {
+    "date": "Feb 11",
+    "date_es": "11 de feb",
+    "location": "MACA Museum",
+    "title": "Koshas and AI",
+    "title_es": "Koshas e IA",
+    "folder": "20260211-koshas-and-ai-maca"
+  },
+  {
+    "date": "Feb 23",
+    "date_es": "23 de feb",
+    "location": "Piri\u00e1polis",
+    "title": "The Koshas: A Map of the Inner World",
+    "title_es": "Los Koshas: Un Mapa del Mundo Interior",
+    "folder": "20260223-koshas-piriopolis"
+  }
+]

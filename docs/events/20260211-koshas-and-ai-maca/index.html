@@ -40,6 +40,12 @@
         <h1>The Levels of the Human Being According to Yoga and Their Dialogue with AI</h1>
         <p>Satchidananda &mdash; MACA Museum, Organized by Yoga 104, Uruguay &mdash; February 11, 2026</p>
     </header>
+
+    <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
+        Select <a href="../">another talk</a>:
+        <select id="talk-select" onchange="if(this.value) window.location.href=this.value" style="font-size: 0.95em; padding: 4px 8px;"></select>
+    </div>
+
     <div class="lang-toggle">
         <button id="btn-en" onclick="loadTranscript('en')">English</button>
         <button id="btn-es" onclick="loadTranscript('es')">Espa&ntilde;ol</button>
@@ -53,6 +59,7 @@
         <a href="../">&#8592; Back to Events</a>
     </footer>
 
+    <script src="../shared.js"></script>
     <script>
         async function loadTranscript(lang) {
             document.getElementById('btn-en').classList.toggle('active', lang === 'en');
@@ -67,15 +74,13 @@
                 if (!res.ok) throw new Error('File not found');
                 const md = await res.text();
                 el.innerHTML = marked.parse(md);
-                if (new URLSearchParams(window.location.search).has('noVideo')) {
-                    el.querySelectorAll('a[href*="youtu"]').forEach(a => a.replaceWith(document.createTextNode('')));
-                }
             } catch (e) {
                 el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
             }
         }
         const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
         loadTranscript(lang);
+        loadTalkSelector(lang);
     </script>
 </body>
 </html>

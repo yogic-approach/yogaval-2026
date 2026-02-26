@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | Yogaval 2026</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 30px 0 20px; border-bottom: 1px solid #ddd; margin-bottom: 20px; }
+        header h1 { font-size: 1.5em; margin-bottom: 5px; }
+        header p { color: #666; font-size: 0.95em; }
+        .lang-toggle { display: flex; justify-content: center; gap: 10px; margin: 20px 0; }
+        .lang-toggle button {
+            padding: 8px 24px; font-size: 1em; cursor: pointer;
+            border: 2px solid #555; border-radius: 4px;
+            background: white; color: #555; transition: all 0.2s;
+        }
+        .lang-toggle button.active { background: #555; color: white; }
+        .lang-toggle button:hover { background: #444; color: white; }
+        ul { list-style: none; padding: 0; }
+        li { padding: 12px 0; border-bottom: 1px solid #eee; }
+        li a { text-decoration: none; color: #2a6496; font-size: 1.1em; }
+        li a:hover { text-decoration: underline; }
+        #loading { text-align: center; padding: 40px; color: #999; }
+        footer { text-align: center; padding: 30px 0 10px; border-top: 1px solid #ddd; margin-top: 40px; color: #999; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="page-title">Yogaval 2026 &mdash; Events</h1>
+        <p id="page-subtitle">Talks by Satchidananda &mdash; Uruguay, February 2026</p>
+    </header>
+
+    <div class="lang-toggle">
+        <button id="btn-en" onclick="setLang('en')">English</button>
+        <button id="btn-es" onclick="setLang('es')">Espa&ntilde;ol</button>
+    </div>
+
+    <div id="events">
+        <p id="loading">Loading events...</p>
+    </div>
+
+    <footer>
+        <a href="../">&#8592; Home</a>
+    </footer>
+
+    <script src="shared.js"></script>
+    <script>
+        function setLang(lang) {
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+            const url = new URL(window.location);
+            url.searchParams.set('lang', lang);
+            history.replaceState(null, '', url);
+            const isEs = lang === 'es';
+            document.getElementById('page-title').innerHTML = isEs ? 'Yogaval 2026 &mdash; Eventos' : 'Yogaval 2026 &mdash; Events';
+            document.getElementById('page-subtitle').innerHTML = isEs
+                ? 'Charlas de Satchidananda &mdash; Uruguay, febrero 2026'
+                : 'Talks by Satchidananda &mdash; Uruguay, February 2026';
+            loadEventsList(lang);
+        }
+
+        const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+        setLang(lang);
+    </script>
+</body>
+</html>
