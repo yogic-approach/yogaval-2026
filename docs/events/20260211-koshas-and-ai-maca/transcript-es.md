@@ -7,6 +7,8 @@
 
 **Nota sobre esta Transcripción:** Este documento fue creado mediante colaboración humano-IA utilizando tecnología de transcripción Whisper. Si bien se han realizado esfuerzos para garantizar la precisión, pueden ocurrir errores de transcripción. Por favor, consulta la grabación de video original como fuente definitiva: [Enlace de YouTube por confirmar]
 
+*¿Nuevo en los términos de yoga de esta charla? Consulta el <a href="../../glossary.html?lang=es" target="_blank">Glosario de Términos</a>.*
+
 ---
 
 ## Comentarios de Apertura

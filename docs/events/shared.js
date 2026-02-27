@@ -20,12 +20,26 @@ function loadTalkSelector(lang) {
         var prefix = jsonPath === 'events.json' ? '' : '../';
         var synthPath = jsonPath === 'events.json' ? '../' : '../../';
         var synthLabel = isEs ? 'Resumen de Charlas — Informe IA de ideas principales de todas las charlas' : 'Summary of Talks — AI-generated report of main ideas from all the talks';
+        var glossPath = synthPath + 'glossary.html?lang=' + lang;
+        var glossLabel = isEs ? 'Glosario de Términos — Definiciones de términos del yoga y sánscrito' : 'Glossary of Terms — Definitions of yoga and Sanskrit terms';
         sel.innerHTML = '<option value="">' + (isEs ? '-- Elegir --' : '-- Choose --') + '</option>' +
             events.filter(function(e) { return e.folder !== current; }).map(function(e) {
                 return '<option value="' + prefix + e.folder + '/">' + eventLabel(e, isEs) + '</option>';
             }).join('') +
-            '<option value="' + synthPath + '?lang=' + lang + '">' + synthLabel + '</option>';
+            '<option value="' + synthPath + '?lang=' + lang + '">' + synthLabel + '</option>' +
+            '<option value="' + glossPath + '" data-newtab="true">' + glossLabel + '</option>';
     }).catch(function() {});
+}
+
+function handleTalkSelect(sel) {
+    var opt = sel.options[sel.selectedIndex];
+    if (!opt || !opt.value) return;
+    if (opt.dataset && opt.dataset.newtab) {
+        window.open(opt.value, '_blank');
+        sel.selectedIndex = 0;
+    } else {
+        window.location.href = opt.value;
+    }
 }
 
 function loadEventsList(lang) {

@@ -1,1 +1,3 @@
 - #5 create glossary of terms (https://github.com/yogic-approach/yogaval-2026/issues/5)
+- #6 add Glossary to drop-down list. When selected, it should open in new window. (https://github.com/yogic-approach/yogaval-2026/issues/6)
+- #7 In intro to each event transcript, mention Glossary. Link should open in new window. (https://github.com/yogic-approach/yogaval-2026/issues/7)

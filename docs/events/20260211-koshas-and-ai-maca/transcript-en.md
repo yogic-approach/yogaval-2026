@@ -7,6 +7,8 @@
 
 **Note on This Transcript:** This document was created through human-AI collaboration using Whisper transcription technology. While efforts have been made to ensure accuracy, transcription errors may occur. Please refer to the original video recording as the definitive source: [YouTube link TBC]
 
+*New to the yoga terms in this talk? See the <a href="../../glossary.html?lang=en" target="_blank">Glossary of Terms</a>.*
+
 ---
 
 ## Opening Remarks
