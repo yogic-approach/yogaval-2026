@@ -74,6 +74,10 @@
                 if (!res.ok) throw new Error('File not found');
                 const md = await res.text();
                 el.innerHTML = marked.parse(md);
+                if (window.location.hash) {
+                    var target = document.querySelector(window.location.hash);
+                    if (target) target.scrollIntoView({ behavior: 'smooth' });
+                }
             } catch (e) {
                 el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
             }

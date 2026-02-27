@@ -1,44 +1,99 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yogaval 2026 | Experiencia Yoga 104</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogaval 2026 | Exploring the Koshas</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 30px 0 20px; border-bottom: 1px solid #ddd; margin-bottom: 20px; }
+        header h1 { font-size: 1.5em; margin-bottom: 5px; }
+        header p { color: #666; font-size: 0.95em; }
+        .lang-toggle { display: flex; justify-content: center; gap: 10px; margin: 20px 0; }
+        .lang-toggle button {
+            padding: 8px 24px; font-size: 1em; cursor: pointer;
+            border: 2px solid #555; border-radius: 4px;
+            background: white; color: #555; transition: all 0.2s;
+        }
+        .lang-toggle button.active { background: #555; color: white; }
+        .lang-toggle button:hover { background: #444; color: white; }
+        #content { padding: 10px 0; }
+        #content h1 { font-size: 1.6em; margin: 1.5em 0 0.5em; }
+        #content h2 { font-size: 1.3em; margin: 1.3em 0 0.4em; }
+        #content h3 { font-size: 1.1em; margin: 1.1em 0 0.3em; }
+        #content p { margin: 0.8em 0; }
+        #content ul, #content ol { margin: 0.8em 0; padding-left: 1.5em; }
+        #content li { margin: 0.3em 0; }
+        #content hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+        #content blockquote { border-left: 3px solid #ccc; padding-left: 1em; color: #666; margin: 1em 0; }
+        #content em { font-style: italic; }
+        #content strong { font-weight: bold; }
+        #content a { color: #2a6496; }
+        #content table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+        #content th, #content td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+        #content th { background: #f5f5f5; }
+        #loading { text-align: center; padding: 40px; color: #999; }
+        footer { text-align: center; padding: 30px 0 10px; border-top: 1px solid #ddd; margin-top: 40px; color: #999; font-size: 0.85em; }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Yogaval 2026</h1>
+        <p id="page-subtitle">Exploring the Koshas &mdash; Satchidananda &mdash; Uruguay, February 2026</p>
+    </header>
 
-  <h1>Yogaval 2026</h1>
-  <h2>Experiencia Yoga 104</h2>
+    <div class="lang-toggle">
+        <button id="btn-en" onclick="loadSynthesis('en')">English</button>
+        <button id="btn-es" onclick="loadSynthesis('es')">Espa&ntilde;ol</button>
+    </div>
 
-  <p>
-    Retiro inmersivo de yoga y vida yóguica en Yoga 104<br />
-    Maldonado, Ruta 104
-  </p>
-    
-  <p>
-    <strong>Fechas:</strong><br />
-    11 de febrero (tarde) – 16 de febrero (tarde)
-  </p>
+    <div id="content">
+        <p id="loading">Loading synthesis...</p>
+    </div>
 
-  <p>
-    Una experiencia diseñada para vivenciar los koshas a través de prácticas
-    yóguicas, reflexión, convivencia y espacios de silencio.
-  </p>
+    <footer>
+        <a id="footer-link" href="events/">Browse Individual Talks</a>
+    </footer>
 
-  <p>
-    Durante el retiro se realizará un programa especial de <strong>Shivaratri (24 hs)</strong>
-    con havan, danza extática, yoga nidra, mantras y kirtan.
-  </p>
-
- <p>
-  Por favor, comunicate con
-  <a href="https://www.instagram.com/yoga104.uy/">instagram.com/yoga104.uy</a>
-  para consultas o para expresar interés en la inscripción, hasta que esta página tenga más información actualizada.
-</p>
-  <hr />
-  <p>
-    <a href="events/">Charlas / Talks</a>
-  </p>
-
+    <script>
+        async function loadSynthesis(lang) {
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+            const url = new URL(window.location);
+            url.searchParams.set('lang', lang);
+            history.replaceState(null, '', url);
+            const isEs = lang === 'es';
+            document.getElementById('page-subtitle').innerHTML = isEs
+                ? 'Explorando los Koshas &mdash; Satchidananda &mdash; Uruguay, febrero 2026'
+                : 'Exploring the Koshas &mdash; Satchidananda &mdash; Uruguay, February 2026';
+            document.getElementById('footer-link').textContent = isEs
+                ? 'Ver Charlas Individuales'
+                : 'Browse Individual Talks';
+            const el = document.getElementById('content');
+            el.innerHTML = '<p id="loading">Loading...</p>';
+            try {
+                const res = await fetch('synthesis-' + lang + '.md');
+                if (!res.ok) throw new Error('File not found');
+                const md = await res.text();
+                el.innerHTML = marked.parse(md);
+                if (window.location.hash) {
+                    var target = document.querySelector(window.location.hash);
+                    if (target) target.scrollIntoView({ behavior: 'smooth' });
+                }
+            } catch (e) {
+                if (lang === 'es') {
+                    el.innerHTML = '<p style="text-align:center; padding: 40px; color: #666;">'
+                        + 'La s&iacute;ntesis est&aacute; disponible solo en ingl&eacute;s por el momento.<br>'
+                        + '<a href="?lang=en">Read in English</a></p>';
+                } else {
+                    el.innerHTML = '<p style="color:#c00;">Could not load synthesis. Please try again.</p>';
+                }
+            }
+        }
+        const lang = new URLSearchParams(window.location.search).get('lang') || 'en';
+        loadSynthesis(lang);
+    </script>
 </body>
 </html>
