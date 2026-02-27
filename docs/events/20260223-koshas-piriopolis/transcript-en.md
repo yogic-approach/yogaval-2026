@@ -1,7 +1,11 @@
 # The Koshas: A Map of the Inner World
+## Talk by Satchidananda
+### Hosted by Padmashree and Hotel Tamriz, Piriápolis
+### February 23, 2026
 
-**Piriópolis | February 23**
-*Talk by Satchidananda*
+---
+
+**Note on This Transcript:** This document was created through human-AI collaboration using Whisper transcription technology. The original talk was delivered in English with real-time Spanish translation. While efforts have been made to ensure accuracy, transcription errors may occur. No video recording is available for this talk.
 
 ---
 

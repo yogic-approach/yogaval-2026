@@ -1,6 +1,6 @@
 # The Levels of the Human Being According to Yoga and Their Dialogue with Artificial Intelligence
-## Talk by Satchidananda at MACA Museum, Uruguay
-### Organized by Yoga 104
+## Talk by Satchidananda
+### Hosted by Yoga 104, MACA Museum
 ### February 11, 2026
 
 ---

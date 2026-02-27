@@ -1,5 +1,6 @@
 # Los Cinco Koshas: Un Marco Práctico para la Totalidad
-## Charla por Sachidananda en Escuela de Satyam Yoga, Uruguay
+## Charla por Satchidananda
+### Organizado por Escuela de Yoga Satyam
 ### 9 de febrero de 2026
 
 ---

@@ -4,11 +4,14 @@
 
 ---
 
-**Nota sobre esta Síntesis:** Este documento sintetiza cuatro charlas impartidas por Satchidananda en Uruguay en febrero de 2026, explorando los koshas (los cinco cuerpos yóguicos) como marco para la totalidad y la autoconciencia. Fue creado mediante colaboración humano-IA. Las citas numeradas \[1\]–\[4\] enlazan a las transcripciones originales de las charlas. Para las palabras exactas del orador, consulte las transcripciones individuales listadas en la sección de Fuentes.
+**Nota sobre esta Síntesis:** A lo largo de febrero de 2026, Satchidananda impartió cuatro charlas en distintos puntos de Uruguay explorando los koshas — los cinco cuerpos yóguicos que describen el espectro completo de lo que significa ser humano. Cada charla se apoyó en la anterior, revisitando ideas centrales desde nuevos ángulos con metáforas, prácticas y provocaciones frescas. Esta síntesis de temas centrales fue creada mediante colaboración humano-IA; las citas \[1\]–\[4\] enlazan a las transcripciones originales.
 
----
-
-A lo largo de febrero de 2026, Satchidananda ofreció una serie de cuatro charlas en distintos puntos de Uruguay explorando los koshas — los cinco cuerpos yóguicos que en conjunto describen el espectro completo de lo que significa ser humano. Cada charla se apoyó en la anterior, revisitando ideas centrales desde nuevos ángulos e introduciendo metáforas, prácticas y provocaciones frescas. Lo que sigue es una síntesis de los temas centrales entrelazados a lo largo de las cuatro presentaciones.
+| # | Fecha | Lugar | Charla |
+|---|-------|-------|--------|
+| \[1\] | 9 de feb | Escuela de Yoga Satyam | [Los Cinco Koshas: Un Marco Práctico para la Totalidad](events/20260209-koshas-escuela-de-yoga-satyam/?lang=es) |
+| \[2\] | 10 de feb | Clínica Vitola, Yoga Carrasco | [Habitar el Cuerpo por Completo](events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=es) |
+| \[3\] | 11 de feb | Museo MACA | [Los Niveles del Ser Humano Según el Yoga y Su Diálogo con la IA](events/20260211-koshas-and-ai-maca/?lang=es) |
+| \[4\] | 23 de feb | Piriápolis | [Los Koshas: Un Mapa del Mundo Interior](events/20260223-koshas-piriopolis/?lang=es) |
 
 ---
 
@@ -164,28 +167,6 @@ El mes de charlas concluyó no con respuestas sino con una invitación a experim
 "Lleva la conciencia de tus koshas a la vida diaria. Creo que muchas cosas vendrán a través de este marco cuando empieces a hacerlo." [2]
 
 Los koshas no son un destino. Son un marco para hacer mejores preguntas — sobre nosotros mismos, nuestras prácticas y nuestras relaciones. El verdadero trabajo comienza cuando la teoría se vuelve personal.
-
----
-
-## Charlas en Esta Serie
-
-Esta síntesis se basa en cuatro charlas impartidas en Uruguay en febrero de 2026:
-
-| Fecha | Lugar | Charla |
-|-------|-------|--------|
-| 9 de feb | Escuela de Yoga Satyam | Los Cinco Koshas: Un Marco Práctico para la Totalidad |
-| 10 de feb | Clínica Vitola, Yoga Carrasco | Habitar el Cuerpo por Completo |
-| 11 de feb | Museo MACA | Los Niveles del Ser Humano Según el Yoga y Su Diálogo con la IA |
-| 23 de feb | Piriápolis | Los Koshas: Un Mapa del Mundo Interior |
-
----
-
-## Fuentes
-
-- **\[1\]** [Los Cinco Koshas — Escuela de Yoga Satyam, 9 de feb](events/20260209-koshas-escuela-de-yoga-satyam/?lang=es)
-- **\[2\]** [Habitar el Cuerpo por Completo — Yoga Carrasco, 10 de feb](events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=es)
-- **\[3\]** [Koshas e IA — Museo MACA, 11 de feb](events/20260211-koshas-and-ai-maca/?lang=es)
-- **\[4\]** [Los Koshas: Un Mapa del Mundo Interior — Piriápolis, 23 de feb](events/20260223-koshas-piriopolis/?lang=es)
 
 ---
 

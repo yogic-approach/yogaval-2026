@@ -1,5 +1,6 @@
 # The Five Koshas: A Practical Framework for Wholeness
-## Talk by Sachidananda at Escuela de Satyam Yoga, Uruguay
+## Talk by Satchidananda
+### Hosted by Escuela de Yoga Satyam
 ### February 9, 2026
 
 ---

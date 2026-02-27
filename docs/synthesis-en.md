@@ -4,11 +4,14 @@
 
 ---
 
-**Note on This Synthesis:** This document synthesizes four talks delivered by Satchidananda across Uruguay in February 2026, exploring the koshas (five yogic bodies) as a framework for wholeness and self-awareness. It was created through human-AI collaboration. Numbered citations \[1\]–\[4\] link to the original talk transcripts. For the speaker's exact words, please refer to the individual transcripts listed in the Sources section.
+**Note on This Synthesis:** Throughout February 2026, Satchidananda delivered four talks across Uruguay exploring the koshas — the five yogic bodies that describe the full spectrum of what it means to be human. Each built upon the last, revisiting core ideas from new angles with fresh metaphors, practices, and provocations. This synthesis of central themes was created through human-AI collaboration; citations \[1\]–\[4\] link to the original transcripts.
 
----
-
-Throughout February 2026, Satchidananda delivered a series of four talks across Uruguay exploring the koshas — the five yogic bodies that together describe the full spectrum of what it means to be human. Each talk built upon the last, revisiting core ideas from new angles while introducing fresh metaphors, practices, and provocations. What follows is a synthesis of the central themes woven across all four presentations.
+| # | Date | Location | Talk |
+|---|------|----------|------|
+| \[1\] | Feb 9 | Escuela de Yoga Satyam | [The Five Koshas: A Practical Framework for Wholeness](events/20260209-koshas-escuela-de-yoga-satyam/?lang=en) |
+| \[2\] | Feb 10 | Clínica Vitola, Yoga Carrasco | [Living Fully In Yourself](events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=en) |
+| \[3\] | Feb 11 | MACA Museum | [The Levels of the Human Being According to Yoga and Their Dialogue with AI](events/20260211-koshas-and-ai-maca/?lang=en) |
+| \[4\] | Feb 23 | Piriápolis | [The Koshas: A Map of the Inner World](events/20260223-koshas-piriopolis/?lang=en) |
 
 ---
 
@@ -164,28 +167,6 @@ The month of talks concluded not with answers but with an invitation to experime
 "Bring your awareness of your koshas into daily life. I think many things will come through this framework when you begin to do that." [2]
 
 The koshas are not a destination. They are a framework for asking better questions — of ourselves, our practices, and our relationships. The real work begins when the theory becomes personal.
-
----
-
-## Talks in This Series
-
-This synthesis draws from four talks delivered across Uruguay in February 2026:
-
-| Date | Location | Talk |
-|------|----------|------|
-| Feb 9 | Escuela de Yoga Satyam | The Five Koshas: A Practical Framework for Wholeness |
-| Feb 10 | Clínica Vitola, Yoga Carrasco | Living Fully In Yourself |
-| Feb 11 | MACA Museum | The Levels of the Human Being According to Yoga and Their Dialogue with AI |
-| Feb 23 | Piriápolis | The Koshas: A Map of the Inner World |
-
----
-
-## Sources
-
-- **\[1\]** [The Five Koshas — Escuela de Yoga Satyam, Feb 9](events/20260209-koshas-escuela-de-yoga-satyam/?lang=en)
-- **\[2\]** [Living Fully In Yourself — Yoga Carrasco, Feb 10](events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=en)
-- **\[3\]** [Koshas and AI — MACA Museum, Feb 11](events/20260211-koshas-and-ai-maca/?lang=en)
-- **\[4\]** [The Koshas: A Map of the Inner World — Piriápolis, Feb 23](events/20260223-koshas-piriopolis/?lang=en)
 
 ---
 
