@@ -5,7 +5,7 @@
 
 ---
 
-**Nota sobre esta Transcripción:** Este documento fue creado mediante colaboración humano-IA utilizando tecnología de transcripción Whisper. La charla original fue dictada en inglés con traducción simultánea al español. Si bien se han realizado esfuerzos para garantizar la precisión, pueden ocurrir errores de transcripción. No hay grabación de video disponible para esta charla.
+**Nota sobre esta Transcripción:** Este documento fue creado mediante colaboración humano-IA utilizando tecnología de transcripción Whisper. La charla original fue dictada en inglés con traducción simultánea al español. Si bien se han realizado esfuerzos para garantizar la precisión, pueden ocurrir errores de transcripción. Por favor, consulta la grabación de video original como fuente definitiva: [Enlace de YouTube por confirmar]
 
 ---
 

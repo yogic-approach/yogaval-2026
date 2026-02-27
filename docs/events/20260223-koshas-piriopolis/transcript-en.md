@@ -5,7 +5,7 @@
 
 ---
 
-**Note on This Transcript:** This document was created through human-AI collaboration using Whisper transcription technology. The original talk was delivered in English with real-time Spanish translation. While efforts have been made to ensure accuracy, transcription errors may occur. No video recording is available for this talk.
+**Note on This Transcript:** This document was created through human-AI collaboration using Whisper transcription technology. The original talk was delivered in English with real-time Spanish translation. While efforts have been made to ensure accuracy, transcription errors may occur. Please refer to the original video recording as the definitive source: [YouTube link TBC]
 
 ---
 
