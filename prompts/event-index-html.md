@@ -1,0 +1,197 @@
+# Prompt: Create an Event index.html
+
+Use this prompt when adding a new talk to the site. The index.html is a lightweight bilingual viewer that renders transcript markdown files via marked.js.
+
+---
+
+## Prerequisites
+
+Before creating the index.html, ensure you have:
+1. Created the event folder: `docs/events/YYYYMMDD-topic-venue/`
+2. Added `transcript-en.md` and `transcript-es.md` to the folder
+3. Added the event to `docs/events/events.json`
+
+---
+
+## Template
+
+Copy the HTML below and replace the 3 placeholder values marked with `[BRACKETS]`:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[TALK TITLE] - [VENUE] | [DATE]</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 30px 0 20px; border-bottom: 1px solid #ddd; margin-bottom: 20px; }
+        header h1 { font-size: 1.5em; margin-bottom: 5px; }
+        header p { color: #666; font-size: 0.95em; }
+        .lang-toggle { display: flex; justify-content: center; gap: 10px; margin: 20px 0; }
+        .lang-toggle button {
+            padding: 8px 24px; font-size: 1em; cursor: pointer;
+            border: 2px solid #555; border-radius: 4px;
+            background: white; color: #555; transition: all 0.2s;
+        }
+        .lang-toggle button.active { background: #555; color: white; }
+        .lang-toggle button:hover { background: #444; color: white; }
+        #content { padding: 10px 0; }
+        #content h1 { font-size: 1.6em; margin: 1.5em 0 0.5em; }
+        #content h2 { font-size: 1.3em; margin: 1.3em 0 0.4em; }
+        #content h3 { font-size: 1.1em; margin: 1.1em 0 0.3em; }
+        #content p { margin: 0.8em 0; }
+        #content ul, #content ol { margin: 0.8em 0; padding-left: 1.5em; }
+        #content li { margin: 0.3em 0; }
+        #content hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+        #content blockquote { border-left: 3px solid #ccc; padding-left: 1em; color: #666; margin: 1em 0; }
+        #content em { font-style: italic; }
+        #content strong { font-weight: bold; }
+        #content a { color: #2a6496; }
+        #loading { text-align: center; padding: 40px; color: #999; }
+        footer { text-align: center; padding: 30px 0 10px; border-top: 1px solid #ddd; margin-top: 40px; color: #999; font-size: 0.85em; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[TALK TITLE]</h1>
+        <p>Satchidananda &mdash; [VENUE], Uruguay &mdash; [DATE]</p>
+    </header>
+
+    <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
+        Select <a href="../">another talk</a>:
+        <select id="talk-select" onchange="if(this.value) window.location.href=this.value" style="font-size: 0.95em; padding: 4px 8px;"></select>
+    </div>
+
+    <div class="lang-toggle">
+        <button id="btn-en" onclick="loadTranscript('en')">English</button>
+        <button id="btn-es" onclick="loadTranscript('es')">Espa&ntilde;ol</button>
+    </div>
+
+    <div id="content">
+        <p id="loading">Select a language above to read the transcript.</p>
+    </div>
+
+    <footer>
+        <a href="../">&#8592; Back to Events</a>
+    </footer>
+
+    <script src="../shared.js"></script>
+    <script>
+        async function loadTranscript(lang) {
+            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+            document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+            const url = new URL(window.location);
+            url.searchParams.set('lang', lang);
+            history.replaceState(null, '', url);
+            const el = document.getElementById('content');
+            el.innerHTML = '<p id="loading">Loading...</p>';
+            try {
+                const res = await fetch('transcript-' + lang + '.md');
+                if (!res.ok) throw new Error('File not found');
+                const md = await res.text();
+                el.innerHTML = marked.parse(md);
+                if (window.location.hash) {
+                    var target = document.querySelector(window.location.hash);
+                    if (target) target.scrollIntoView({ behavior: 'smooth' });
+                }
+            } catch (e) {
+                el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
+            }
+        }
+        const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+        loadTranscript(lang);
+        loadTalkSelector(lang);
+    </script>
+</body>
+</html>
+```
+
+---
+
+## Placeholders to Replace
+
+| Placeholder | Example | Notes |
+|-------------|---------|-------|
+| `[TALK TITLE]` | `Living Fully In Yourself` | English title; appears in `<title>`, `<h1>`, and `<p>` |
+| `[VENUE]` | `Cl&iacute;nica Vitola, Yoga Carrasco` | Use HTML entities for accented characters in the HTML (e.g., `&iacute;` for i) |
+| `[DATE]` | `February 10, 2026` | Full English date format |
+
+---
+
+## Transcript Markdown Header Pattern
+
+Each transcript file should follow this header structure:
+
+### English (`transcript-en.md`)
+
+```markdown
+# [Talk Title]
+## Talk by Satchidananda
+### Hosted by [Venue]
+### [Full Date]
+
+---
+
+**Note on This Transcript:** This document was created through human-AI collaboration using Whisper transcription technology. The original talk was delivered in English with real-time Spanish translation. While efforts have been made to ensure accuracy, transcription errors may occur. Please refer to the original video recording as the definitive source: [VIDEO_URL]
+
+---
+```
+
+### Spanish (`transcript-es.md`)
+
+```markdown
+# [Titulo de la Charla]
+## Charla por Satchidananda
+### Organizado por [Lugar]
+### [Fecha completa]
+
+---
+
+**Nota sobre esta Transcripcion:** Este documento fue creado mediante colaboracion humano-IA utilizando tecnologia de transcripcion Whisper. La charla original fue dictada en ingles con traduccion simultanea al espanol. Si bien se han realizado esfuerzos para garantizar la precision, pueden ocurrir errores de transcripcion. Por favor, consulta la grabacion de video original como fuente definitiva: [VIDEO_URL]
+
+---
+```
+
+Note: The Spanish template above has accents stripped for readability. Apply proper Spanish accents in the actual output.
+
+If there is no video recording, replace the video sentence with: `"No video recording is available for this talk."` / `"No hay grabacion de video disponible para esta charla."`
+
+---
+
+## events.json Entry
+
+Add a new object to `docs/events/events.json`:
+
+```json
+{
+  "date": "Feb 10",
+  "date_es": "10 de feb",
+  "location": "Venue Name",
+  "title": "English Talk Title",
+  "title_es": "Spanish Talk Title",
+  "folder": "YYYYMMDD-topic-venue"
+}
+```
+
+---
+
+## Default Language
+
+Event pages default to **Spanish** (`|| 'es'`). The root synthesis page defaults to **English** (`|| 'en'`).
+
+---
+
+## Checklist
+
+- [ ] Folder created: `docs/events/YYYYMMDD-topic-venue/`
+- [ ] `transcript-en.md` added with correct header
+- [ ] `transcript-es.md` added with correct header
+- [ ] `index.html` created from template with placeholders replaced
+- [ ] Event added to `docs/events/events.json`
+- [ ] Synthesis updated (if this talk should be included)
+- [ ] README updated (if this talk should be included in synthesis listing)
+- [ ] Committed and pushed
