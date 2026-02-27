@@ -13,6 +13,8 @@
 | \[3\] | 11 de feb | Museo MACA | [Los Niveles del Ser Humano Según el Yoga y Su Diálogo con la IA](events/20260211-koshas-and-ai-maca/?lang=es) |
 | \[4\] | 23 de feb | Piriápolis | [Los Koshas: Un Mapa del Mundo Interior](events/20260223-koshas-piriopolis/?lang=es) |
 
+*¿Nuevo en estos términos? Consulta el <a href="glossary.html?lang=es" target="_blank">Glosario de Términos</a> con definiciones tomadas de las charlas.*
+
 ---
 
 ## ¿Qué Son los Koshas?

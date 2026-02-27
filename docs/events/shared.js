@@ -17,11 +17,14 @@ function loadTalkSelector(lang) {
         if (!sel) return;
         var current = window.location.pathname.split('/').filter(Boolean).pop();
         var isEs = lang === 'es';
+        var prefix = jsonPath === 'events.json' ? '' : '../';
+        var synthPath = jsonPath === 'events.json' ? '../' : '../../';
+        var synthLabel = isEs ? 'Resumen de Charlas — Informe IA de ideas principales de todas las charlas' : 'Summary of Talks — AI-generated report of main ideas from all the talks';
         sel.innerHTML = '<option value="">' + (isEs ? '-- Elegir --' : '-- Choose --') + '</option>' +
             events.filter(function(e) { return e.folder !== current; }).map(function(e) {
-                var prefix = jsonPath === 'events.json' ? '' : '../';
                 return '<option value="' + prefix + e.folder + '/">' + eventLabel(e, isEs) + '</option>';
-            }).join('');
+            }).join('') +
+            '<option value="' + synthPath + '?lang=' + lang + '">' + synthLabel + '</option>';
     }).catch(function() {});
 }
 

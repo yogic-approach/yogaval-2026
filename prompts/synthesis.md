@@ -70,31 +70,32 @@ Note: The Spanish header above has accents stripped for this template. Apply pro
 - Write in a narrative style that connects ideas across talks, not a talk-by-talk summary
 - Maintain the speaker's voice in quotes but use third-person narrative for synthesis prose
 
-### Talks Table
+### Talks Table and Glossary Link
 
-Include a table listing all talks:
+The talks table appears immediately after the Note, with source numbers in the first column and hyperlinked titles. Immediately after the table, add a glossary link on its own line using inline HTML (required for `target="_blank"`):
 
+**English:**
 ```markdown
-## Talks in This Series
-
-| Date | Location | Talk |
-|------|----------|------|
-| Feb 9 | Escuela de Yoga Satyam | The Five Koshas: A Practical Framework for Wholeness |
+| # | Date | Location | Talk |
+|---|------|----------|------|
+| \[1\] | Feb 9 | Escuela de Yoga Satyam | [Talk Title](events/FOLDER/?lang=en) |
+| \[2\] | Feb 10 | ... | ... |
 ...
+
+*New to these terms? See the <a href="glossary.html?lang=en" target="_blank">Glossary of Terms</a> for definitions drawn from the talks.*
 ```
 
-Spanish version uses Spanish dates and titles.
-
-### Sources Section
-
+**Spanish:**
 ```markdown
-## Sources
+| # | Fecha | Lugar | Charla |
+|---|-------|-------|--------|
+| \[1\] | 9 de feb | Escuela de Yoga Satyam | [Título de la Charla](events/FOLDER/?lang=es) |
+...
 
-- **\[1\]** [Talk Title — Venue, Date](events/FOLDER/?lang=en)
-- **\[2\]** ...
+*¿Nuevo en estos términos? Consulta el <a href="glossary.html?lang=es" target="_blank">Glosario de Términos</a> con definiciones tomadas de las charlas.*
 ```
 
-Spanish version links to `?lang=es` and uses Spanish titles.
+There is no separate "Sources" section — the talks table serves that purpose. Spanish version links to `?lang=es`.
 
 ### Footer
 
