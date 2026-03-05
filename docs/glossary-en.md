@@ -201,7 +201,15 @@
 
 **SWAN** — Acronym: Strengths, Weaknesses, Ambitions, Needs. A self-inquiry tool from the Satyananda tradition, applied to each kosha individually to assess balance and identify areas requiring attention. [4]
 
-**Swami Satyananda Saraswati** — Founder of the Bihar School of Yoga and the Satyananda Yoga tradition; referred to as "Swamiji" in the talks. Known for systematizing yoga practices across all five koshas. His visualization and willpower were cited as examples of developed Sankalpa: "He finally saw the temple and said, 'Ah, just as I imagined it.'" [1]
+**Swami Niranjananda Saraswati** — Spiritual successor to Swami Satyananda Saraswati and head of the Bihar School of Yoga. Referred to as "Swamiji" in these talks. [1]
+
+**Swami Satyananda Saraswati** — Founder of the Bihar School of Yoga and the Satyananda Yoga tradition. Known for systematizing yoga practices across all five koshas. His visualization and willpower were cited as examples of developed Sankalpa: "He finally saw the temple and said, 'Ah, just as I imagined it.'" [1] See also: *Bihar School of Yoga*, *Satyananda Yoga*.
+
+**Swami Satyasangananda Saraswati** — Senior disciple within the Bihar School of Yoga tradition. [1]
+
+**Swami Sivananda Saraswati** — Founder of the Divine Life Society, Rishikesh; guru of Swami Satyananda Saraswati and a foundational figure in the lineage behind these talks. [1]
+
+**Swamiji** — Respectful and familiar form of address for an initiated swami (from *Sanskrit* "swami" = master, lord of oneself). In these talks, used specifically to refer to Swami Niranjananda Saraswati. Also used as a general honorific for any swami in the tradition. [1]
 
 ---
 
