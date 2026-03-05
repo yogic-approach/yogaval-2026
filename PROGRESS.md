@@ -5,6 +5,22 @@ Repo: https://github.com/yogic-approach/yogaval-2026
 
 ---
 
+## Session: 2026-03-05 — La Paloma Event Transcripts + Whisper File Organization
+
+**Focus:** Complete La Paloma event (#15); yoga nidra audio extraction; raw/ file naming standardization.
+
+**Completed:**
+- **#13** — Whisper files renamed to `whisper-eng.txt/srt` (3-letter ISO lang codes) across all 5 events; La Paloma event set up (raw/, docs/events/, resources/, index.html, events.json)
+- **#14** — Yoga nidra audio extracted from Piriápolis recording (00:28:53–01:06:40) via ffmpeg; segments.yaml created in working folder
+- **#15** — La Paloma transcript-en.md and transcript-es.md generated and committed; audience responses restored; grandmother/grandfather phrasing preserved; "Anandamayi" corrected from whisper "Ananda Mahi"
+- Renamed all raw/*/source.md → source-meta.md (architecture: no intermediate transcripts in raw/)
+- Added .gitignore to exclude .claude/
+
+**Issues opened:** #12, #13, #14, #15
+**Issues closed:** #13, #15
+
+---
+
 ## Session: 2026-03-05 — Setup, Glossary, Prompts, Raw Structure
 
 **Focus:** Bring transcript workflow into VSCode/Claude Code; expand glossary; set up raw/ source structure.
