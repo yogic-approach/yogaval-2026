@@ -179,6 +179,8 @@
 
 **Sannyasa** — *Sanskrit.* The fourth ashrama; renunciation and detachment. "What do I need to lead a simple, happy life? That's sannyasa." [1] Described as practical rather than ascetic: a process of letting go of what is no longer essential.
 
+**Satchidananda** — A name in the yogic tradition derived from *Sat-Chit-Ananda* — *Sanskrit* for being (*sat*), consciousness (*chit*), and bliss (*ananda*) — the threefold description of pure awareness in Advaita Vedanta. The name of the teacher of these talks, given in the Satyananda tradition. [1], [2], [3], [4]
+
 **Satyananda Yoga** — A comprehensive yoga tradition developed by Swami Satyananda Saraswati; rooted in the Bihar School of Yoga. Emphasizes balanced development across all five koshas and includes practices such as Yoga Nidra, Nadi Shodhana, and structured Sankalpa. [1], [2], [4]
 
 **Seva** — *Sanskrit.* Selfless service; action offered without attachment to personal benefit. Closely linked to Karma Yoga. [1]

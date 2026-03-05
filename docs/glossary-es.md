@@ -189,6 +189,8 @@
 
 **Sannyasa** — *Sánscrito.* El cuarto ashrama; la renuncia y el desapego. "¿Qué necesito para llevar una vida simple y feliz? Eso es sannyasa." [1] Descrito como práctico más que ascético: un proceso de soltar lo que ya no es esencial.
 
+**Satchidananda** — Un nombre de la tradición yóguica derivado de *Sat-Chit-Ananda* — *Sánscrito* para ser (*sat*), consciencia (*chit*) y bienaventuranza (*ananda*) — la descripción triple de la conciencia pura en el Advaita Vedanta. El nombre del maestro de estas charlas, otorgado en la tradición de Satyananda. [1], [2], [3], [4]
+
 **Satyananda Yoga** — Una tradición integral de yoga desarrollada por Swami Satyananda Saraswati; arraigada en la Bihar School of Yoga. Enfatiza el desarrollo equilibrado de los cinco koshas e incluye prácticas como Yoga Nidra, Nadi Shodhana y Sankalpa estructurado. [1], [2], [4]
 
 **Seva** — *Sánscrito.* Servicio desinteresado; acción ofrecida sin apego al beneficio personal. Estrechamente vinculado al Karma Yoga. [1]

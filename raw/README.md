@@ -11,6 +11,7 @@ Each subfolder mirrors the corresponding event folder name in `docs/events/`:
 ```
 raw/
   YYYYMMDD-talk-slug-venue-slug/
+    source.md      ← link to original recording (YouTube or other platform)
     whisper.txt    ← raw Whisper plain text output
     whisper.srt    ← Whisper subtitle file with timestamps
 ```
@@ -19,9 +20,11 @@ raw/
 ```
 raw/
   20260209-koshas-escuela-de-yoga-satyam/
+    source.md
     whisper.txt
     whisper.srt
   20260210-living-fully-in-yourself-yoga-carrasco/
+    source.md
     whisper.txt
     whisper.srt
 ```
@@ -33,24 +36,13 @@ Folder names: `YYYYMMDD-talk-slug-venue-slug/`
 - Lowercase, hyphen-separated words
 - Match the event folder name in `docs/events/` exactly
 
-## Audio File Storage
+## Audio/Video Source Reference
 
-Audio files are large and require special handling. **Git LFS (Large File Storage)** is the recommended approach — files appear in the repo at their normal paths but the binary content is stored in GitHub's LFS blob store rather than git history.
+Each event subfolder contains a `source.md` file with a link to the original recording (YouTube or other platform). This is the de facto reference for all transcript work in that folder.
 
-If LFS is enabled, audio files go here alongside the Whisper outputs:
+If no link is yet available, `source.md` will read: *"Source reference link not yet provided"* — update it when the recording is published.
 
-```
-raw/
-  20260209-koshas-escuela-de-yoga-satyam/
-    audio.m4a      ← source recording (stored via Git LFS)
-    whisper.txt
-    whisper.srt
-```
-
-Files tracked via LFS: `*.m4a`, `*.mp3`, `*.wav`, `*.aac`
-Files tracked normally: `*.txt`, `*.srt`, `*.md`
-
-Until LFS is set up, the primary source of truth for audio/video is YouTube. The YouTube URL for each talk is recorded in the transcript header and in `docs/events.json`.
+The YouTube URL is also recorded in the transcript header (`transcript-en.md`, `transcript-es.md`) and in `docs/events.json`.
 
 ## Future: Automated Transcription
 
