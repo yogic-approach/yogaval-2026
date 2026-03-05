@@ -4,7 +4,7 @@
 
 ---
 
-**Nota sobre este Glosario:** Este glosario indexa términos en sánscrito, yóguicos y no evidentes tal como fueron utilizados en cuatro charlas impartidas en Uruguay en febrero de 2026. Las definiciones provienen de las charlas en la medida de lo posible. Las citas \[1\]–\[4\] enlazan a las transcripciones originales.
+**Nota sobre este Glosario:** Este glosario indexa términos en sánscrito, yóguicos y no evidentes tal como fueron utilizados en cinco charlas impartidas en Uruguay en febrero de 2026. Las definiciones provienen de las charlas en la medida de lo posible. Las citas \[1\]–\[5\] enlazan a las transcripciones originales.
 
 | # | Fecha | Lugar | Charla |
 |---|-------|-------|--------|
@@ -12,12 +12,15 @@
 | \[2\] | 10 de feb | Clínica Vitola, Yoga Carrasco | [Habitar el Cuerpo por Completo](events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=es) |
 | \[3\] | 11 de feb | Museo MACA | [Los Niveles del Ser Humano Según el Yoga y Su Diálogo con la IA](events/20260211-koshas-and-ai-maca/?lang=es) |
 | \[4\] | 23 de feb | Piriápolis | [Los Koshas: Un Mapa del Mundo Interior](events/20260223-koshas-piriopolis/?lang=es) |
+| \[5\] | 18 de feb | SitaRam Darshan, La Paloma | [Tantroktam Devi Suktam](events/20260218-tantroktam-devi-suktam-la-paloma/?lang=es) |
 
 ---
 
 ## A
 
 **Ahamkara** — *Sánscrito.* El ego o sentido del yo individual; una de las cuatro divisiones del cuerpo mental (Manomaya Kosha). En la práctica, se explora revisando cómo la identidad propia ha cambiado a lo largo de las etapas de la vida: "¿Qué aspectos de ti permanecen? ¿Qué aspectos han emergido o desaparecido por completo?" [4]
+
+**Anandamayi** — Nombre de la divinidad femenina; literalmente "la que está impregnada de bienaventuranza." Aparece en el kirtan "Bajomana Ma, Anandamayi Ma" cantado en la charla de La Paloma. Distinto de *Anandamaya Kosha* (el quinto kosha); Anandamayi es un epíteto de la madre divina en su forma de gozo ilimitado. [5]
 
 **Anandamaya Kosha** — *Sánscrito.* El quinto y más sutil kosha; el cuerpo causal o bienaventurado. "A veces se denomina bienaventurado, pero significa indiferenciado." [1] Asociado con la consciencia pura — la dimensión anterior a la forma: "Antes de tener conciencia de dónde estás, antes incluso de recordar tu nombre." [3] Ver también: *Kosha*, *Vijnanamaya Kosha*.
 
@@ -36,6 +39,10 @@
 ## B
 
 **Bhajan** — *Sánscrito.* Canciones devocionales, generalmente cantadas en grupo junto con el kirtan. Mencionado como parte del evento de Shivaratri de 24 horas. [1]
+
+**Bhakti Yoga** — El yoga de la devoción; se ocupa del cultivo y la gestión de las emociones y los sentimientos. "El cuarto dominio en esta secuencia... Las emociones. Los sentimientos. En la playa, impide que esta ola rompa contra la orilla. Eso es bhakti yoga." [5] Mencionado junto con Hatha, Karma y Raja Yoga como las cuatro ramas progresivas de dominio: cuerpo, actitud, mente y, finalmente, emoción.
+
+**Bhavana / Pratipaksha Bhavana** — *Sánscrito.* Bhavana: el cultivo deliberado de un sentimiento o estado interior. Pratipaksha Bhavana: "despertar el sentimiento opuesto a un sentimiento negativo." [5] El Tantroktam Devi Suktam se usa como vehículo de bhavana: invocando a Shakti en una calidad específica de consciencia (valentía, paz, sueño) y permitiendo que esa calidad surja en lugar de forzarla. [5]
 
 **Bhrumadhya** — *Sánscrito.* El centro de las cejas; el punto entre las cejas y ligeramente por encima. Utilizado como punto focal en muchas prácticas. "Incluso los ojos pueden girar hacia adentro y ligeramente hacia arriba, mirando desde el interior." [1] Asociado con la intuición y el despertar del Vijnanamaya Kosha.
 
@@ -57,6 +64,8 @@
 
 **Chakra** — *Sánscrito.* Centros de energía dentro del Vijnanamaya Kosha (cuerpo intuitivo/psíquico), que se extienden desde la base de la columna hasta la coronilla. Cada centro corresponde a un dominio de experiencia: desde la seguridad en la base hasta la integración total en la coronilla. [2], [4]
 
+**Chaya Samadhi** — *Sánscrito.* Literalmente "Samadhi de la sombra"; una práctica asociada con la Bihar School of Yoga en Munger. Referenciada en el contexto de trabajar con los aspectos sombríos de la consciencia — "algo desconocido de nosotros mismos." [5] "Tenemos sombra en la realidad física. Tenemos sombra en el dominio psicológico. Si hay una parte de nosotros que sigue eludiéndonos, podemos invocarla como una sombra." [5]
+
 **Chidakasha** — *Sánscrito.* El espacio mental interior; el campo de consciencia visible tras los ojos cerrados. "Observa si hay patrones, colores o formas en chidakasha, el espacio de la mente." [1]
 
 **Chitta** — *Sánscrito.* La facultad de la memoria; una de las cuatro divisiones del cuerpo mental. Almacena impresiones y experiencias pasadas. Se practica mediante la "revisión del día" — recordar sistemáticamente el día desde el despertar hasta el momento presente. [4]
@@ -66,6 +75,10 @@
 ---
 
 ## D
+
+**Devi** — *Sánscrito.* "Diosa"; el principio divino femenino. Figura central del Tantroktam Devi Suktam. "Desde la perspectiva Tántrica, todo lo que podemos experimentar es ella en alguna forma. Ella crea esta realidad." [5] Abarca todos los opuestos: creación y destrucción, suavidad y ferocidad, luz y sombra. "Ella no es solo el positivo, bueno, brillante arcoíris. También puede ser lo oscuro, pesado, desagradable, destructivo." [5]
+
+**Durga** — Una forma feroz de Devi; diosa de la protección y destructora de obstáculos. "A Durga, a quien rescata de las dificultades... el hacedor de todo." [5] Descrita a través de la enseñanza de Swamiji: "El condicionamiento existente tiene que ser cambiado, alterado, destruido. Y para cambiar lo existente, necesitamos el poder de Durga — y ese es nuestro *sankalp shakti*." [5] Ver también: *Shakti*, *Satchandi Maha Yajna*.
 
 **Dharana** — *Sánscrito.* Concentración; la práctica de mantener la atención sostenida en un objeto o camino único. "La consciencia a través del pasaje psíquico frontal. Es una excelente herramienta para introducir la meditación porque te concentras en un camino, dejando que la mente lo recorra." [1]
 
@@ -93,7 +106,9 @@
 
 ## H
 
-**Hari Om Tat Sat** — *Sánscrito.* Un mantra y salutación utilizado para abrir y cerrar cada charla y práctica. Traducido libremente como "La verdad divina es lo que permanece." Usado consistentemente como saludo y bendición en las cuatro charlas. [1], [2], [3], [4]
+**Hari Om Tat Sat** — *Sánscrito.* Un mantra y salutación utilizado para abrir y cerrar cada charla y práctica. Traducido libremente como "La verdad divina es lo que permanece." Usado consistentemente como saludo y bendición en las cinco charlas. [1], [2], [3], [4], [5]
+
+**Hatha Yoga** — *Sánscrito.* El yoga del cuerpo y la respiración; trae el control consciente sobre el cuerpo físico y el sistema nervioso autónomo. "El punto de partida para muchos de nosotros. ¿Puedes controlar tu cuerpo y tu respiración? Sí, con unos pocos años de práctica podemos mejorar bastante." [5] Mencionado junto con Karma, Raja y Bhakti Yoga como las cuatro ramas progresivas de dominio. Ver también: *Bhakti Yoga*, *Raja Yoga*.
 
 ---
 
@@ -143,7 +158,9 @@
 
 **Nadi Shodhana** — *Sánscrito.* Respiración alterna por las fosas nasales; un pranayama que equilibra los canales energéticos izquierdo y derecho (nadis). "Uno de los pranayamas más beneficiosos y suaves para llevarlo hacia el equilibrio." [4] También se practica mentalmente como *Nadi Shodhana Mental*, incorporando consciencia corporal y visualización.
 
-**Namaste** — *Sánscrito.* Un saludo tradicional; literalmente "Me inclino ante ti." Usado para abrir varias de las charlas. [3], [4]
+**Namaste** — *Sánscrito.* Un saludo tradicional; literalmente "Me inclino ante ti." Usado para abrir varias de las charlas. [3], [4] Examinado en profundidad en La Paloma: "Las palabras tienen poder en todos los idiomas... Los sentimientos detrás de las palabras tienen aún más poder. Al aprender el significado, no solo podemos decir una palabra — podemos enviar una ola psíquica." [5] El estribillo *namastasye* del Tantroktam Devi Suktam significa "salutaciones a ella" — la misma raíz aplicada a la diosa en cada una de sus formas.
+
+**Navaratri** — *Sánscrito.* Literalmente "nueve noches"; festividad hindú de adoración a Shakti. El Tantroktam Devi Suktam se canta frecuentemente durante sadhanas de Shakti como Navaratri. [5]
 
 ---
 
@@ -161,6 +178,8 @@
 
 **Pasaje psíquico frontal** — Ver: *Frontal psychic passage*.
 
+**Prakriti** — *Sánscrito.* Naturaleza primordial; la dimensión manifestada y material de la realidad. "Durante cientos de miles de años de nuestra evolución, Prakriti ha automatizado ese proceso." [5] En el marco Tántrico, Prakriti es el dominio de Shakti — la fuerza activa y creativa — el mundo experimentado, distinto de Purusha (la consciencia pura no manifiesta). Ver también: *Shakti*.
+
 **Prana** — *Sánscrito.* Fuerza vital o energía vital; la fuerza animadora detrás de todos los seres vivos. "La fuerza vital que ha existido mucho antes de que la Tierra estuviera aquí. Es la Shakti o energía que se revela cuando la materia explota." [3] También es el nombre de la fuerza vital específica de movimiento ascendente (uno de los cinco sub-pranas). Ver también: *Pranamaya Kosha*.
 
 **Pranam mudra** — *Sánscrito.* Gesto de oración; palmas presionadas juntas frente al corazón o la frente. Utilizado para abrir y cerrar prácticas en las cuatro charlas.
@@ -173,11 +192,17 @@
 
 ## R
 
+**Raja Yoga** — *Sánscrito.* El "yoga real"; prácticas para traer el control consciente sobre la mente y los patrones subconscientes profundamente arraigados. "¿Puedes mantener la mente enfocada en una idea por un período prolongado? ¿Puedes despertarte sin alarma? ¿Puedes dormir a voluntad? Mucho más difícil. Generalmente décadas de práctica." [5] Mencionado junto con Hatha, Karma y Bhakti Yoga como las cuatro ramas progresivas de dominio. Ver también: *Bhakti Yoga*, *Hatha Yoga*.
+
 **Revisión del Día** — Una práctica diaria de recordar sistemáticamente los eventos del día desde el despertar hasta el momento presente. "Una de las prácticas más potentes para recuperar la memoria a corto plazo y desarrollar la visualización." [4] Aplicada para evaluar y fortalecer el aspecto Chitta (memoria) del Manomaya Kosha.
+
+**Rishis** — *Sánscrito.* Videntes o sabios; adeptos espirituales que recibieron o intuyeron las escrituras védicas y tántricas. "Los rishis y yogis que intuyeron estos versos intentaron encontrar formas para que pudiéramos experimentar esa energía de manera real." [5] "Los yogis, los rishis, los munis — eran los padres de la sociedad. Eran arquitectos sociales. Tenían una visión de miles de años donde vieron los desafíos y cómo podían mantenernos vivos el mayor tiempo posible." [5]
 
 ---
 
 ## S
+
+**Sadhak** — *Sánscrito.* Un practicante o buscador espiritual; alguien comprometido con el sadhana. "Soy un yoga sadhak, cada vez más interesado y sincero." [5]
 
 **Sadhana** — *Sánscrito.* Una práctica o disciplina espiritual personal. "Si limitamos esa práctica solo a la esterilla, estamos perdiendo el punto de por qué la enseñamos." [1]
 
@@ -185,9 +210,13 @@
 
 **Samsara** — *Sánscrito.* El ciclo continuo de experiencia y existencia; el "océano de la vida." "Todos nadamos en el océano samsárico de la vida. Hasta que aprendamos a nadar muy, muy bien, puede ser muy útil ser consciente de nuestro entorno." [4]
 
+**Samskara** — *Sánscrito.* Una impresión mental o condicionamiento; patrones formados por la experiencia repetida que continúan moldeando el comportamiento presente. "Cantar de alegría durante 24 horas proporciona un samskara positivo a trasnochar. Si miras todas las ramas del yoga, tienen técnicas para proporcionar experiencias positivas a los samskaras negativos." [5]
+
 **Sankalpa** — *Sánscrito.* Una intención, resolución o voto; un acto deliberado de voluntad. "Es la visión de lo que quieres manifestar. No tiene ideas de tal vez puedo, tal vez no puedo." [2] Se practica al comienzo y al final de cada sesión de Satyananda Yoga, e idealmente antes de cada acción en la vida.
 
 **Sannyasa** — *Sánscrito.* El cuarto ashrama; la renuncia y el desapego. "¿Qué necesito para llevar una vida simple y feliz? Eso es sannyasa." [1] Descrito como práctico más que ascético: un proceso de soltar lo que ya no es esencial.
+
+**Satchandi Maha Yajna** — Un ritual de cinco días de consciencia y adoración de Shakti realizado en la Bihar School of Yoga y ashrams afiliados. "Cinco días de consciencia y adoración de shakti. Incluye la repetición diaria de algunos cantos que describen historias maravillosas sobre Durga y otras formas de la diosa." [5] Incluye el canto del Tantroktam Devi Suktam. "Si tú, tu pareja o tus hijos disfrutan de las películas modernas de superhéroes, absolutamente disfrutarán estas historias. Son sangrientas, sobrenaturales y ultravívidas." [5] Ver también: *Durga*, *Shakti*.
 
 **Satchidananda** — Un nombre de la tradición yóguica derivado de *Sat-Chit-Ananda* — *Sánscrito* para ser (*sat*), consciencia (*chit*) y bienaventuranza (*ananda*) — la descripción triple de la conciencia pura en el Advaita Vedanta. El nombre del maestro de estas charlas, otorgado en la tradición de Satyananda. [1], [2], [3], [4]
 
@@ -202,6 +231,8 @@
 **Shatkarma** — *Sánscrito.* Las seis prácticas de limpieza del Hatha Yoga. Utilizadas para purificar los cuerpos físico y pránico. "No puedes expulsar agua de tu cuerpo por el ano sin preguntarte qué está pasando dentro de tu cuerpo físico. No solo te ayudará a sentir la plomería interna, sino que generalmente trae un cambio inmediato en la energía." [1]
 
 **Shivaratri** — *Sánscrito.* "Noche de Shiva"; festividad hindú marcada por el ayuno, la oración y la vigilia nocturna. Las charlas referenciaron un evento de kirtan de 24 horas asociado con esta festividad como práctica multi-kosha. [1], [3]
+
+**Suktam** — *Sánscrito.* Literalmente "bien dicho" o "himno hermoso"; un tipo de himno védico de alabanza. El *Tantroktam Devi Suktam* es uno de estos himnos, accesible porque "casi todos los versos siguen el mismo patrón — una vez que aprendes el patrón, solo pones algunas palabras de relleno." [5] Ver también: *Tantroktam Devi Suktam*.
 
 **SWAN** — Acrónimo en inglés: Strengths (Fortalezas), Weaknesses (Debilidades), Ambitions (Ambiciones), Needs (Necesidades). Una herramienta de autoindagación de la tradición Satyananda, aplicada a cada kosha individualmente para evaluar el equilibrio e identificar áreas de atención. [4]
 
@@ -223,6 +254,8 @@
 
 **Tantra** — *Sánscrito.* Una amplia tradición espiritual y sistema filosófico que explora la relación entre consciencia y energía. "El yoga y el tantra como búsqueda de patrones universales no son exclusivos de India, y nadie tiene derecho exclusivo sobre ellos." [4]
 
+**Tantroktam Devi Suktam** — El canto central de la charla de La Paloma; un himno tántrico a Devi en sus muchas formas. Los versos 8–26 siguen una estructura repetida: *Ya Devi Sarva Bhuteshu* / *[cualidad] Rupena Samsthita* / *Namastasye Namastasye Namastasye Namo Namaha* — "Ella que reside en todos los seres en la forma de [cualidad] — salutaciones, salutaciones, salutaciones a ella." [5] Las cualidades enumeradas incluyen: *Vishnumaya* (ilusión cósmica), *Buddhi* (inteligencia), *Nidra* (sueño), *Kshudha* (hambre), *Chaya* (sombra), *Shakti* (poder), *Trishna* (sed), *Kshanti* (paciencia), *Jati* (especie), *Lajja* (modestia), *Shanti* (paz), *Shraddha* (fe), *Kanti* (belleza), *Lakshmi* (prosperidad), *Vritti* (actividad), *Smriti* (memoria), *Daya* (compasión), *Tushti* (contentamiento), *Matri* (madre), *Branti* (confusión), *Indriya* (sentidos). "De la misma manera que hacemos la rotación del cuerpo en Yoga Nidra, puedes usar esta rotación para ver dónde sientes y experimentas estas modificaciones de la consciencia." [5] Ver también: *Devi*, *Shakti*, *Suktam*.
+
 **Tamasic** — *Sánscrito.* Adjetivo que describe el guna tamas; pesado, opaco, inerte. "Si me siento tamasic o lento y pesado, es más probable que quiera helado y papas fritas." [1] Ver también: *Gunas*.
 
 ---
@@ -243,6 +276,8 @@
 
 **Vishnu** — Deidad hindú; referenciada como símbolo cósmico del descanso entre creaciones. "Está en un estado de Yoga Nidra hasta que llega la idea: 'Oh, disfrutemos una creación de nuevo.'" [4] Utilizado para ilustrar la idea de que el descanso (Anandamaya Kosha) precede toda manifestación creativa.
 
+**Vishnumaya** — *Sánscrito.* "La ilusión de Vishnu" o "la maya de Vishnu"; un nombre de Devi en el Tantroktam Devi Suktam (versos 6–7). "Ella vive en todos los seres. Y es una ilusión." [5] Un recordatorio de que el mundo manifiesto — incluyendo la consciencia individual — es simultáneamente real en la experiencia e ilusorio en su naturaleza última. Ver también: *Devi*, *Tantroktam Devi Suktam*.
+
 **Vyana** — *Sánscrito.* La fuerza vital (prana) pervasiva; llena y rodea todo el cuerpo como reservorio o amortiguador. "Siente una energía que permea todo el cuerpo — Vyana Prana. Es la fuerza vital reservorio, o amortiguadora." [4]
 
 ---
@@ -255,9 +290,10 @@
 
 ---
 
-*Generado: 27 de febrero de 2026*
+*Generado: 27 de febrero de 2026 — Actualizado: 5 de marzo de 2026*
 
 [1]: events/20260209-koshas-escuela-de-yoga-satyam/?lang=es "Los Cinco Koshas — Escuela de Yoga Satyam"
 [2]: events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=es "Habitar el Cuerpo por Completo — Yoga Carrasco"
 [3]: events/20260211-koshas-and-ai-maca/?lang=es "Koshas e IA — Museo MACA"
 [4]: events/20260223-koshas-piriopolis/?lang=es "Los Koshas: Un Mapa del Mundo Interior — Piriápolis"
+[5]: events/20260218-tantroktam-devi-suktam-la-paloma/?lang=es "Tantroktam Devi Suktam — La Paloma"
