@@ -1,0 +1,4661 @@
+1
+00:00:00,000 --> 00:00:06,700
+The lyrics say, Jai Durga Lakshmi
+Saraswati.
+
+2
+00:00:07,420 --> 00:00:08,960
+Well, now we are going to sing.
+
+3
+00:00:11,660 --> 00:00:33,060
+Jai Durga Lakshmi Saraswati Jaya Jaya Ambe
+Bhavani Ma Jaya Jagad Ambe Bhavani Jai
+
+4
+00:00:33,060 --> 00:00:53,300
+Durga Lakshmi Saraswati Jaya Jaya Ambe
+Bhavani Ma Jaya Jagad Ambe Bhavani Jai
+
+5
+00:00:53,300 --> 00:01:14,100
+Durga Lakshmi Saraswati Jaya Jaya Ambe
+Bhavani Maa Jaya Jagad Ambe Bhavani Jai
+
+6
+00:01:14,100 --> 00:01:34,320
+Durga Lakshmi Saraswati Jaya jaya ambe
+bhavani Ma jaya jagad ambe bhavani Jaya
+
+7
+00:01:34,320 --> 00:01:53,820
+jaya ambe bhavani Ma jaya jagad ambe
+bhavani Jaya Jaya Ambe Bhavani Maa Jaya
+
+8
+00:01:53,820 --> 00:02:15,260
+Jagad Ambe Bhavani Jaya Jaya Ambe Bhavani
+Maa Jaya Jagad Ambe Bhavani Jaya Jaya Ambe
+
+9
+00:02:15,260 --> 00:02:34,640
+Bhavani Maa Jaya Jagad Ambe Bhavani Jai
+Durga Lakshmi Saraswati Jaya Jaya Ambe
+
+10
+00:02:34,640 --> 00:02:53,100
+Bhavani Maa MA JAYA JAGAD AMBE BHAVANI DEH
+PURGALASHNI SARASWATI JAYA JAYA AMBE
+
+11
+00:02:53,100 --> 00:03:06,260
+BHAVANI MA JAYA JAGAD AMBE BHAVANI JAYA
+JAYA AMBE BHAVANI
+
+12
+00:03:36,260 --> 00:04:07,120
+Jaya Jaya Ambe Bhavani Ma Jaya Jagadambe
+Bhavani
+
+13
+00:04:16,120 --> 00:04:31,100
+Jaya Jaya Ambe Vavani Ma Jaya Jagad Ambe
+Vavani Jaya
+
+14
+00:04:43,120 --> 00:05:06,200
+Jaya Saraswati Jaya Jaya Ambe Vavani Ma
+Jaya Jagad Ambe Vavani Jai Durga Vashni
+
+15
+00:05:06,200 --> 00:05:22,340
+Saraswati Jaya Jaya Ambe Bhavani Maa Jaya
+Jagad Ambe Bhavani
+
+16
+00:05:46,160 --> 00:05:48,480
+I want to welcome you all.
+
+17
+00:05:49,780 --> 00:05:53,020
+How, what's comfortable for you for length
+of speech?
+
+18
+00:05:53,600 --> 00:05:54,480
+Not very long.
+
+19
+00:05:54,620 --> 00:05:54,860
+Good.
+
+20
+00:05:54,980 --> 00:05:56,960
+A little bit longer than that,
+I can manage.
+
+21
+00:05:56,960 --> 00:06:03,800
+I want to welcome you all and to thank Ram
+Navami for hosting me and helping organize
+
+22
+00:06:03,800 --> 00:06:07,460
+in Chittarupa for supporting my visit and
+for translating.
+
+23
+00:06:19,100 --> 00:06:24,500
+And of course all of you for taking some
+interest in the topic and being present
+
+24
+00:06:24,500 --> 00:06:24,800
+here.
+
+25
+00:06:29,900 --> 00:06:36,160
+And of course to the gurus of our
+tradition living and in the past who bring
+
+26
+00:06:36,160 --> 00:06:36,860
+us the vidya.
+
+27
+00:06:44,840 --> 00:06:52,000
+I always like to put a few disclaimers in
+front just so there's clarity about who I
+
+28
+00:06:52,000 --> 00:06:53,860
+am and what I'm talking about.
+
+29
+00:06:58,920 --> 00:07:07,120
+I am a yoga sadhak, ever more increasingly
+interested and sincere.
+
+30
+00:07:13,740 --> 00:07:18,760
+I am not a Sanskrit scholar or even near
+that.
+
+31
+00:07:23,980 --> 00:07:29,080
+But I've been listening and chanting,
+especially this chant, for over a decade
+
+32
+00:07:29,080 --> 00:07:30,260
+now.
+
+33
+00:07:36,960 --> 00:07:43,480
+And finally the desire to understand with
+more clarity what I'm actually chanting
+
+34
+00:07:43,480 --> 00:07:44,760
+has started to sprout.
+
+35
+00:07:52,660 --> 00:07:57,600
+I use technology to help me in that
+regard.
+
+36
+00:08:01,980 --> 00:08:06,740
+And so the resources that have been
+prepared is in collaboration with
+
+37
+00:08:06,740 --> 00:08:09,140
+technology, specifically AI.
+
+38
+00:08:18,760 --> 00:08:22,640
+And just like working with people,
+errors appear.
+
+39
+00:08:22,940 --> 00:08:24,160
+I try and catch them.
+
+40
+00:08:24,560 --> 00:08:28,360
+But what I've shared with you,
+please do not take as a definitive
+
+41
+00:08:28,360 --> 00:08:29,720
+reference.
+
+42
+00:08:39,060 --> 00:08:42,600
+We'll go ahead and start with Shantipat.
+
+43
+00:08:42,600 --> 00:08:51,380
+So please arrange yourself into any
+comfortable asana.
+
+44
+00:08:58,750 --> 00:09:04,730
+Creating stability through the positioning
+of the legs and the buttocks.
+
+45
+00:09:09,290 --> 00:09:18,890
+A balanced platform for having the spine
+comfortably upright.
+
+46
+00:09:21,350 --> 00:09:24,530
+The neck and head balanced on the
+shoulders.
+
+47
+00:09:27,850 --> 00:09:33,010
+And the hands in a mudra or gesture of
+your choice.
+
+48
+00:09:38,430 --> 00:09:43,130
+You're invited to close the mouth and the
+eyes as well.
+
+49
+00:09:47,030 --> 00:09:51,570
+And to bring yourself into this space.
+
+50
+00:09:55,570 --> 00:10:00,570
+By connecting to all the sensations you're
+experiencing right now.
+
+51
+00:10:07,050 --> 00:10:14,370
+Start with sensations from the external
+environment.
+
+52
+00:10:18,610 --> 00:10:28,270
+This can include smells and variations in
+light.
+
+53
+00:10:33,880 --> 00:10:37,900
+Sensations felt by the body and sounds as
+well.
+
+54
+00:10:55,490 --> 00:11:05,210
+Allow yourself to be the observer of this
+experience.
+
+55
+00:11:07,490 --> 00:11:13,610
+Noticing any thoughts or feelings that may
+arise from connecting with the senses more
+
+56
+00:11:13,610 --> 00:11:14,010
+deeply.
+
+57
+00:11:28,470 --> 00:11:35,170
+Sometimes when we focus the mind,
+we become aware of what distracts it even
+
+58
+00:11:35,170 --> 00:11:41,870
+more.
+
+59
+00:11:42,610 --> 00:11:47,330
+These distractions are also welcome in
+this self-awareness.
+
+60
+00:12:00,320 --> 00:12:06,300
+Find your breath and once you've contacted
+it, start to deepen it both directions.
+
+61
+00:12:14,180 --> 00:12:19,740
+Progressively, so that over a number of
+breaths it easily lengthens and slows
+
+62
+00:12:19,740 --> 00:12:20,140
+down.
+
+63
+00:12:36,630 --> 00:12:40,990
+With the next breath in, guide the
+awareness to the eyebrow center and hold
+
+64
+00:12:40,990 --> 00:12:43,630
+the focus there.
+
+65
+00:12:50,370 --> 00:12:55,630
+The eyes can be turned inwards and
+slightly upwards to look at that point
+
+66
+00:12:55,630 --> 00:12:56,690
+from the inside.
+
+67
+00:13:06,770 --> 00:13:12,530
+Imagine that you're gazing intently at a
+bright point of light in the form of a
+
+68
+00:13:12,530 --> 00:13:13,490
+flame.
+
+69
+00:13:20,650 --> 00:13:25,730
+Use memory or imagination to try and bring
+that idea to light.
+
+70
+00:13:37,760 --> 00:13:41,900
+With our awareness on that light,
+we will chant the mantra OM three times
+
+71
+00:13:41,900 --> 00:13:45,160
+together and the shanti mantras together
+as well.
+
+72
+00:13:55,660 --> 00:13:59,060
+Take a slow, full breath in to chant the
+mantra OM.
+
+73
+00:15:01,150 --> 00:15:01,810
+Hands
+
+74
+00:15:22,860 --> 00:15:25,680
+in pranam mudra, moving to a round of
+palming.
+
+75
+00:15:32,080 --> 00:15:37,000
+Once you have some heat or warmth to
+share, cover the closed eyes.
+
+76
+00:15:41,240 --> 00:15:44,500
+Look into that darkened space.
+
+77
+00:15:46,500 --> 00:15:50,660
+Then inhale that prana into the eyes,
+into yourself.
+
+78
+00:15:57,040 --> 00:15:59,280
+Exhaling, you can lower the hands.
+
+79
+00:16:05,180 --> 00:16:11,360
+We recently finished a wonderful five days
+at Yoga 104.
+
+80
+00:16:16,680 --> 00:16:23,580
+It was an experiential conference covering
+a kosha each day.
+
+81
+00:16:28,500 --> 00:16:33,940
+And we had different speakers that had
+some experience with that kosha for each
+
+82
+00:16:33,940 --> 00:16:35,120
+day as well.
+
+83
+00:16:42,140 --> 00:16:48,340
+For example, the first day on the physical
+body, we asked someone who had cut into
+
+84
+00:16:48,340 --> 00:16:51,260
+physical bodies and autopsies.
+
+85
+00:16:59,960 --> 00:17:06,960
+For the prana day, we had someone who was
+an expert in tai chi and working with the
+
+86
+00:17:06,960 --> 00:17:08,480
+inner energy.
+
+87
+00:17:14,460 --> 00:17:19,600
+For the mind, someone who had worked with
+autism in children for many years and
+
+88
+00:17:19,600 --> 00:17:26,060
+discovered things about their unique
+mental state.
+
+89
+00:17:31,560 --> 00:17:43,740
+For the intuitive and psychic body,
+we had 24 hours of singing on shivaratri.
+
+90
+00:17:43,960 --> 00:17:49,440
+If you've never tried that, I think we're
+going to try and repeat 12 to 24 hours
+
+91
+00:17:49,440 --> 00:17:50,000
+next year.
+
+92
+00:17:50,120 --> 00:17:50,840
+Please come.
+
+93
+00:17:57,580 --> 00:18:02,280
+Usually we stay awake because we have work
+to finish or an exam.
+
+94
+00:18:06,540 --> 00:18:11,900
+And singing out of joy for 24 hours
+provides a positive samskara to staying up
+
+95
+00:18:11,900 --> 00:18:12,420
+all night.
+
+96
+00:18:20,320 --> 00:18:25,800
+If you look at all the branches of yoga,
+they have techniques for providing
+
+97
+00:18:25,800 --> 00:18:28,600
+positive experiences to negative
+samskaras.
+
+98
+00:18:36,820 --> 00:18:45,160
+And on the fifth day, we had a speaker who
+had worked with cancer patients saying,
+
+99
+00:18:45,400 --> 00:18:48,080
+cancer does not touch the spirit.
+
+100
+00:18:57,940 --> 00:19:03,500
+Because shivaratri was the peak
+experience, a lot of emphasis was around
+
+101
+00:19:03,500 --> 00:19:06,140
+this idea of consciousness.
+
+102
+00:19:13,460 --> 00:19:20,340
+And the idea of subtlety in reality.
+
+103
+00:19:21,140 --> 00:19:25,560
+But in every case, the speakers would
+always come back to the body as where we
+
+104
+00:19:25,560 --> 00:19:26,900
+experience being human.
+
+105
+00:19:36,140 --> 00:19:42,640
+And it's in this manifest, tangible
+reality that we contact shakti.
+
+106
+00:19:46,760 --> 00:19:50,260
+It's her domain, she creates this reality.
+
+107
+00:19:53,340 --> 00:19:58,520
+From the tantric perspective or the shakti
+tantric perspective, anything we can
+
+108
+00:19:58,520 --> 00:20:01,540
+experience is her in some form.
+
+109
+00:20:07,460 --> 00:20:13,620
+And so there are a number of chants that
+try and describe her.
+
+110
+00:20:18,680 --> 00:20:26,600
+The rishis and yogis who intuited these
+verses tried to find ways for us to
+
+111
+00:20:26,600 --> 00:20:30,500
+experience that energy in a real way.
+
+112
+00:20:41,380 --> 00:20:48,540
+And from the tantric perspective,
+to remind us that she is not only the
+
+113
+00:20:48,540 --> 00:20:51,480
+positive, good, bright rainbow.
+
+114
+00:21:01,000 --> 00:21:05,040
+She can also be the dark, heavy,
+unpleasant, destructive.
+
+115
+00:21:09,900 --> 00:21:13,240
+And we all have that experience at home
+daily.
+
+116
+00:21:16,720 --> 00:21:20,340
+If you keep filling the trash without
+emptying it, your house is going to stink.
+
+117
+00:21:25,620 --> 00:21:29,300
+If you keep filling the toilet without
+flushing, your bathroom is going to stink.
+
+118
+00:21:36,140 --> 00:21:39,300
+And so shakti creates, but she also
+destroys.
+
+119
+00:21:42,300 --> 00:21:45,380
+And throughout she is maintaining and
+transforming.
+
+120
+00:21:49,040 --> 00:21:55,120
+The suktam that we are going to look at
+today talks about that.
+
+121
+00:21:58,880 --> 00:22:03,500
+The various forms that she takes in our
+consciousness.
+
+122
+00:22:08,900 --> 00:22:14,480
+I had learned this chant, or first learned
+it, in the Bihar School of Yoga.
+
+123
+00:22:19,280 --> 00:22:24,600
+During that course we were taken to
+Rikyapit ashram,
+
+124
+00:22:28,200 --> 00:22:32,960
+where the Satchandi Maha Yajna was taking
+place, and it included this chant.
+
+125
+00:22:39,520 --> 00:22:47,800
+The Satchandi Maha Yajna is five days of
+shakti awareness and worship.
+
+126
+00:22:47,800 --> 00:22:55,700
+The Satchandi Maha Yajna is five days of
+shakti awareness and worship.
+
+127
+00:22:57,040 --> 00:23:14,280
+It includes the daily repetition of some
+chants that describe wonderful stories
+
+128
+00:23:14,280 --> 00:23:17,020
+about Durga and other forms of the
+goddess.
+
+129
+00:23:17,800 --> 00:23:24,040
+If you or your partner or your children
+enjoy modern day superhero films,
+
+130
+00:23:30,460 --> 00:23:33,660
+you will absolutely enjoy these stories.
+
+131
+00:23:37,880 --> 00:23:46,100
+They are bloody, they are supernatural,
+and they are ultra vivid.
+
+132
+00:23:47,840 --> 00:23:52,820
+And they have very deep archetypal plot
+lines.
+
+133
+00:23:57,840 --> 00:24:04,320
+I guarantee you will see yourself or one
+of your life challenges in every single
+
+134
+00:24:04,320 --> 00:24:05,940
+story from the Satchandi.
+
+135
+00:24:12,380 --> 00:24:19,880
+And this is where a lot of value of taking
+the time to understand the old languages
+
+136
+00:24:19,880 --> 00:24:21,540
+comes in.
+
+137
+00:24:28,080 --> 00:24:33,900
+Because they were recorded and preserved
+not for posterity or religious value,
+
+138
+00:24:33,900 --> 00:24:38,110
+but for our evolution and stability in
+life.
+
+139
+00:24:46,960 --> 00:24:50,900
+This Suktam is particularly accessible.
+
+140
+00:24:54,260 --> 00:24:58,340
+Because almost all the verses follow the
+same pattern.
+
+141
+00:24:58,340 --> 00:25:06,440
+So once you learn the pattern,
+you are just putting in a few filler
+
+142
+00:25:06,440 --> 00:25:06,940
+words.
+
+143
+00:25:13,680 --> 00:25:19,320
+And those filler words are different forms
+of consciousness that shakti takes.
+
+144
+00:25:26,380 --> 00:25:31,400
+So I learned this chant in the ashram,
+and then I came to my grandparents' house
+
+145
+00:25:31,400 --> 00:25:32,000
+in Nepal.
+
+146
+00:25:36,880 --> 00:25:40,580
+And I made a commitment to live with them
+for about three years,
+
+147
+00:25:44,380 --> 00:25:47,560
+knowing that they were probably in the
+last years of their life.
+
+148
+00:25:50,600 --> 00:25:58,280
+My grandfather was a Sanskrit scholar and
+practicing tantric Hindu and astrologer.
+
+149
+00:26:01,440 --> 00:26:07,880
+And an astrologer and practicing Hindu.
+
+150
+00:26:11,800 --> 00:26:18,740
+And one day, by chance, as someone who
+never wakes up to go to the bathroom at
+
+151
+00:26:18,740 --> 00:26:26,680
+night, I got up to go to the bathroom.
+
+152
+00:26:28,900 --> 00:26:34,840
+And I heard my grandmother chanting one of
+the verses from this Suktam in the middle
+
+153
+00:26:34,840 --> 00:26:35,600
+of the night.
+
+154
+00:26:39,980 --> 00:26:44,380
+I listened for about a minute,
+took care of myself and went back to bed.
+
+155
+00:26:50,460 --> 00:26:55,780
+In the morning, I said, I recognize the
+verse that you are chanting.
+
+156
+00:26:59,900 --> 00:27:04,860
+And she was a bit of a cheeky personality,
+and she said, yeah, you and everyone else
+
+157
+00:27:04,860 --> 00:27:06,540
+in this country knows these verses.
+
+158
+00:27:11,940 --> 00:27:17,360
+Which is something I didn't even realize
+that it was a widely known chant.
+
+159
+00:27:23,040 --> 00:27:30,440
+The particular verse was, Hey Devi,
+I call you in the form of sleep,
+
+160
+00:27:30,540 --> 00:27:32,780
+or I see you in the form of sleep.
+
+161
+00:27:33,140 --> 00:27:36,000
+I pray to you, I salute you, I respect
+you.
+
+162
+00:27:44,740 --> 00:27:49,300
+She had been experiencing a moment of
+insomnia, and she asked my grandmother,
+
+163
+00:27:49,300 --> 00:27:51,680
+Hey grandfather, what can I do to fall
+back asleep?
+
+164
+00:27:57,100 --> 00:28:02,700
+And he replied, you know how to call her
+in the form of sleep, just repeat that
+
+165
+00:28:02,700 --> 00:28:03,120
+mantra.
+
+166
+00:28:08,860 --> 00:28:12,300
+And that was a very deep teaching to me
+for applied Tantra.
+
+167
+00:28:17,400 --> 00:28:26,640
+That these mantras are recipes and
+invocations for energies that are able to
+
+168
+00:28:26,640 --> 00:28:34,020
+take form in us.
+
+169
+00:28:34,340 --> 00:28:40,820
+For hundreds of thousands of years of our
+evolution, Prakriti has automated that
+
+170
+00:28:40,820 --> 00:28:41,480
+process.
+
+171
+00:28:46,960 --> 00:28:53,560
+The Yogic, the Vedic and the Tantric
+cultures have tried to awaken that and
+
+172
+00:28:53,560 --> 00:28:55,700
+bring it under our conscious control.
+
+173
+00:29:04,600 --> 00:29:10,820
+Hatha Yoga aims to bring conscious control
+over the autonomic nervous system.
+
+174
+00:29:17,080 --> 00:29:24,900
+Raja Yoga has techniques for bringing
+conscious control over deeply embedded
+
+175
+00:29:24,900 --> 00:29:30,760
+subconscious programming.
+
+176
+00:29:39,860 --> 00:29:46,640
+Kundalini Yoga or Kriya Yoga brings
+awareness into the very subtle psychic
+
+177
+00:29:46,640 --> 00:29:47,460
+energies.
+
+178
+00:29:53,820 --> 00:30:02,960
+And mantras give us a very accessible way
+to start generating internal waves of
+
+179
+00:30:02,960 --> 00:30:03,960
+consciousness.
+
+180
+00:30:09,840 --> 00:30:16,220
+Internal experiences that are normally
+dictated by food consumption rhythms,
+
+181
+00:30:18,480 --> 00:30:21,520
+our food timings,
+
+182
+00:30:26,340 --> 00:30:30,540
+or the rhythms of the day and night.
+
+183
+00:30:31,200 --> 00:30:37,340
+And so we break free of these natural
+rhythms and take control if we need to.
+
+184
+00:30:37,340 --> 00:30:49,700
+What I'd like to do is to first listen to
+a version recorded by the ashram.
+
+185
+00:30:54,820 --> 00:30:57,600
+And you're invited to follow along.
+
+186
+00:31:01,280 --> 00:31:03,060
+It takes about ten minutes.
+
+187
+00:31:05,700 --> 00:31:12,820
+And then we will go through each of the
+verses with more detailed pronunciation.
+
+188
+00:31:17,720 --> 00:31:25,160
+At which time you're welcome to ask to
+repeat a word as often as you like.
+
+189
+00:31:33,420 --> 00:31:39,120
+And at the same time we'll also look at
+the translation so that we know what we're
+
+190
+00:31:39,120 --> 00:31:39,700
+invoking.
+
+191
+00:31:44,980 --> 00:31:50,180
+This recording starts out with a short
+satsang by Swamiji in English.
+
+192
+00:31:56,800 --> 00:32:02,160
+Because this chant is often done during
+Shakti sadhanas like Navaratri.
+
+193
+00:32:08,340 --> 00:32:14,080
+We won't translate it today, but if you're
+interested just let me know and I'll get
+
+194
+00:32:14,080 --> 00:32:15,400
+those words to you.
+
+195
+00:32:24,260 --> 00:32:28,480
+Does anyone not have a copy that needs
+one?
+
+196
+00:32:28,480 --> 00:32:31,280
+Does anyone not have a copy of the sutta?
+
+197
+00:33:14,820 --> 00:33:21,520
+The power of Saraswati is to give you
+wisdom, understanding, appreciation of the
+
+198
+00:33:21,520 --> 00:33:23,900
+beauty of life.
+
+199
+00:33:27,440 --> 00:33:29,340
+And the Tamasic power is Durga.
+
+200
+00:33:30,620 --> 00:33:32,600
+Tamasic does not mean negative here.
+
+201
+00:33:33,580 --> 00:33:41,460
+Tamasic means, in this context,
+something which has to change in order for
+
+202
+00:33:41,460 --> 00:33:42,560
+something new to come.
+
+203
+00:33:43,540 --> 00:33:47,660
+So the conditioning which is there,
+the existing conditioning has to be
+
+204
+00:33:47,660 --> 00:33:49,300
+changed, altered, destroyed.
+
+205
+00:33:50,580 --> 00:33:55,700
+And to change the existing, we need the
+power of Durga and that is our sankalp
+
+206
+00:33:55,700 --> 00:33:56,200
+shakti.
+
+207
+00:34:19,290 --> 00:34:23,050
+You can sing along if you would like,
+quietly.
+
+208
+00:35:29,600 --> 00:35:31,180
+Satsang with Mooji
+
+209
+00:35:59,640 --> 00:36:02,080
+Satsang with Mooji Tiruvannamalai,
+India
+
+210
+00:36:32,000 --> 00:36:32,080
+Tiruvannamalai, India
+
+211
+00:37:01,460 --> 00:37:02,080
+Tiruvannamalai, India
+
+212
+00:37:28,460 --> 00:37:30,000
+Tiruvannamalai, India Tiruvannamalai,
+India Tiruvannamalai, India
+
+213
+00:38:00,680 --> 00:38:07,060
+Tiruvannamalai, India Namaskar Siena,
+Namaskar Siena, Namaskar Siena,
+
+214
+00:38:07,140 --> 00:38:18,940
+Om Namaha Yaderi Sarva Bhuteshu,
+Yadirupena Samsthita Namaskar Siena,
+
+215
+00:38:19,160 --> 00:38:28,640
+Namaskar Siena, Namaskar Siena,
+Om Namaha Yaderi Sarva Bhuteshu,
+
+216
+00:38:29,080 --> 00:38:38,560
+Yadirupena Samsthita Namaskar Siena,
+Namaskar Siena, Namaskar Siena,
+
+217
+00:38:38,560 --> 00:38:50,520
+Om Namaha Yaderi Sarva Bhuteshu,
+Yadirupena Samsthita Namaskar Siena,
+
+218
+00:38:50,520 --> 00:38:59,900
+Namaskar Siena, Namaskar Siena,
+Om Namaha Yaderi Sarva Bhuteshu,
+
+219
+00:39:00,320 --> 00:39:09,860
+Yadirupena Samsthita Namaskar Siena,
+Namaskar Siena, Namaskar Siena,
+
+220
+00:39:10,360 --> 00:39:14,080
+Om Namaha Namaskar Siena, Namaskar Siena,
+Namaskar Siena, Om Namaha Yaderi Sarva
+
+221
+00:39:14,080 --> 00:39:25,400
+Bhuteshu, Yadirupena Samsthita Namaskar
+Siena, Namaskar Siena, Namaskar Siena,
+
+222
+00:39:25,980 --> 00:39:45,200
+Om Namaha Namaskar Siena, Namaskar Siena,
+Namaskar Siena, Om Namaha Yaderi Sarva
+
+223
+00:39:45,200 --> 00:39:56,680
+Bhuteshu, Yadirupena Samsthita Namaskar
+Siena, Namaskar Siena, Namaskar Siena,
+
+224
+00:39:57,000 --> 00:40:08,580
+Om Namaha Yaderi Sarva Bhuteshu,
+Smriti Rupena Samsthita Namaskar Siena,
+
+225
+00:40:08,580 --> 00:40:17,800
+Namaskar Siena, Namaskar Siena,
+Om Namaha Yaderi Sarva Bhuteshu,
+
+226
+00:40:18,420 --> 00:40:27,640
+Yadirupena Samsthita Namaskar Siena,
+Namaskar Siena, Namaskar Siena,
+
+227
+00:40:28,060 --> 00:40:39,500
+Om Namaha Yaderi Sarva Bhuteshu,
+Smriti Rupena Samsthita Namaskar Siena,
+
+228
+00:40:39,560 --> 00:40:49,040
+Namaskar Siena, Namaskar Siena,
+Om Namaha Yaderi Sarva Bhuteshu,
+
+229
+00:40:49,380 --> 00:40:58,700
+Smriti Rupena Samsthita Namaskar Siena,
+Namaskar Siena, Namaskar Siena,
+
+230
+00:40:58,720 --> 00:41:10,680
+Om Namaha Yaderi Sarva Bhuteshu,
+Yadirupena Samsthita Namaskar Siena,
+
+231
+00:41:10,680 --> 00:41:19,720
+Namaskar Siena, Namaskar Siena,
+Om Namaha Indriana Madhvishparati,
+
+232
+00:41:20,380 --> 00:41:33,720
+Bhutanam Chahileshu Ya Bhuteshu Satatam
+Gase, Yadidevye Namo Namaha Chittirupena
+
+233
+00:41:33,720 --> 00:41:43,520
+Yadrishna, Veda Vyagya Sthitajagai
+Namaskar Siena, Namaskar Siena,
+
+234
+00:41:43,520 --> 00:41:53,460
+Namaskar Siena, Om Namaha Namaskar Siena,
+Namaskar Siena, Namaskar Siena,
+
+235
+00:41:53,520 --> 00:42:04,040
+Om Namaha Namaskar Siena, Namaskar Siena,
+Namaskar Siena, Om Namaha
+
+236
+00:42:24,230 --> 00:42:31,510
+Is this the first time anyone has ever
+heard this Suktam?
+
+237
+00:42:36,810 --> 00:42:40,750
+Any way you would describe it,
+it doesn't have to be positive,
+
+238
+00:42:40,890 --> 00:42:43,730
+I'm not looking for answers, I'm sincerely
+asking.
+
+239
+00:42:43,730 --> 00:42:45,450
+Would you describe it in any way?
+
+240
+00:42:45,730 --> 00:42:48,770
+We are not expecting you to say anything
+positive, but something sincere.
+
+241
+00:42:52,330 --> 00:42:53,090
+Sweet.
+
+242
+00:42:53,630 --> 00:42:54,030
+Sweet.
+
+243
+00:42:55,030 --> 00:42:55,510
+Soft.
+
+244
+00:43:01,770 --> 00:43:02,530
+Powerful.
+
+245
+00:43:03,310 --> 00:43:04,070
+Powerful.
+
+246
+00:43:05,510 --> 00:43:06,270
+Powerful.
+
+247
+00:43:06,470 --> 00:43:13,050
+I find even without knowing the meaning,
+many chants have their own energetic
+
+248
+00:43:13,050 --> 00:43:13,710
+quality.
+
+249
+00:43:20,490 --> 00:43:24,950
+Heavy metal has its quality.
+
+250
+00:43:25,470 --> 00:43:30,150
+Classical music has its quality.
+
+251
+00:43:30,590 --> 00:43:35,410
+And this type of Mangpada chanting,
+especially Devi chanting, I find has a
+
+252
+00:43:35,410 --> 00:43:36,250
+unique quality.
+
+253
+00:43:42,590 --> 00:43:49,130
+And if you ever feel something,
+please know that there is an archive of
+
+254
+00:43:49,130 --> 00:43:52,730
+Shakti chants available online.
+
+255
+00:43:52,730 --> 00:43:58,090
+And if you ever feel something,
+please know that there is an archive of
+
+256
+00:43:58,090 --> 00:43:59,170
+Shakti chants available online.
+
+257
+00:44:00,130 --> 00:44:05,370
+YouTube has hundreds of thousands.
+
+258
+00:44:06,010 --> 00:44:17,250
+But SatyamYogaPrasad.net has a very
+careful selection.
+
+259
+00:44:22,730 --> 00:44:25,770
+Swami Satyananda was a sensational DJ.
+
+260
+00:44:28,850 --> 00:44:37,190
+I have shown this book to a lot of my
+family members in Nepal.
+
+261
+00:44:37,570 --> 00:44:41,750
+And they always say the equivalent of,
+I want that playlist.
+
+262
+00:44:45,450 --> 00:44:50,350
+And that's when I realized, he was just
+really ahead of his time in terms of
+
+263
+00:44:50,350 --> 00:44:57,050
+compiling really, really good tracks for
+the body, heart and mind.
+
+264
+00:45:06,810 --> 00:45:09,810
+So if you like the track, you might like
+the album.
+
+265
+00:45:11,850 --> 00:45:21,730
+That's on SatyamYogaPrasad.net Alright,
+so now we're going to go through these
+
+266
+00:45:21,730 --> 00:45:22,150
+verses.
+
+267
+00:45:25,450 --> 00:45:31,750
+And before we do that, we're just going to
+give a small break to the body.
+
+268
+00:45:37,390 --> 00:45:41,450
+Oh, just before we do that, I want to hear
+back from y'all.
+
+269
+00:45:41,890 --> 00:45:45,570
+When you look at these verses,
+what is the pattern that you recognize
+
+270
+00:45:45,570 --> 00:45:46,570
+many of them take?
+
+271
+00:45:53,390 --> 00:45:56,810
+What is repeated again and again,
+if you know?
+
+272
+00:45:56,810 --> 00:45:57,910
+What is repeated?
+
+273
+00:46:07,060 --> 00:46:09,180
+So I heard both.
+
+274
+00:46:09,480 --> 00:46:12,580
+The first part of the line is repeated
+very often.
+
+275
+00:46:20,320 --> 00:46:22,940
+And the second line...
+
+276
+00:46:32,500 --> 00:46:36,500
+Namaste has become like a globalized word.
+
+277
+00:46:36,940 --> 00:46:38,780
+Everyone knows namaste.
+
+278
+00:46:41,740 --> 00:46:46,780
+I want to take a moment just to talk about
+it, because a lot of us may be using it,
+
+279
+00:46:46,880 --> 00:46:49,320
+saying it, and not even know what we're
+saying.
+
+280
+00:46:49,320 --> 00:46:59,120
+What if namaste means you're smelly and no
+one ever told you?
+
+281
+00:47:03,300 --> 00:47:07,280
+And it's just a big yogic joke,
+because yogis have a sense of humor.
+
+282
+00:47:11,300 --> 00:47:14,460
+And you don't find out until you die and
+go to the afterworld.
+
+283
+00:47:17,780 --> 00:47:19,300
+If you've never looked at the word
+namaste, you don't know what it means.
+
+284
+00:47:19,320 --> 00:47:22,600
+The meaning, then, the joke's on you.
+
+285
+00:47:27,560 --> 00:47:29,580
+Words have power in every language.
+
+286
+00:47:33,820 --> 00:47:37,120
+So please know what you're saying to
+others.
+
+287
+00:47:40,620 --> 00:47:45,380
+And the feelings behind words,
+according to yoga psychology, and maybe
+
+288
+00:47:45,380 --> 00:47:48,160
+your own experience, have even more power.
+
+289
+00:47:53,460 --> 00:47:59,400
+So by learning the meaning, we're not only
+able to say a word,
+
+290
+00:48:04,900 --> 00:48:13,020
+or show a gesture of respect, we're able
+to send a psychic wave, which is the
+
+291
+00:48:13,020 --> 00:48:19,300
+actual energy of the mantra or sequence of
+syllables that we're enunciating.
+
+292
+00:48:19,320 --> 00:48:26,400
+Somos capaces de enviar una onda psiquica,
+que así es como funcionan los mantras.
+
+293
+00:48:33,400 --> 00:48:41,280
+Y en este sentido, el cuerpo físico es un
+amplificador de la energía, la shakti más
+
+294
+00:48:41,280 --> 00:48:41,620
+sutil.
+
+295
+00:48:51,260 --> 00:48:57,260
+Namaste o nama se traduce burgamente como
+saludos.
+
+296
+00:48:58,120 --> 00:48:59,520
+Yeah, or respect.
+
+297
+00:49:01,100 --> 00:49:06,660
+Many Sanskrit words don't have one literal
+translation.
+
+298
+00:49:12,100 --> 00:49:17,020
+For example, at least in the Satyananda
+Yoga tradition, what are some of the
+
+299
+00:49:17,020 --> 00:49:20,020
+mantras that are used the most often?
+
+300
+00:49:21,260 --> 00:49:24,480
+Por ejemplo, en la tradición de Satyananda
+Yoga, ¿cuáles son los mantras que son más
+
+301
+00:49:24,480 --> 00:49:26,520
+usados con más frecuencia?
+
+302
+00:49:30,970 --> 00:49:32,610
+Yes, even more often.
+
+303
+00:49:33,830 --> 00:49:36,970
+Hari Om is used very often.
+
+304
+00:49:37,170 --> 00:49:40,090
+Namo Narayan is used pretty often.
+
+305
+00:49:41,690 --> 00:49:46,930
+And between Om Namah Shivaya and Hari Om,
+what's used like very often?
+
+306
+00:49:48,210 --> 00:49:48,830
+Om Shanti.
+
+307
+00:49:49,510 --> 00:49:50,410
+And Om Shanti.
+
+308
+00:49:50,530 --> 00:49:51,950
+What do those three have in common?
+
+309
+00:49:51,950 --> 00:49:53,790
+Hari Om Tat Sat.
+
+310
+00:49:53,870 --> 00:49:55,150
+What does that have in common?
+
+311
+00:49:55,310 --> 00:49:56,430
+Put all of those four mantras.
+
+312
+00:49:59,970 --> 00:50:08,810
+Kung Fu, my Kung Fu grandmaster taught us
+the technique that comes up the most in a
+
+313
+00:50:08,810 --> 00:50:12,370
+sequence of movements is the primary
+teaching.
+
+314
+00:50:17,690 --> 00:50:19,750
+Is the primary teaching.
+
+315
+00:50:25,170 --> 00:50:29,230
+Everything else is the support.
+
+316
+00:50:33,190 --> 00:50:35,750
+Om Shanti, Hari Om.
+
+317
+00:50:36,330 --> 00:50:38,890
+How many different ways can we put Om?
+
+318
+00:50:41,630 --> 00:50:45,530
+You need to give something healthy to your
+kids once in a while, right?
+
+319
+00:50:49,110 --> 00:50:50,270
+You put it in spaghetti.
+
+320
+00:50:51,950 --> 00:50:53,370
+You put it in lasagna.
+
+321
+00:50:54,870 --> 00:50:57,150
+You put it in peanut butter and jelly
+sandwiches.
+
+322
+00:51:00,190 --> 00:51:05,150
+A skillful parent knows 50 ways to put
+fruit in a dish.
+
+323
+00:51:09,610 --> 00:51:15,810
+The yogis, the rishis, the munis,
+they were the parents of society.
+
+324
+00:51:17,650 --> 00:51:22,070
+They were social architects.
+
+325
+00:51:24,170 --> 00:51:29,470
+They had a vision of thousands of years
+where they saw the challenges and how they
+
+326
+00:51:29,470 --> 00:51:32,210
+could keep us alive for as long as
+possible.
+
+327
+00:51:39,150 --> 00:51:43,950
+Because they knew multiple times in our
+evolution we will come to points where we
+
+328
+00:51:43,950 --> 00:51:45,310
+will almost kill ourselves.
+
+329
+00:51:52,010 --> 00:51:57,290
+The industrial age, including the nuclear
+age, is one such example.
+
+330
+00:52:01,210 --> 00:52:07,770
+The new era of modern chemical-based
+farming is another example.
+
+331
+00:52:13,250 --> 00:52:15,790
+And this era of screens, technology,
+and technology is another example.
+
+332
+00:52:15,810 --> 00:52:21,190
+Technology and simulated intelligence is
+going to present another wave of
+
+333
+00:52:21,190 --> 00:52:22,090
+challenge.
+
+334
+00:52:30,110 --> 00:52:35,750
+So a chant like this serves as a
+particularly grounding reminder of where
+
+335
+00:52:35,750 --> 00:52:38,390
+we need to keep bringing our
+consciousness.
+
+336
+00:52:48,350 --> 00:52:50,030
+But I went on a tangent.
+
+337
+00:52:50,190 --> 00:52:54,990
+We were talking about nama and this
+repetition of namastasye.
+
+338
+00:52:59,550 --> 00:53:07,590
+And all I want to say about it now is we
+really want to develop the ability to
+
+339
+00:53:07,590 --> 00:53:10,050
+generate feelings within us.
+
+340
+00:53:16,530 --> 00:53:22,810
+In Buddhism this is the practice of
+bhavana or metabhavana.
+
+341
+00:53:26,370 --> 00:53:30,270
+Awakening loving compassion as a force.
+
+342
+00:53:34,730 --> 00:53:37,490
+In yoga we have pratipaksha bhavana.
+
+343
+00:53:40,530 --> 00:53:43,890
+Awakening the opposite feeling to a
+negative feeling.
+
+344
+00:53:48,990 --> 00:53:53,410
+Look at the branches of yoga.
+
+345
+00:53:53,890 --> 00:54:01,370
+Hatha yoga is usually the starting point
+for many of us.
+
+346
+00:54:01,770 --> 00:54:05,650
+Can you control your body and your breath?
+
+347
+00:54:09,410 --> 00:54:12,430
+Yeah, with a few years practice we can get
+pretty good at that.
+
+348
+00:54:16,750 --> 00:54:17,910
+Karma yoga.
+
+349
+00:54:18,370 --> 00:54:22,070
+Can you manage your attitude and change
+perspective?
+
+350
+00:54:29,990 --> 00:54:32,810
+I have to paint the whole house?
+
+351
+00:54:36,090 --> 00:54:38,130
+Yeah, I'm going to paint the whole house.
+
+352
+00:54:39,950 --> 00:54:44,130
+With a little bit of lying in the
+beginning that feeling, that perspective
+
+353
+00:54:44,130 --> 00:54:44,830
+will shift.
+
+354
+00:54:51,010 --> 00:54:54,050
+Then raja yoga.
+
+355
+00:54:55,970 --> 00:55:01,510
+Can you keep the mind focused on one idea
+for an extended length of time?
+
+356
+00:55:06,510 --> 00:55:10,790
+Can you hear the wind and block off the
+wind, both?
+
+357
+00:55:14,030 --> 00:55:17,150
+Can you wake yourself up without an alarm?
+
+358
+00:55:17,370 --> 00:55:20,450
+Can you go to sleep on command?
+
+359
+00:55:25,730 --> 00:55:27,110
+Much harder.
+
+360
+00:55:28,010 --> 00:55:31,410
+Usually decades of practice for people.
+
+361
+00:55:34,830 --> 00:55:38,890
+Bhakti yoga is the fourth mastery in this
+sequence.
+
+362
+00:55:41,670 --> 00:55:44,830
+And what is it the management of?
+
+363
+00:55:48,670 --> 00:55:49,090
+Emotions.
+
+364
+00:55:50,630 --> 00:55:51,290
+Feelings.
+
+365
+00:55:52,650 --> 00:55:56,790
+Imagine if I asked any of you to move this
+harmonium.
+
+366
+00:55:56,910 --> 00:55:58,310
+Doable or not doable?
+
+367
+00:56:06,630 --> 00:56:08,990
+Imagine if I said there's too much sun.
+
+368
+00:56:09,170 --> 00:56:11,550
+Think of a solution to put some shade on
+me.
+
+369
+00:56:11,630 --> 00:56:12,850
+Doable or not doable?
+
+370
+00:56:19,110 --> 00:56:20,230
+Still doable.
+
+371
+00:56:20,690 --> 00:56:25,790
+Now imagine I say on the beach,
+prevent this wave from crashing onto the
+
+372
+00:56:25,790 --> 00:56:26,050
+shore.
+
+373
+00:56:35,810 --> 00:56:37,450
+That's bhakti yoga.
+
+374
+00:56:37,750 --> 00:56:39,970
+Those waves of emotion.
+
+375
+00:56:41,410 --> 00:56:43,830
+Every day, all the time.
+
+376
+00:56:47,050 --> 00:56:48,990
+Constantly shaping our personality.
+
+377
+00:56:49,270 --> 00:56:51,590
+Our emotions are what shape our life.
+
+378
+00:56:56,130 --> 00:56:58,290
+Swami Satyananda has a brilliant example
+of this.
+
+379
+00:56:59,670 --> 00:57:03,350
+Swami Satyananda has a brilliant example
+or reflection.
+
+380
+00:57:04,150 --> 00:57:09,750
+What is the one thing in common behind
+everyone in prison?
+
+381
+00:57:19,010 --> 00:57:21,270
+A mismanaged emotion.
+
+382
+00:57:26,250 --> 00:57:30,530
+Either lack of control of an emotion or a
+lack of positive channeling.
+
+383
+00:57:37,850 --> 00:57:44,110
+That's how significant and influential it
+is in all of our lives from childhood to
+
+384
+00:57:44,110 --> 00:57:45,550
+the moment of death.
+
+385
+00:57:51,210 --> 00:57:57,910
+From the yogic perspective, it is the
+final thoughts and feelings that launch
+
+386
+00:57:57,910 --> 00:57:59,490
+you into your next life.
+
+387
+00:58:01,390 --> 00:58:05,370
+From the yogic perspective, it is the
+final thoughts and feelings that launch
+
+388
+00:58:05,370 --> 00:58:08,750
+you into your next life.
+
+389
+00:58:09,390 --> 00:58:14,730
+That's a pretty loaded and heavy thought.
+
+390
+00:58:15,150 --> 00:58:19,650
+Given how universally scary death is for
+everyone.
+
+391
+00:58:31,390 --> 00:58:37,150
+It extremes many decades before we reach
+that point of death.
+
+392
+00:58:45,870 --> 00:58:49,390
+But that preparation will help us every
+single day.
+
+393
+00:58:52,070 --> 00:59:00,390
+Who doesn't benefit from remaining
+relatively calm in a moment of stress or
+
+394
+00:59:00,390 --> 00:59:00,890
+pressure?
+
+395
+00:59:01,390 --> 00:59:05,170
+Who doesn't benefit from remaining
+relatively calm in a moment of stress or
+
+396
+00:59:05,170 --> 00:59:05,630
+pressure?
+
+397
+00:59:10,130 --> 00:59:15,570
+When we say Namaste...
+
+398
+00:59:15,570 --> 00:59:27,030
+Try to see if you can connect with the
+real feeling behind the word.
+
+399
+00:59:27,030 --> 00:59:29,590
+This was a practice of Swami Sivananda.
+
+400
+00:59:31,870 --> 00:59:39,310
+He said that he would mentally do Pranam
+or Namaste to every living being and
+
+401
+00:59:39,310 --> 00:59:41,270
+person he would pass during the day.
+
+402
+00:59:48,170 --> 00:59:53,770
+Which for me generates a fabulous inner
+visualization and feeling.
+
+403
+00:59:58,430 --> 01:00:04,410
+Because he was immersed in groups of
+hundreds or thousands at times.
+
+404
+01:00:09,730 --> 01:00:19,510
+And you can imagine psychic rays of
+Namaste or greeting to everyone within his
+
+405
+01:00:19,510 --> 01:00:19,950
+vision.
+
+406
+01:00:27,130 --> 01:00:32,350
+What would it be like to have that
+awareness where you at least acknowledged
+
+407
+01:00:32,350 --> 01:00:37,430
+the humans, the dogs, the birds,
+the bees that passed through your everyday
+
+408
+01:00:37,430 --> 01:00:38,610
+field of vision?
+
+409
+01:00:46,390 --> 01:00:51,770
+I know for me, and I'm not practicing
+that, but when I do, it makes me feel a
+
+410
+01:00:51,770 --> 01:00:54,630
+lot more awake and present and connected.
+
+411
+01:00:59,530 --> 01:01:05,850
+So, with that, we are going to do Namaskar
+Asana.
+
+412
+01:01:08,250 --> 01:01:10,170
+It uses the Pranamudra.
+
+413
+01:01:13,150 --> 01:01:19,270
+Come into a squatting position if
+accessible to you, otherwise a standing
+
+414
+01:01:19,270 --> 01:01:19,850
+position.
+
+415
+01:01:23,940 --> 01:01:25,960
+Does any of that need to be translated?
+
+416
+01:01:31,400 --> 01:01:33,680
+Even a chair is perfectly fine.
+
+417
+01:01:37,880 --> 01:01:42,160
+If you're upright, then you won't be able
+to spread your knees.
+
+418
+01:01:42,280 --> 01:01:44,880
+You could do a modified version like this.
+
+419
+01:01:49,800 --> 01:01:53,800
+If squatting is accessible to you,
+your arms are going to be on the insides
+
+420
+01:01:53,800 --> 01:01:54,480
+of the knees.
+
+421
+01:01:54,480 --> 01:01:57,420
+If squatting is accessible to you,
+your arms are going to be on the insides
+
+422
+01:01:57,420 --> 01:01:58,140
+of the knees.
+
+423
+01:01:58,500 --> 01:02:02,940
+Palms together in Pranamudra.
+
+424
+01:02:02,960 --> 01:02:08,260
+And as you bring the thumbs to the
+sternum, the elbows push the knees out and
+
+425
+01:02:08,260 --> 01:02:09,240
+you look up.
+
+426
+01:02:17,920 --> 01:02:21,800
+Then you straighten the arms, knees close
+the elbows, head comes down.
+
+427
+01:02:28,120 --> 01:02:33,820
+Inhaling, hands to chest, look up.
+
+428
+01:02:34,640 --> 01:02:37,680
+Exhaling, extend forward, head down.
+
+429
+01:02:41,320 --> 01:02:43,960
+Inhaling, Namaste to the sky.
+
+430
+01:02:47,540 --> 01:02:50,100
+Exhaling, Namaste to the earth.
+
+431
+01:02:53,740 --> 01:03:01,440
+Namaste to something that you appreciate
+from above.
+
+432
+01:03:01,940 --> 01:03:05,800
+Namaste to something that you appreciate
+comes from below.
+
+433
+01:03:11,600 --> 01:03:14,480
+Namaste to something outside of you.
+
+434
+01:03:14,840 --> 01:03:19,900
+Namaste to something within you.
+
+435
+01:03:20,100 --> 01:03:22,200
+Namaste to something internal.
+
+436
+01:03:23,720 --> 01:03:25,520
+Namaste to someone you love.
+
+437
+01:03:27,640 --> 01:03:30,680
+Namaste to someone maybe you don't love.
+
+438
+01:03:33,860 --> 01:03:35,660
+Namaste to your body.
+
+439
+01:03:38,040 --> 01:03:40,060
+Namaste to your pranas.
+
+440
+01:03:42,780 --> 01:03:44,660
+Namaste to your mind.
+
+441
+01:03:44,660 --> 01:03:46,340
+Namaste to your mind.
+
+442
+01:03:47,460 --> 01:03:52,840
+Namaste to your emotions and intuition.
+
+443
+01:03:53,660 --> 01:03:56,040
+And Namaste to your innermost self.
+
+444
+01:03:59,380 --> 01:03:59,660
+Excellent.
+
+445
+01:03:59,940 --> 01:04:03,000
+Put the fingers under the insides of the
+soles of the feet.
+
+446
+01:04:07,640 --> 01:04:09,520
+Take a deep breath in looking up.
+
+447
+01:04:10,380 --> 01:04:12,520
+Inhaling, bend forward.
+
+448
+01:04:19,620 --> 01:04:22,720
+Inhaling, squat down and look up.
+
+449
+01:04:26,160 --> 01:04:28,880
+Exhaling, straighten and bend down.
+
+450
+01:04:32,380 --> 01:04:33,880
+Three more times on your own.
+
+451
+01:04:33,880 --> 01:04:35,680
+Three more times on your own.
+
+452
+01:04:57,740 --> 01:05:04,540
+When you finish, come back to a
+comfortable sitting position.
+
+453
+01:05:25,140 --> 01:05:26,560
+We will begin shortly.
+
+454
+01:05:37,140 --> 01:05:40,160
+You can take a video at some point if you
+want.
+
+455
+01:05:55,780 --> 01:06:00,240
+Now we are going to say Bajomana Ma,
+Ma, Ma.
+
+456
+01:06:02,480 --> 01:06:04,820
+Ananda Mahi, Ma, Ma.
+
+457
+01:06:24,670 --> 01:06:30,130
+Bajomana Ma, Ma, Ma.
+
+458
+01:06:32,590 --> 01:06:38,090
+Bajomana Ma, Ma, Ma.
+
+459
+01:06:40,630 --> 01:06:44,830
+Bajomana Ma, Ma, Ma.
+
+460
+01:06:48,650 --> 01:06:54,470
+Bajomana Ma, Ma, Ma.
+
+461
+01:06:56,670 --> 01:07:02,130
+Bajomana Ma, Ma, Ma.
+
+462
+01:07:32,990 --> 01:07:35,330
+Satsang with Mooji
+
+463
+01:08:40,850 --> 01:08:51,710
+Ananda Kali Babu Ananda Mahi Babu
+
+464
+01:10:05,080 --> 01:10:10,260
+In the name of the Father, and of the Son,
+and of the Holy Spirit.
+
+465
+01:10:10,360 --> 01:10:32,860
+Ananda Parivara Ananda Parivara Ananda
+Parivara Bajamana Baba Bajamana Baba
+
+466
+01:11:07,270 --> 01:11:19,910
+Ananda Mahi Mahamandana Ananda Mahi
+Mahamandana Ananda Mali Maama
+
+467
+01:11:24,490 --> 01:11:28,670
+Ananda Rupa Maama
+
+468
+01:11:33,110 --> 01:11:37,570
+Ananda Kali Maama
+
+469
+01:12:24,230 --> 01:12:30,210
+As the sun moves, please feel free to move
+with it if you're in too much or too
+
+470
+01:12:30,210 --> 01:12:31,950
+little direct sunshine.
+
+471
+01:12:41,600 --> 01:12:42,040
+Thank you.
+
+472
+01:12:42,840 --> 01:12:49,860
+So hopefully you or someone near you has a
+copy of the paper that has both the line
+
+473
+01:12:49,860 --> 01:12:52,840
+and the translation in Spanish.
+
+474
+01:13:02,440 --> 01:13:06,020
+It will also be done out loud,
+so it's okay.
+
+475
+01:13:10,640 --> 01:13:11,560
+Do you guys need water?
+
+476
+01:13:13,420 --> 01:13:24,320
+Do you have another one for her?
+
+477
+01:13:24,620 --> 01:13:25,540
+Yeah, I have one.
+
+478
+01:13:25,820 --> 01:13:26,600
+In Spanish?
+
+479
+01:13:26,600 --> 01:13:27,400
+In Spanish.
+
+480
+01:13:31,270 --> 01:13:34,790
+So, let's try a call and repeat.
+
+481
+01:13:38,530 --> 01:13:54,510
+Namo Devye Mahadevye Namo Devye Mahadevye
+Shivaye Satatam Namaha Shivaye Satatam
+
+482
+01:13:54,510 --> 01:13:59,750
+Namaha Namah Prakritye Bhadraye
+
+483
+01:14:05,770 --> 01:14:07,370
+Niyata Pranatasmatam
+
+484
+01:14:12,490 --> 01:14:15,890
+Salutations to the goddess and great
+goddess.
+
+485
+01:14:16,290 --> 01:14:18,690
+Saludos a la diosa y a la gran diosa.
+
+486
+01:14:19,010 --> 01:14:22,310
+And to the auspicious ones, always
+salutations.
+
+487
+01:14:22,310 --> 01:14:26,690
+Y para los auspiciosos, siempre saludos.
+
+488
+01:14:26,950 --> 01:14:29,310
+Salutations to primordial nature.
+
+489
+01:14:30,070 --> 01:14:32,350
+Saludos a la naturaleza primordial.
+
+490
+01:14:32,670 --> 01:14:36,930
+To the good one, we are ever dedicated and
+prostrated to her.
+
+491
+01:14:37,990 --> 01:14:44,650
+Al bueno y a los que estamos dedicados,
+siempre nos postramos ante ella.
+
+492
+01:14:44,990 --> 01:14:49,910
+So a general greeting to Devye in her most
+cosmic forms.
+
+493
+01:14:50,590 --> 01:14:55,570
+Un saludo general para Devye en su forma
+más cósmica.
+
+494
+01:14:56,030 --> 01:15:01,090
+Do you all have any questions about any of
+those words in particular, especially
+
+495
+01:15:01,090 --> 01:15:04,790
+those of you who are working on your
+chanting?
+
+496
+01:15:05,590 --> 01:15:11,070
+Si tienen alguna pregunta acerca de estas
+palabras, precisamente si hay alguien que
+
+497
+01:15:11,070 --> 01:15:13,790
+esté trabajando en su canto, en su
+pronunciación.
+
+498
+01:15:21,360 --> 01:15:25,280
+Rudraye namo nityaye.
+
+499
+01:15:26,080 --> 01:15:29,820
+Rudraye namo nityaye.
+
+500
+01:15:30,480 --> 01:15:34,020
+Gaurye dhatre namo namaha.
+
+501
+01:15:34,660 --> 01:15:38,600
+Gaurye dhatre namo namaha.
+
+502
+01:15:40,000 --> 01:15:44,340
+Gaurye dhatre namo namaha.
+
+503
+01:15:44,340 --> 01:15:49,360
+Gaurye dhatre namo namaha.
+
+504
+01:15:50,080 --> 01:15:53,660
+Jyotsnaye chenduru pinye.
+
+505
+01:15:54,460 --> 01:15:58,180
+Jyotsnaye chenduru pinye.
+
+506
+01:15:58,780 --> 01:16:02,040
+Sukhaye sattatam namaha.
+
+507
+01:16:02,900 --> 01:16:06,400
+Sukhaye sattatam namaha.
+
+508
+01:16:06,940 --> 01:16:13,240
+To the fierce one, salutations to the
+eternal one, to Gauri, to the sustainer.
+
+509
+01:16:15,620 --> 01:16:23,840
+Saludos a la feroz, a la eterna,
+a Gauri, a la sostenedora, saludos.
+
+510
+01:16:24,420 --> 01:16:29,880
+To moonlight and the moon-formed one,
+to happiness, salutations to you.
+
+511
+01:16:30,460 --> 01:16:36,620
+A la luna y a la que tiene forma de luna,
+a la felicidad, siempre saludos.
+
+512
+01:16:36,620 --> 01:16:42,380
+So still very large qualities,
+but bringing in things that are closer to
+
+513
+01:16:42,380 --> 01:16:44,620
+us, but not yet of the earth.
+
+514
+01:16:52,180 --> 01:16:58,160
+Already these verses for me are starting
+to generate those waves of, okay,
+
+515
+01:16:58,300 --> 01:17:03,360
+we're bringing her in, remember she's this
+amazing being, she's even the moonlight.
+
+516
+01:17:06,620 --> 01:17:09,220
+Y estamos invocando la que estamos
+trayendo hacia nosotros.
+
+517
+01:17:10,740 --> 01:17:15,000
+Ella está en todo y estamos invocando la
+forma en los rayos de la luna hacia
+
+518
+01:17:15,000 --> 01:17:15,420
+nosotros.
+
+519
+01:17:15,740 --> 01:17:16,980
+Who doesn't love moonlight?
+
+520
+01:17:18,320 --> 01:17:20,560
+You get the light without the sunburn.
+
+521
+01:17:22,500 --> 01:17:24,680
+Tenemos la luz sin que nos queme el sol.
+
+522
+01:17:28,720 --> 01:17:30,500
+Kalyanye pranatam vridye.
+
+523
+01:17:33,020 --> 01:17:34,840
+Kalyanye pranatam vridye.
+
+524
+01:17:34,840 --> 01:17:38,720
+Siddye kurmo namo namah.
+
+525
+01:17:43,780 --> 01:17:47,160
+Nerkritye bhubhritam lakshmi.
+
+526
+01:17:52,360 --> 01:17:55,800
+Sarvanye te namo namah.
+
+527
+01:18:00,000 --> 01:18:03,440
+I mispronounced that first word,
+there's no ka, it's nerkritye.
+
+528
+01:18:05,840 --> 01:18:08,980
+It's like an R followed by a ri.
+
+529
+01:18:10,420 --> 01:18:11,540
+Nerkritye.
+
+530
+01:18:14,720 --> 01:18:19,300
+Those types of tongue movements are very
+challenging.
+
+531
+01:18:24,080 --> 01:18:33,020
+And the connection between the tongue and
+motor and sensory cortexes is very deep.
+
+532
+01:18:37,760 --> 01:18:44,060
+I've worked one-on-one with mantra
+chanting for stroke and Parkinson's
+
+533
+01:18:44,060 --> 01:18:45,280
+patients.
+
+534
+01:18:52,800 --> 01:18:59,320
+It's amazing what it has done for some of
+their speech articulation.
+
+535
+01:18:59,320 --> 01:19:04,520
+Es increíble lo que han podido lograr para
+la articulación del lenguaje.
+
+536
+01:19:11,260 --> 01:19:17,020
+Y en uno de los casos, a través del canto
+en voz alta, para la corrección de la
+
+537
+01:19:17,020 --> 01:19:17,600
+médula espinal.
+
+538
+01:19:17,840 --> 01:19:24,540
+Si alguno de ustedes está familiarizado
+con los saludos al sol...
+
+539
+01:19:29,640 --> 01:19:34,380
+Mantra chanting, el canto de los mantras,
+es como practicar el saludo al sol para la
+
+540
+01:19:34,380 --> 01:19:34,780
+lengua.
+
+541
+01:19:43,580 --> 01:19:48,520
+Considerando las personas mayores que
+conozcan, sabrán lo que pasa con el
+
+542
+01:19:48,520 --> 01:19:49,500
+lenguaje y la articulación.
+
+543
+01:19:49,500 --> 01:19:55,380
+Regular Sanskrit chanting of mantras will
+really help keep that at bay.
+
+544
+01:20:03,300 --> 01:20:09,260
+Because it forces sound production from
+guttural all the way to labio,
+
+545
+01:20:09,540 --> 01:20:12,480
+the whole range of sound possible for
+humans.
+
+546
+01:20:19,500 --> 01:20:24,260
+To the auspicious one who increases to
+those who bow.
+
+547
+01:20:30,060 --> 01:20:33,780
+To the accomplished one we make
+salutations.
+
+548
+01:20:34,420 --> 01:20:36,200
+Who has the translation in Spanish?
+
+549
+01:20:36,460 --> 01:20:37,160
+You should have it.
+
+550
+01:20:37,240 --> 01:20:38,000
+No, I don't have it.
+
+551
+01:20:38,000 --> 01:20:38,560
+I have it.
+
+552
+01:20:38,860 --> 01:20:39,880
+Okay, thank you.
+
+553
+01:20:40,360 --> 01:20:42,160
+Because I'm inventing and I prefer to.
+
+554
+01:20:42,160 --> 01:20:42,500
+No.
+
+555
+01:20:55,220 --> 01:21:00,260
+To the southwest one, to Lakshmi of the
+earth supporters.
+
+556
+01:21:04,960 --> 01:21:07,980
+To Sarvani, the wife of Shiva,
+we salute you.
+
+557
+01:21:12,160 --> 01:21:15,480
+Now we also have human relative
+directions.
+
+558
+01:21:18,140 --> 01:21:19,680
+Human relative directions.
+
+559
+01:21:21,400 --> 01:21:23,320
+Or cardinal directions.
+
+560
+01:21:24,400 --> 01:21:32,400
+You know, I read that the aboriginals of
+Australia always knew where north,
+
+561
+01:21:32,460 --> 01:21:33,560
+east, south, west are.
+
+562
+01:21:38,080 --> 01:21:44,000
+That certain groups of them did not use
+relative directions, no right,
+
+563
+01:21:44,100 --> 01:21:44,500
+left.
+
+564
+01:21:47,920 --> 01:21:49,840
+Only absolute directions.
+
+565
+01:21:51,500 --> 01:21:56,540
+This means in their working awareness they
+always knew where the sun and other
+
+566
+01:21:56,540 --> 01:21:57,940
+celestial bodies were.
+
+567
+01:21:57,940 --> 01:22:08,820
+They are some of the best navigators we
+know of in history.
+
+568
+01:22:09,340 --> 01:22:14,040
+Their brain is physiologically different
+and thought to be partly because of
+
+569
+01:22:14,040 --> 01:22:17,000
+absolute positioning rather than relative
+referencing.
+
+570
+01:22:23,440 --> 01:22:27,920
+When I say southwest one referring to
+Lakshmi, I have a different brain.
+
+571
+01:22:27,940 --> 01:22:31,580
+I have to really think and do the
+calculation of the setting sun.
+
+572
+01:22:41,600 --> 01:22:48,500
+What would it be like as an exercise just
+to work on this one verse for one year and
+
+573
+01:22:48,500 --> 01:22:52,780
+know where the directions were anytime
+someone asked you?
+
+574
+01:23:01,500 --> 01:23:03,460
+That would feel different.
+
+575
+01:23:03,580 --> 01:23:04,480
+How could it not?
+
+576
+01:23:06,480 --> 01:23:12,640
+Imagine a sailor or a captain that knows
+where the lighthouse is versus wondering
+
+577
+01:23:12,640 --> 01:23:14,280
+where the lighthouse is.
+
+578
+01:23:51,920 --> 01:23:55,600
+To Durga, to the rescuer from
+difficulties.
+
+579
+01:23:58,400 --> 01:24:01,560
+To the essential one, to the doer of all.
+
+580
+01:24:03,940 --> 01:24:07,260
+To the famous one, and likewise to the
+dark one.
+
+581
+01:24:10,260 --> 01:24:12,680
+To the smoky one, our salutations.
+
+582
+01:24:15,680 --> 01:24:23,040
+I like this verse because it plants this
+idea from Karma Yoga that we are not the
+
+583
+01:24:23,040 --> 01:24:23,340
+doer.
+
+584
+01:24:31,900 --> 01:24:34,360
+I don't feel that most of the time.
+
+585
+01:24:34,480 --> 01:24:38,160
+I'm controlling, I feel like I'm
+controlling my thoughts and actions.
+
+586
+01:24:44,460 --> 01:24:48,960
+But then life slips out of control and I
+realize, I'm reminded I actually don't
+
+587
+01:24:48,960 --> 01:24:49,560
+have control.
+
+588
+01:24:54,260 --> 01:25:01,240
+So even just verse four as a reflection
+for any amount of time, the doer of all,
+
+589
+01:25:01,360 --> 01:25:02,980
+the rescuer of difficulties.
+
+590
+01:25:10,820 --> 01:25:14,900
+But not in an obvious way, she's dark,
+she's smoky.
+
+591
+01:25:24,540 --> 01:25:29,400
+Reminding us that her manifestations
+aren't always obvious.
+
+592
+01:25:32,680 --> 01:25:36,980
+That we might have to actually pay
+attention if we want to perceive her.
+
+593
+01:26:10,740 --> 01:26:19,540
+To the one who is at the same time
+extremely gentle and extremely loving.
+
+594
+01:26:19,560 --> 01:26:24,060
+To the one who is at the same time
+extremely gentle and extremely fierce.
+
+595
+01:26:24,780 --> 01:26:26,980
+We bow to her, our salutations.
+
+596
+01:26:30,320 --> 01:26:35,940
+Salutations to the foundation of the
+universe.
+
+597
+01:26:36,760 --> 01:26:38,540
+To the goddess, to the active one.
+
+598
+01:26:39,540 --> 01:26:50,120
+So with this verse, classical eastern
+paradox.
+
+599
+01:26:56,080 --> 01:26:59,260
+She is the gentlest and she is the
+fiercest.
+
+600
+01:27:02,360 --> 01:27:03,580
+She's the whole thing.
+
+601
+01:27:05,640 --> 01:27:06,420
+The entirety.
+
+602
+01:27:09,200 --> 01:27:12,120
+And the foundation of the universe.
+
+603
+01:27:14,980 --> 01:27:22,040
+And this always makes me ask in a very
+honest way, what is the foundation of my
+
+604
+01:27:22,040 --> 01:27:22,740
+universe?
+
+605
+01:27:26,200 --> 01:27:37,320
+Is there any one thing that if I lost,
+I would truly unravel?
+
+606
+01:27:39,220 --> 01:27:44,360
+Is there any one thing that would make me
+lose my mind if I lost it?
+
+607
+01:27:46,220 --> 01:27:51,820
+For some it's how they look physically.
+
+608
+01:27:52,640 --> 01:27:55,620
+For some it's their mental health.
+
+609
+01:28:08,540 --> 01:28:12,640
+For others it's a person of which they are
+so dependent that if that person
+
+610
+01:28:12,640 --> 01:28:15,140
+disappears, they would really have a
+downfall.
+
+611
+01:28:15,600 --> 01:28:32,580
+What is that thing that would affect us so
+much if we lost it?
+
+612
+01:28:33,500 --> 01:28:37,520
+Or there is no such thing.
+
+613
+01:28:42,610 --> 01:28:44,650
+Too abstract or real for anyone?
+
+614
+01:28:48,390 --> 01:28:50,270
+For you, health?
+
+615
+01:28:53,510 --> 01:28:56,630
+It's a question for each other,
+it's not philosophical.
+
+616
+01:28:57,690 --> 01:29:03,730
+Some people live with cancer and no legs
+and blindness at the same time.
+
+617
+01:29:09,030 --> 01:29:11,830
+Health is not their foundation.
+
+618
+01:29:16,570 --> 01:29:22,490
+One theme of the talk on the fifth day
+was, everyone has to make their peace with
+
+619
+01:29:22,490 --> 01:29:27,970
+a disease, if they have that disease and
+want to remain happily alive.
+
+620
+01:29:38,470 --> 01:29:49,870
+Health is a luxury and a privilege,
+that not all humans have access to.
+
+621
+01:29:50,290 --> 01:29:56,110
+Even some of our health comes at the cost
+of others' health, and that's the truth
+
+622
+01:29:56,110 --> 01:29:59,150
+about humanity at the current way the
+world works.
+
+623
+01:30:03,950 --> 01:30:10,490
+Health comes at the cost of other people's
+health, and that's how the world we live
+
+624
+01:30:10,490 --> 01:30:10,650
+in works.
+
+625
+01:30:23,150 --> 01:30:27,430
+Are we nourishing that which we are so
+dependent on, that which is so important?
+
+626
+01:30:33,730 --> 01:30:40,090
+To the goddess who resides in all beings.
+
+627
+01:30:41,050 --> 01:31:02,510
+To the goddess who resides in all beings.
+
+628
+01:31:05,310 --> 01:31:10,630
+And is called Vishnumaya, or the illusion
+of Vishnu.
+
+629
+01:31:14,430 --> 01:31:15,690
+Salutations to her.
+
+630
+01:31:17,270 --> 01:31:22,790
+And so now we've brought it down to the
+plane where we live.
+
+631
+01:31:26,210 --> 01:31:27,730
+She's in all beings.
+
+632
+01:31:30,570 --> 01:31:32,470
+And she's also an illusion.
+
+633
+01:31:33,730 --> 01:31:33,850
+And she's an illusion.
+
+634
+01:31:36,590 --> 01:31:39,790
+Ya Devi Sarva Bhuteshu
+
+635
+01:31:48,730 --> 01:31:58,190
+Chetanitya Bhidhiyate Namastasye
+Namastasye Namastasye Namo Namaha
+
+636
+01:32:05,150 --> 01:32:07,870
+She lives in all beings in what form?
+
+637
+01:32:08,010 --> 01:32:12,570
+Who resides in all beings, given the role
+of consciousness.
+
+638
+01:32:17,310 --> 01:32:21,150
+So specifically that's how she resides
+within us.
+
+639
+01:32:25,930 --> 01:32:29,710
+Ya Devi Sarva Bhuteshu
+
+640
+01:32:34,330 --> 01:32:38,310
+Some quality Rupena Samsthita
+
+641
+01:32:44,130 --> 01:32:54,890
+Namastasye Namastasye Namastasye Namo
+Namaha Namaskar Sye Namaskar Sye Namaskar
+
+642
+01:32:54,890 --> 01:33:06,450
+Sye Namo Namah So now from verse 8 to 26,
+we're going to follow a particular
+
+643
+01:33:06,450 --> 01:33:06,950
+pattern.
+
+644
+01:33:07,230 --> 01:33:11,390
+From verse 8 to 26, we're going to follow
+a particular pattern.
+
+645
+01:33:13,610 --> 01:33:19,930
+Verse 8 says, who resides in us as the
+form of buddhi,
+
+646
+01:33:25,130 --> 01:33:25,450
+intelligence.
+
+647
+01:33:25,890 --> 01:33:30,110
+Buddhi, the same word as buddha,
+intellect, or enlightened.
+
+648
+01:33:30,110 --> 01:33:34,930
+The same word as buddha, which means
+intellect, enlightenment.
+
+649
+01:33:36,570 --> 01:33:38,170
+What does intelligence mean to you?
+
+650
+01:33:39,230 --> 01:33:41,550
+What does it appear in your life?
+
+651
+01:33:48,610 --> 01:33:54,990
+In some people, it appears in the form of
+studies.
+
+652
+01:33:54,990 --> 01:33:55,630
+Where else?
+
+653
+01:33:55,730 --> 01:33:56,910
+Give me something interesting.
+
+654
+01:33:57,050 --> 01:33:57,990
+Where does intelligence...
+
+655
+01:34:03,750 --> 01:34:05,370
+Problem solving, what else?
+
+656
+01:34:06,810 --> 01:34:07,730
+Decision making
+
+657
+01:34:13,150 --> 01:34:19,270
+Intuition Some people really separate
+intellect and intuition.
+
+658
+01:34:22,110 --> 01:34:23,470
+One sec, can you translate that?
+
+659
+01:34:23,470 --> 01:34:27,830
+Enjoying things Some people really
+separate intellect and intuition.
+
+660
+01:34:33,370 --> 01:34:39,330
+And it's an interesting separation if you
+think they're different.
+
+661
+01:34:42,770 --> 01:34:45,930
+Because Manomayakosha is the domain of
+intellect.
+
+662
+01:34:48,890 --> 01:34:52,230
+And Vijnanamayakosha is the dimension of
+intuition.
+
+663
+01:34:55,030 --> 01:35:00,870
+But others will say the lower mind is of
+Manomayakosha, simple intellect,
+
+664
+01:35:00,950 --> 01:35:01,710
+intelligence.
+
+665
+01:35:06,810 --> 01:35:08,890
+And refined intellect is Vijnanamayakosha.
+
+666
+01:35:14,570 --> 01:35:16,370
+Dogs have intelligence.
+
+667
+01:35:18,370 --> 01:35:20,850
+But why aren't they flying around in
+planes?
+
+668
+01:35:20,850 --> 01:35:23,830
+That I'm aware of.
+
+669
+01:35:25,330 --> 01:35:27,250
+So there's levels of intelligence.
+
+670
+01:35:29,370 --> 01:35:31,810
+And someone said something else I didn't
+hear.
+
+671
+01:35:40,390 --> 01:35:41,410
+Enjoying things?
+
+672
+01:35:43,690 --> 01:35:45,570
+No, viveka is discrimination.
+
+673
+01:35:47,110 --> 01:35:50,170
+Some people talk about the body having
+intelligence.
+
+674
+01:35:50,850 --> 01:35:56,010
+Some people talk about the body as having
+intelligence, possessing intelligence.
+
+675
+01:35:56,550 --> 01:36:06,870
+In our Kung Fu teachings we come to
+understand that the prana has its own
+
+676
+01:36:06,870 --> 01:36:07,510
+intelligence.
+
+677
+01:36:08,010 --> 01:36:14,090
+That prana is intrinsically intelligent
+and all we have to do is get out of the
+
+678
+01:36:14,090 --> 01:36:19,830
+way.
+
+679
+01:36:20,850 --> 01:36:25,910
+Traditional healing modalities come from
+this perspective of don't do, rather stop
+
+680
+01:36:25,910 --> 01:36:27,770
+doing the wrong thing.
+
+681
+01:36:37,530 --> 01:36:39,110
+Nidra, sleep.
+
+682
+01:36:43,670 --> 01:36:45,190
+What does that mean to you?
+
+683
+01:36:50,850 --> 01:36:53,370
+Maybe like sleeping or you're awake?
+
+684
+01:36:54,410 --> 01:36:56,850
+Maybe, to me sleep means...
+
+685
+01:37:01,730 --> 01:37:06,470
+Sometimes it means you're awake but you're
+asleep to what's happening.
+
+686
+01:37:15,310 --> 01:37:19,030
+I'm asking these questions very sincerely.
+
+687
+01:37:22,070 --> 01:37:27,510
+Because depending on our cultural
+conditioning and education, sleep means
+
+688
+01:37:27,510 --> 01:37:36,270
+different things.
+
+689
+01:37:36,290 --> 01:37:44,110
+It could be like shutting off the system
+and allowing it to recharge.
+
+690
+01:37:44,870 --> 01:37:46,890
+Yeah, and that's how we've designed
+phones.
+
+691
+01:37:47,580 --> 01:37:49,210
+That's how we've designed phones.
+
+692
+01:37:49,990 --> 01:37:56,890
+I always say that if you give yourself 10%
+of what you're giving your phone,
+
+693
+01:37:57,050 --> 01:37:59,090
+you're going to be doing pretty well.
+
+694
+01:38:06,370 --> 01:38:07,930
+Call it the phone sadhana.
+
+695
+01:38:10,750 --> 01:38:12,470
+What does airplane mode mean?
+
+696
+01:38:17,130 --> 01:38:18,710
+It's yoga nidra for the phone.
+
+697
+01:38:19,310 --> 01:38:22,030
+What is turning off the screen?
+
+698
+01:38:25,670 --> 01:38:30,650
+Close the eyes, because our brain takes up
+more than 50% of our brain effort.
+
+699
+01:38:36,030 --> 01:38:39,930
+Same with the phone, as soon as you turn
+off the display, you save battery power.
+
+700
+01:38:40,910 --> 01:38:45,250
+As soon as you turn off the display,
+you save energy.
+
+701
+01:38:45,730 --> 01:38:55,950
+Why does this seem to reflect every aspect
+of the human being?
+
+702
+01:38:56,750 --> 01:38:58,370
+Because we designed it.
+
+703
+01:38:58,470 --> 01:39:01,270
+Because humans made it.
+
+704
+01:39:10,700 --> 01:39:15,430
+What happens to the things we design when
+we have a deeper understanding of what it
+
+705
+01:39:15,430 --> 01:39:16,530
+means to be human?
+
+706
+01:39:18,710 --> 01:39:23,250
+Our products become much deeper.
+
+707
+01:39:24,250 --> 01:39:31,190
+And that's why art and architecture and
+sciences that come from Vijnana Mayakosha
+
+708
+01:39:31,190 --> 01:39:34,130
+touch different levels of humanity.
+
+709
+01:39:41,650 --> 01:39:47,010
+And sciences limited to the lower
+intellect are often drier and more
+
+710
+01:39:47,010 --> 01:39:47,530
+functional.
+
+711
+01:39:53,250 --> 01:39:54,790
+Dryer and simpler.
+
+712
+01:39:56,550 --> 01:39:57,650
+Dryer.
+
+713
+01:39:58,870 --> 01:40:00,270
+Dryer.
+
+714
+01:40:01,050 --> 01:40:02,450
+Dryer.
+
+715
+01:40:04,670 --> 01:40:05,550
+Dryer.
+
+716
+01:40:07,590 --> 01:40:08,990
+Dryer.
+
+717
+01:40:09,210 --> 01:40:09,670
+Dryer.
+
+718
+01:40:12,370 --> 01:40:13,510
+Dryer.
+
+719
+01:40:19,730 --> 01:40:21,130
+Dryer.
+
+720
+01:40:21,130 --> 01:40:22,430
+Dryer.
+
+721
+01:40:24,670 --> 01:40:24,810
+Dryer.
+
+722
+01:40:25,950 --> 01:40:26,870
+Dryer.
+
+723
+01:40:27,710 --> 01:40:30,490
+That's a complex combination.
+
+724
+01:40:32,350 --> 01:40:32,750
+Hunger.
+
+725
+01:40:33,430 --> 01:40:36,370
+What do you hunger for?
+
+726
+01:40:38,850 --> 01:40:43,970
+Let's see how honest people are willing to
+be in this session.
+
+727
+01:40:47,190 --> 01:40:48,110
+Recorded.
+
+728
+01:40:51,130 --> 01:40:53,210
+Will be uploaded to YouTube.
+
+729
+01:40:56,810 --> 01:40:58,910
+You're hungering for spirituality.
+
+730
+01:40:59,890 --> 01:41:02,790
+What else is someone hungering for?
+
+731
+01:41:04,970 --> 01:41:05,470
+Peace.
+
+732
+01:41:05,970 --> 01:41:06,490
+What else?
+
+733
+01:41:07,770 --> 01:41:08,270
+Love.
+
+734
+01:41:09,870 --> 01:41:10,870
+Knowledge.
+
+735
+01:41:11,330 --> 01:41:12,450
+What else?
+
+736
+01:41:13,690 --> 01:41:14,690
+Pleasure.
+
+737
+01:41:15,150 --> 01:41:15,630
+What else?
+
+738
+01:41:20,910 --> 01:41:21,410
+Peace.
+
+739
+01:41:21,690 --> 01:41:22,090
+Shanti.
+
+740
+01:41:24,130 --> 01:41:25,970
+Y'all are a very sattvic crowd.
+
+741
+01:41:26,090 --> 01:41:26,630
+Thank you.
+
+742
+01:41:27,630 --> 01:41:27,630
+Power.
+
+743
+01:41:28,710 --> 01:41:29,150
+What else?
+
+744
+01:41:29,990 --> 01:41:30,610
+Freedom.
+
+745
+01:41:32,790 --> 01:41:34,470
+Where do you feel hunger?
+
+746
+01:41:35,170 --> 01:41:35,510
+Union.
+
+747
+01:41:38,270 --> 01:41:39,670
+Where do you feel hunger?
+
+748
+01:41:42,990 --> 01:41:45,170
+Someone feels it in their belly.
+
+749
+01:41:45,870 --> 01:41:49,410
+Do you feel hunger for union and peace in
+your belly?
+
+750
+01:41:51,170 --> 01:41:53,350
+Someone feels it in their heart.
+
+751
+01:41:53,630 --> 01:41:55,730
+Where else do you feel hunger?
+
+752
+01:42:00,010 --> 01:42:03,830
+I don't know what hunger here feels like.
+
+753
+01:42:04,010 --> 01:42:09,230
+When I want to know something,
+I feel it like...
+
+754
+01:42:09,230 --> 01:42:11,410
+I feel it...
+
+755
+01:42:11,410 --> 01:42:15,560
+It feels like the whole being wants to go
+from here...
+
+756
+01:42:15,560 --> 01:42:16,540
+to here...
+
+757
+01:42:18,140 --> 01:42:19,260
+to this.
+
+758
+01:42:19,760 --> 01:42:21,880
+You know the essence of knowledge?
+
+759
+01:42:22,460 --> 01:42:27,360
+You want to take something you don't
+understand, which is chaotic everywhere,
+
+760
+01:42:27,920 --> 01:42:29,600
+and the feeling is like...
+
+761
+01:42:29,600 --> 01:42:33,060
+I want it like this.
+
+762
+01:42:33,840 --> 01:42:38,660
+So my hunger feels different from Gita
+Dhyanam's hunger.
+
+763
+01:42:39,240 --> 01:42:41,640
+You have to feel your hunger.
+
+764
+01:42:43,240 --> 01:42:46,340
+In the kosha that it's coming from.
+
+765
+01:42:49,080 --> 01:42:53,280
+If you can't imagine what that feels like,
+you don't know what's driving you.
+
+766
+01:42:56,880 --> 01:43:01,340
+The hunger is real, but the direction it's
+coming from is unknown.
+
+767
+01:43:05,640 --> 01:43:10,240
+And when that happens, we risk feeding
+ourselves the wrong thing.
+
+768
+01:43:11,640 --> 01:43:20,820
+Sometimes we're hungry for relief from an
+emotion.
+
+769
+01:43:24,140 --> 01:43:29,640
+And we feed it with ice cream and fries.
+
+770
+01:43:30,160 --> 01:43:31,820
+Mismatch of koshas.
+
+771
+01:43:34,100 --> 01:43:37,480
+The body gets fat, the emotion doesn't go
+away.
+
+772
+01:43:39,720 --> 01:43:41,620
+We have to know where our hunger is coming
+from.
+
+773
+01:43:41,620 --> 01:43:45,620
+We have to identify where our hunger is
+coming from.
+
+774
+01:43:46,620 --> 01:43:53,240
+Another way to say this is, if we are
+inviting Devi to a date,
+
+775
+01:43:59,240 --> 01:44:02,620
+we have to meet her at that location.
+
+776
+01:44:05,580 --> 01:44:09,020
+You don't ask someone out on a date and
+not share the address.
+
+777
+01:44:11,660 --> 01:44:17,780
+That would be an interesting date,
+but frustrating.
+
+778
+01:44:20,800 --> 01:44:27,820
+So whether she's invoking you or you're
+invoking her, ask, where are we meeting?
+
+779
+01:44:31,980 --> 01:44:37,960
+If she's invoking you, you ask her,
+where are you so I can meet you there?
+
+780
+01:44:42,200 --> 01:44:46,800
+If you're invoking her, you tell her where
+you are and be accurate.
+
+781
+01:44:52,200 --> 01:44:54,380
+Have you ever shared your location on
+WhatsApp?
+
+782
+01:44:57,200 --> 01:44:59,760
+It says accurate to 34 meters.
+
+783
+01:45:03,600 --> 01:45:07,280
+You can be a little less accurate,
+guaranteed she'll find you.
+
+784
+01:45:12,180 --> 01:45:14,620
+But you have to share the location.
+
+785
+01:45:27,910 --> 01:45:31,250
+You know in Munger, Chaya Samadhi?
+
+786
+01:45:32,670 --> 01:45:34,270
+The Shadow Samadhi?
+
+787
+01:45:35,690 --> 01:45:37,150
+What is shadow?
+
+788
+01:45:40,650 --> 01:45:41,750
+What is a shadow?
+
+789
+01:45:42,990 --> 01:45:43,970
+A reflection.
+
+790
+01:45:46,010 --> 01:45:47,450
+A reflection?
+
+791
+01:45:53,890 --> 01:45:58,610
+Usually a lack of light, an absence of
+light is usually shadow.
+
+792
+01:45:59,660 --> 01:46:00,850
+What else is a shadow?
+
+793
+01:46:04,360 --> 01:46:05,400
+Light.
+
+794
+01:46:10,780 --> 01:46:16,540
+It's an object that interposes between the
+light and so reflects the shadow.
+
+795
+01:46:20,840 --> 01:46:24,380
+Something unknown of myself.
+
+796
+01:46:33,860 --> 01:46:35,940
+We have shadow in the physical reality.
+
+797
+01:46:36,320 --> 01:46:38,640
+We have shadow in the psychological
+domain.
+
+798
+01:46:41,600 --> 01:46:43,100
+Which one is this talking about?
+
+799
+01:46:47,020 --> 01:46:48,020
+The mind.
+
+800
+01:46:58,340 --> 01:47:00,980
+What we can't see of ourselves.
+
+801
+01:47:00,980 --> 01:47:03,140
+Which one is this talking about?
+
+802
+01:47:03,240 --> 01:47:04,320
+Internal or external?
+
+803
+01:47:04,980 --> 01:47:06,840
+Why not both?
+
+804
+01:47:08,700 --> 01:47:13,080
+Why not the material world which the first
+four verses said you're all of it?
+
+805
+01:47:16,660 --> 01:47:21,280
+Shakti is not the unmanifest,
+unaccessible.
+
+806
+01:47:21,660 --> 01:47:24,340
+She is the manifest, the counter of Shiva.
+
+807
+01:47:25,120 --> 01:47:28,740
+Shakti is the manifest counterpart of
+Shiva.
+
+808
+01:47:30,160 --> 01:47:39,580
+If we need a shadow, we can invoke her as
+a shadow.
+
+809
+01:47:39,580 --> 01:47:45,840
+If there is a part of ourselves that keeps
+eluding us, we can say I want to
+
+810
+01:47:45,840 --> 01:47:49,000
+understand you as me as that shadow.
+
+811
+01:47:58,560 --> 01:48:01,540
+Don't limit her to this or that.
+
+812
+01:48:03,880 --> 01:48:08,400
+That's the same as saying don't limit
+yourself and your thoughts about yourself.
+
+813
+01:48:10,660 --> 01:48:14,720
+Don't limit yourself to yourself about
+what you are or you are not.
+
+814
+01:48:18,580 --> 01:48:21,220
+We need to show ourselves in a particular
+way in the world.
+
+815
+01:48:29,140 --> 01:48:34,260
+Visualize that in her, in a container and
+then invoke her.
+
+816
+01:48:34,520 --> 01:48:35,640
+Does that make sense?
+
+817
+01:48:39,580 --> 01:48:40,840
+We need courage and we don't have it.
+
+818
+01:48:40,880 --> 01:48:42,940
+That's just a reality of life.
+
+819
+01:48:46,860 --> 01:48:52,420
+But what we can do is we can create a
+version of ourselves, a statue.
+
+820
+01:48:55,340 --> 01:49:00,580
+And we say, look, I've made a statue,
+now come and inhabit it.
+
+821
+01:49:05,120 --> 01:49:08,760
+And show me what courage looks like in a
+reflection of myself.
+
+822
+01:49:12,420 --> 01:49:17,020
+So it's not you doing the work,
+you're inviting her to live out that
+
+823
+01:49:17,020 --> 01:49:20,740
+version of yourself in your mind,
+in your consciousness as courage and you
+
+824
+01:49:20,740 --> 01:49:22,280
+just watch and take notes.
+
+825
+01:49:27,500 --> 01:49:32,400
+And you do that again and again and again
+and again until her movements,
+
+826
+01:49:32,540 --> 01:49:35,700
+her dance becomes familiar, until you
+learn it.
+
+827
+01:49:41,080 --> 01:49:44,180
+And as soon as you learn it, what do you
+do when you learn a dance?
+
+828
+01:49:48,240 --> 01:49:50,740
+You put the music on and you start to
+dance.
+
+829
+01:49:51,440 --> 01:50:03,020
+So for me, this Suktam is basically a
+recipe for how do you enter the world of
+
+830
+01:50:03,020 --> 01:50:09,900
+visualization in a way that changes our
+psychology and manifests in our life.
+
+831
+01:50:09,900 --> 01:50:15,400
+For me, this Suktam represents a way of
+how to enter visualization in order to
+
+832
+01:50:15,400 --> 01:50:17,080
+make it manifest in our life.
+
+833
+01:50:22,720 --> 01:50:27,480
+Generally, we give up visualization
+because we think that it is so vague.
+
+834
+01:50:27,920 --> 01:50:30,480
+Or so impossible.
+
+835
+01:50:31,180 --> 01:50:36,340
+Gita Byanam was at a talk last year where
+I talked about an experience in acute
+
+836
+01:50:36,340 --> 01:50:36,660
+depression.
+
+837
+01:50:43,880 --> 01:50:47,660
+I could not imagine ever being happy
+again.
+
+838
+01:50:47,960 --> 01:50:50,220
+The life was so dark.
+
+839
+01:50:50,760 --> 01:50:56,640
+The idea of happy was just like... I don't
+even know what that word means.
+
+840
+01:50:57,100 --> 01:50:59,700
+That's probably one reason I couldn't
+experience it.
+
+841
+01:51:00,480 --> 01:51:06,300
+In that moment, I felt so bad that I
+couldn't even imagine how it feels to be
+
+842
+01:51:06,300 --> 01:51:07,600
+happy again.
+
+843
+01:51:14,720 --> 01:51:17,000
+In this approach, you don't have to do
+that.
+
+844
+01:51:17,300 --> 01:51:20,500
+You just say, Shakti, you do it.
+
+845
+01:51:20,640 --> 01:51:23,880
+You show me what happiness could look
+like.
+
+846
+01:51:31,060 --> 01:51:36,540
+Until it feels familiar, which my claim
+is, it will.
+
+847
+01:51:46,540 --> 01:51:52,640
+Giving Shakti the permission to modify
+consciousness within yourself will have an
+
+848
+01:51:52,640 --> 01:51:54,460
+effect on the personal consciousness.
+
+849
+01:52:04,700 --> 01:52:06,260
+Shakti, power.
+
+850
+01:52:07,940 --> 01:52:08,660
+Shakti.
+
+851
+01:52:09,020 --> 01:52:10,440
+Say it.
+
+852
+01:52:11,520 --> 01:52:12,240
+Shakti.
+
+853
+01:52:13,540 --> 01:52:18,600
+Can you feel the word power in the word
+Shakti?
+
+854
+01:52:19,880 --> 01:52:21,780
+You have to think of the word.
+
+855
+01:52:22,140 --> 01:52:24,860
+When I say power, what do you think of?
+
+856
+01:52:31,310 --> 01:52:31,660
+Energy.
+
+857
+01:52:31,720 --> 01:52:32,780
+What else?
+
+858
+01:52:34,420 --> 01:52:35,120
+Strength.
+
+859
+01:52:35,340 --> 01:52:35,720
+What else?
+
+860
+01:52:36,120 --> 01:52:38,140
+Come on, something that makes you feel it.
+
+861
+01:52:38,400 --> 01:52:39,100
+Sun.
+
+862
+01:52:44,760 --> 01:52:45,460
+Firmness.
+
+863
+01:52:45,680 --> 01:52:46,120
+Firmness.
+
+864
+01:52:46,240 --> 01:52:48,820
+I think bomb, like atomic bomb.
+
+865
+01:52:49,260 --> 01:52:50,360
+That's Shakti.
+
+866
+01:52:50,780 --> 01:52:51,660
+What else?
+
+867
+01:52:52,480 --> 01:52:54,760
+If you have to awaken that feeling.
+
+868
+01:52:55,240 --> 01:52:55,580
+Ocean.
+
+869
+01:52:56,060 --> 01:52:56,320
+Wind.
+
+870
+01:52:57,000 --> 01:52:58,160
+I want to hear from you.
+
+871
+01:52:58,400 --> 01:53:02,940
+What can you say that makes you feel the
+word power?
+
+872
+01:53:03,180 --> 01:53:06,960
+Not in the mind, in the cells,
+in the body, in the heart.
+
+873
+01:53:09,000 --> 01:53:09,620
+Motivation.
+
+874
+01:53:11,410 --> 01:53:16,360
+What is the most masculine thing you can
+think of?
+
+875
+01:53:18,960 --> 01:53:19,890
+Arnold Schwarzenegger?
+
+876
+01:53:20,890 --> 01:53:22,070
+Arnold Schwarzenegger.
+
+877
+01:53:22,910 --> 01:53:25,850
+Who is someone with muscles that you know?
+
+878
+01:53:26,010 --> 01:53:26,470
+Hanuman.
+
+879
+01:53:27,110 --> 01:53:31,590
+Hanuman, for millions in the world.
+
+880
+01:53:31,990 --> 01:53:33,370
+Hanuman, you say it.
+
+881
+01:53:35,470 --> 01:53:37,050
+It's like Ram.
+
+882
+01:53:37,930 --> 01:53:39,210
+You say it.
+
+883
+01:53:39,330 --> 01:53:44,390
+If I think of Ram, I feel his nobility.
+
+884
+01:53:44,810 --> 01:53:47,390
+Because his stories are amazing.
+
+885
+01:53:48,230 --> 01:53:49,050
+Right?
+
+886
+01:53:50,310 --> 01:53:53,570
+Saying the word masculine is an idea.
+
+887
+01:53:54,590 --> 01:54:00,210
+Thinking of someone who embodies that is
+one step closer.
+
+888
+01:54:00,330 --> 01:54:01,170
+Can I translate that?
+
+889
+01:54:01,330 --> 01:54:01,470
+Yeah.
+
+890
+01:54:12,180 --> 01:54:16,010
+You see how it's very easy to get stuck in
+words?
+
+891
+01:54:18,470 --> 01:54:22,830
+To get past Manomayakosha into deep
+feeling.
+
+892
+01:54:24,330 --> 01:54:25,610
+To get past?
+
+893
+01:54:25,910 --> 01:54:27,630
+Manomayakosha into deep feeling.
+
+894
+01:54:31,250 --> 01:54:35,390
+To really enter the waters of bhakti and
+bhavana.
+
+895
+01:54:40,250 --> 01:54:43,610
+And I think the reason the fear is there
+is because it's really powerful.
+
+896
+01:54:47,390 --> 01:54:54,690
+And you as an ocean culture, you all know
+that better than some of us who are
+
+897
+01:54:54,690 --> 01:54:55,390
+landlocked.
+
+898
+01:55:01,750 --> 01:55:03,970
+You all have access to that every day.
+
+899
+01:55:04,110 --> 01:55:07,830
+That getting in the wrong way at the wrong
+place at the wrong time.
+
+900
+01:55:08,270 --> 01:55:10,990
+And you can be sucked in to a point of no
+return.
+
+901
+01:55:19,170 --> 01:55:25,170
+For some of us, waking up our masculinity
+means we risk becoming the worst version
+
+902
+01:55:25,170 --> 01:55:27,330
+of a man that we've seen in our lives.
+
+903
+01:55:35,870 --> 01:55:40,550
+For some of us, waking up peace means we
+see the worst version of passive
+
+904
+01:55:40,550 --> 01:55:42,470
+aggressiveness in our lives.
+
+905
+01:55:51,710 --> 01:55:56,770
+So with every form of consciousness,
+there is that tamasic condition,
+
+906
+01:55:57,570 --> 01:56:00,870
+the rajasic condition and the sattvic
+condition.
+
+907
+01:56:07,750 --> 01:56:12,090
+Those introductory verses are trying to
+keep it sattvic, the auspicious one,
+
+908
+01:56:12,210 --> 01:56:14,010
+the great one, the helpful one.
+
+909
+01:56:21,030 --> 01:56:22,970
+Auspicious masculinity,
+
+910
+01:56:26,270 --> 01:56:38,410
+auspicious peace, auspicious power,
+gentle sleep, gentle intelligence.
+
+911
+01:56:39,940 --> 01:56:43,130
+So it's not just the quality, it's the
+color as well.
+
+912
+01:56:47,390 --> 01:56:49,390
+Let's get through this list.
+
+913
+01:56:56,090 --> 01:56:56,730
+Thirst.
+
+914
+01:56:59,090 --> 01:57:00,270
+Like hunger.
+
+915
+01:57:01,410 --> 01:57:02,710
+What do you thirst for?
+
+916
+01:57:02,830 --> 01:57:03,910
+Where do you feel that?
+
+917
+01:57:07,730 --> 01:57:12,090
+I remember once I was living in the ashram
+for two years.
+
+918
+01:57:12,090 --> 01:57:18,110
+I had access to my guru every single day.
+
+919
+01:57:21,270 --> 01:57:28,510
+Then we were sent on a trip to teach
+around India.
+
+920
+01:57:28,890 --> 01:57:32,770
+And someone played a kirtan from Swamiji.
+
+921
+01:57:35,470 --> 01:57:45,850
+And as soon as I heard his voice,
+I felt it in my body and psyche at the
+
+922
+01:57:45,850 --> 01:57:49,650
+same time.
+
+923
+01:57:49,970 --> 01:57:53,110
+This sense of sort of drinking him.
+
+924
+01:57:56,330 --> 01:58:02,910
+And that's when I realized I was thirsty,
+having been in his physical absence for
+
+925
+01:58:02,910 --> 01:58:03,530
+some time.
+
+926
+01:58:09,970 --> 01:58:15,110
+I was really thirsty for a more concrete
+reminder of him than just a picture.
+
+927
+01:58:22,650 --> 01:58:29,130
+Our thirst reveals what sustains us.
+
+928
+01:58:32,790 --> 01:58:36,610
+You can go without food for 40 days,
+that was the master fast.
+
+929
+01:58:41,870 --> 01:58:49,030
+The Essene people of the desert where
+Jesus was around, if you could fast 40
+
+930
+01:58:49,030 --> 01:58:52,390
+days, you had attained a certain level of
+mastery.
+
+931
+01:59:00,330 --> 01:59:03,690
+But thirst, much shorter.
+
+932
+01:59:04,950 --> 01:59:07,310
+Some say three days, some say five days.
+
+933
+01:59:11,430 --> 01:59:12,550
+Kshanti.
+
+934
+01:59:14,330 --> 01:59:16,970
+Not shanti, kshanti.
+
+935
+01:59:19,210 --> 01:59:22,150
+So it's like aksha without the kshanti.
+
+936
+01:59:23,610 --> 01:59:25,290
+That's patience.
+
+937
+01:59:28,010 --> 01:59:29,130
+Jati.
+
+938
+01:59:31,170 --> 01:59:33,230
+Species or life form.
+
+939
+01:59:35,550 --> 01:59:38,150
+Species, like a species of a bird.
+
+940
+01:59:41,130 --> 01:59:43,970
+She can come in any form.
+
+941
+01:59:46,070 --> 01:59:48,170
+She's not limited to just one.
+
+942
+01:59:50,510 --> 01:59:52,970
+I used to teach environmental science.
+
+943
+01:59:56,070 --> 01:59:59,970
+A western journalist came to the bush
+people in Africa.
+
+944
+02:00:05,410 --> 02:00:10,130
+And he was supposed to meet someone to
+study a tribe.
+
+945
+02:00:15,090 --> 02:00:18,590
+And when he arrived at the location,
+a young boy was waiting for him.
+
+946
+02:00:23,210 --> 02:00:25,110
+No bottle, just himself.
+
+947
+02:00:27,610 --> 02:00:29,950
+And the journalist said, you don't have a
+water bottle.
+
+948
+02:00:29,950 --> 02:00:30,390
+You don't have a watch on.
+
+949
+02:00:30,670 --> 02:00:34,310
+How did you tell the time?
+
+950
+02:00:37,230 --> 02:00:39,630
+And he said, I just came a few days early.
+
+951
+02:00:41,710 --> 02:00:43,910
+And he said, yeah, but you have no water.
+
+952
+02:00:44,150 --> 02:00:45,630
+We're in the middle of the desert.
+
+953
+02:00:45,730 --> 02:00:46,470
+How did you survive?
+
+954
+02:00:49,630 --> 02:00:51,870
+And the boy said, there's a water bird.
+
+955
+02:00:52,030 --> 02:00:53,090
+I just call it.
+
+956
+02:00:53,530 --> 02:00:56,130
+And then it comes and I follow it back to
+water.
+
+957
+02:01:01,530 --> 02:01:06,810
+And at that moment, the journalist was
+forced to ask himself, who is more
+
+958
+02:01:06,810 --> 02:01:07,090
+intelligent?
+
+959
+02:01:13,410 --> 02:01:16,830
+And this was the question to my high
+school students, who is more intelligent,
+
+960
+02:01:17,030 --> 02:01:20,190
+us now or people from 2,000 years ago?
+
+961
+02:01:20,190 --> 02:01:23,870
+And this was the question to my high
+school students, who is more intelligent,
+
+962
+02:01:24,130 --> 02:01:27,730
+us now or people from 2,000 years ago?
+
+963
+02:01:27,730 --> 02:01:36,150
+We often don't ask ourselves and we rarely
+ask our children to really think about
+
+964
+02:01:36,150 --> 02:01:39,830
+where so much of where our current life
+has come from.
+
+965
+02:01:39,890 --> 02:01:41,410
+Who created these solutions?
+
+966
+02:01:44,530 --> 02:01:47,630
+We rarely ask ourselves or our children.
+
+967
+02:01:47,630 --> 02:01:59,770
+Very few solutions are human solutions.
+
+968
+02:02:02,830 --> 02:02:05,630
+They're poor copies of nature.
+
+969
+02:02:07,590 --> 02:02:11,970
+We now use that scientifically in the
+science of biomimicry.
+
+970
+02:02:16,270 --> 02:02:17,610
+And the solutions that come from that are
+very rare.
+
+971
+02:02:17,630 --> 02:02:21,210
+And the solutions that come from that are
+far more evolved than what our limited
+
+972
+02:02:21,210 --> 02:02:22,330
+minds come up with.
+
+973
+02:02:28,230 --> 02:02:29,750
+Lajja, modesty.
+
+974
+02:02:33,510 --> 02:02:34,750
+Shanti, peace.
+
+975
+02:02:37,510 --> 02:02:38,730
+Shraddha, faith.
+
+976
+02:02:42,310 --> 02:02:43,890
+Kanti, beauty.
+
+977
+02:02:45,850 --> 02:02:47,970
+Lakshmi, prosperity.
+
+978
+02:02:50,210 --> 02:02:52,890
+Vritti, activity or modification.
+
+979
+02:02:55,830 --> 02:02:57,430
+Smriti, memory.
+
+980
+02:02:59,470 --> 02:03:00,830
+Daya, compassion.
+
+981
+02:03:02,910 --> 02:03:04,510
+Tushti, contentment.
+
+982
+02:03:07,590 --> 02:03:09,130
+Matri, mother.
+
+983
+02:03:11,490 --> 02:03:13,270
+Branti, confusion.
+
+984
+02:03:18,730 --> 02:03:20,050
+Indriya, senses.
+
+985
+02:03:23,030 --> 02:03:27,630
+This process we did with the first few
+verses, I really hope you take time,
+
+986
+02:03:27,950 --> 02:03:31,950
+if you resonate with this chant,
+to do for the remaining verses.
+
+987
+02:03:38,270 --> 02:03:40,450
+It's really interesting.
+
+988
+02:03:40,450 --> 02:03:44,550
+It never gets old, I find.
+
+989
+02:03:46,510 --> 02:03:52,030
+And so my final thought is, in the same
+way that we do body rotation in Yoga
+
+990
+02:03:52,030 --> 02:04:05,090
+Nidra, you can use this rotation for
+seeing where you feel and experience these
+
+991
+02:04:05,090 --> 02:04:06,870
+modifications of consciousness.
+
+992
+02:04:13,050 --> 02:04:18,350
+And just like in Yoga Nidra, if you feel
+an absence or a block, that's an area to
+
+993
+02:04:18,350 --> 02:04:19,790
+pay attention to.
+
+994
+02:04:25,690 --> 02:04:27,310
+And invite Shakti into.
+
+995
+02:04:30,610 --> 02:04:35,270
+Please come into any position suitable for
+Shantipat.
+
+996
+02:04:44,510 --> 02:04:49,930
+Take a few deep breaths and imagine that
+each breath clears the mind of anything
+
+997
+02:04:49,930 --> 02:04:51,150
+you heard.
+
+998
+02:05:00,170 --> 02:05:04,850
+Use each breath to connect more presently
+to your body.
+
+999
+02:05:14,000 --> 02:05:20,680
+Imagine each breath as a form of Shakti
+shifting as she does.
+
+1000
+02:05:28,180 --> 02:05:32,620
+Shakti integrating with the body,
+which she also is.
+
+1001
+02:05:37,860 --> 02:05:43,860
+Shakti extending life through that breath,
+life absolutely what she is.
+
+1002
+02:05:51,560 --> 02:05:56,860
+Imagine Shakti at the heart center or the
+eyebrow center in the form of light,
+
+1003
+02:05:57,140 --> 02:05:57,600
+a flame.
+
+1004
+02:06:04,940 --> 02:06:10,260
+Either dancing for you or sitting still
+with you.
+
+1005
+02:06:15,320 --> 02:06:21,140
+With our awareness on her in this form,
+we chant the mantra Aum to her.
+
+1006
+02:06:26,880 --> 02:06:29,020
+Followed by Aum Shanti.
+
+1007
+02:06:33,640 --> 02:06:36,100
+Inhale to chant the mantra Aum.
+
+1008
+02:06:36,100 --> 02:06:42,800
+Inhale to chant the mantra Aum.
+
+1009
+02:07:06,480 --> 02:07:07,240
+Bring
+
+1010
+02:07:36,730 --> 02:07:38,330
+the hands into Pranamudra.
+
+1011
+02:07:40,590 --> 02:07:42,390
+To a round of palming.
+
+1012
+02:07:49,450 --> 02:07:54,150
+Before you lower the hands, take a few
+moments to notice what you see or feel in
+
+1013
+02:07:54,150 --> 02:07:54,770
+Chidakash.
+
+1014
+02:08:00,630 --> 02:08:04,590
+Inhaling that warmth in through your eyes
+into yourself, breathe in.
+
+1015
+02:08:07,950 --> 02:08:10,970
+And exhaling you can lower the hands and
+then open the eyes.
+
+1016
+02:08:13,230 --> 02:08:14,810
+Hari Om Tat Sat.
+
+1017
+02:08:16,070 --> 02:08:18,230
+Pardon me for going ten minutes over.
+
+1018
+02:08:21,110 --> 02:08:28,550
+If you are interested in sadhanas that
+work with Shakti in particular.
+
+1019
+02:08:33,210 --> 02:08:36,330
+I hold four to five of them online.
+
+1020
+02:08:39,850 --> 02:08:43,110
+Throughout the year they are often five to
+nine days each.
+
+1021
+02:08:47,250 --> 02:08:50,410
+They are very flexible just per what your
+lifestyle allows.
+
+1022
+02:08:50,550 --> 02:08:51,490
+They are also recorded.
+
+1023
+02:08:58,910 --> 02:09:03,450
+And yogicapproach.com, that website will
+lead you to the WhatsApp group.
+
+1024
+02:09:09,750 --> 02:09:15,610
+And this year I am also doing a retreat in
+Nepal in the village when the villagers
+
+1025
+02:09:15,610 --> 02:09:16,810
+are planting rice.
+
+1026
+02:09:24,550 --> 02:09:30,970
+So if you or someone you know has ever
+wanted to really contact the old way that
+
+1027
+02:09:30,970 --> 02:09:32,090
+we all came from.
+
+1028
+02:09:37,950 --> 02:09:43,530
+And be in quite a natural environment and
+just be playful with very simple people.
+
+1029
+02:09:49,950 --> 02:09:53,230
+Then you are invited to my aunt's village.
+
+1030
+02:09:57,690 --> 02:09:59,890
+And we will do yoga and chanting every
+day.
+
+1031
+02:10:00,030 --> 02:10:01,090
+I love going there.
+
+1032
+02:10:04,110 --> 02:10:09,190
+There are amazing pictures of just being
+covered in mud every year.
+
+1033
+02:10:14,070 --> 02:10:19,390
+And the way the people sing together to
+cover huge amounts of rice fields.
+
+1034
+02:10:26,090 --> 02:10:28,230
+Like they are tailors of the land.
+
+1035
+02:10:28,470 --> 02:10:31,070
+They just sow the land with seeds.
+
+1036
+02:10:37,910 --> 02:10:43,050
+And in any case, please, in your own way,
+as you might already be doing,
+
+1037
+02:10:44,370 --> 02:10:49,170
+contact Shakti in all the ways that she is
+available.
+
+1038
+02:10:56,310 --> 02:10:58,090
+Arigatou gozaimasu.
+
