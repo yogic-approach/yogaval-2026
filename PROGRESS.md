@@ -5,6 +5,24 @@ Repo: https://github.com/yogic-approach/yogaval-2026
 
 ---
 
+## Session: 2026-03-06 — La Paloma Kirtan Audio: Metadata, Cover Art + Glossary Expansion
+
+**Focus:** Embed metadata and cover art into La Paloma kirtan extracts; expand glossary with La Paloma terms.
+
+**Completed:**
+- **#15** — Glossary expanded: 17 new terms from La Paloma talk; La Paloma added as reference [5]; headers updated to "five talks" (EN + ES)
+- **#14** — Kirtan audio metadata embedded (title, artist, album, genre, date, track, composer, copyright, comment) via `embed-metadata.ps1`; Piriápolis yoga nidra metadata embedded
+- **#14** — Cover art (1000×1000 JPEG, resized from 2048×2048 PNG) embedded into both kirtan m4a files via `embed-cover-art.ps1`
+- `audio-metadata.yaml` — master metadata sidecar created at Events/ level (human-editable source of truth)
+- `verify-metadata.ps1` — ffprobe read-back verification script
+- `original-audio-identified-segments.yaml` — renamed from segments.yaml; header comment added documenting purpose
+- `embed-cover-art.ps1`, `embed-metadata.ps1` — PowerShell scripts for re-embedding if metadata changes
+
+**Issues opened:** #16
+**Issues closed:** #15 (glossary portion)
+
+---
+
 ## Session: 2026-03-05 — La Paloma Event Transcripts + Whisper File Organization
 
 **Focus:** Complete La Paloma event (#15); yoga nidra audio extraction; raw/ file naming standardization.
