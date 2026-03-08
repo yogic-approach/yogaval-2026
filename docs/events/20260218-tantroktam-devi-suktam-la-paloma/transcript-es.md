@@ -1,4 +1,4 @@
-# Tantroktam Devi Suktam
+# Herramientas Tántricas: Tantroktam Devi Suktam para la Autorreflexión
 ## Talk by Satchidananda
 ### Organizado por SitaRam Darshan, La Paloma
 ### 18 de febrero, 2026

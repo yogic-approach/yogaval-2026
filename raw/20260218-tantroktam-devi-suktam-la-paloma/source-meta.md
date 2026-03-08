@@ -1,6 +1,6 @@
 # Audio/Video Source
 
-**Talk:** Tantroktam Devi Suktam
+**Talk:** Tantric Tools: Tantroktam Devi Suktam for Self-Reflection
 **Date:** February 18, 2026
 **Host:** SitaRam Darshan, La Paloma
 

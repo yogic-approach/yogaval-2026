@@ -1,4 +1,4 @@
-# Tantroktam Devi Suktam
+# Tantric Tools: Tantroktam Devi Suktam for Self-Reflection
 ## Talk by Satchidananda
 ### Hosted by SitaRam Darshan, La Paloma
 ### February 18, 2026
