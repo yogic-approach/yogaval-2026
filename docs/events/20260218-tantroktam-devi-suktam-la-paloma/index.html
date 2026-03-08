@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tantroktam Devi Suktam | Feb 18, 2026</title>
+    <title>Tantric Tools: Tantroktam Devi Suktam for Self-Reflection | Feb 18, 2026</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,16 +33,70 @@
         #content a { color: #2a6496; }
         #loading { text-align: center; padding: 40px; color: #999; }
         footer { text-align: center; padding: 30px 0 10px; border-top: 1px solid #ddd; margin-top: 40px; color: #999; font-size: 0.85em; }
+
+        /* Resources section */
+        #resources-section { margin: 0 0 24px; padding: 18px 0 4px; border-top: 1px solid #ddd; }
+        .resources-heading {
+            font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.1em;
+            color: #999; margin-bottom: 16px; font-family: Georgia, serif;
+        }
+        .resource-audio-card {
+            display: flex; gap: 14px; align-items: flex-start;
+            margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #f0f0f0;
+        }
+        .resource-audio-card:last-of-type { border-bottom: none; }
+        .resource-cover {
+            width: 72px; height: 72px; object-fit: cover;
+            border-radius: 4px; flex-shrink: 0; cursor: zoom-in;
+        }
+        #img-modal {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,0.82); z-index: 999;
+            align-items: center; justify-content: center; cursor: zoom-out;
+        }
+        #img-modal.open { display: flex; }
+        #img-modal img { max-width: 90vw; max-height: 90vh; border-radius: 6px; }
+        .resource-body { flex: 1; min-width: 0; }
+        .resource-title { font-weight: bold; font-size: 0.95em; margin-bottom: 1px; }
+        .resource-meta { font-size: 0.82em; color: #888; margin-bottom: 6px; }
+        .resource-player { width: 100%; height: 32px; margin-top: 6px; }
+        .resource-download { font-size: 0.82em; color: #2a6496; text-decoration: none; }
+        .resource-download:hover { text-decoration: underline; }
+        .resource-pdfs { margin-top: 12px; }
+        .resource-pdfs-heading {
+            font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.08em;
+            color: #aaa; margin-bottom: 8px;
+        }
+        .resource-pdf-item { margin: 5px 0; font-size: 0.88em; }
+        .resource-pdf-item a { color: #2a6496; text-decoration: none; }
+        .resource-pdf-item a:hover { text-decoration: underline; }
+        .lang-badge {
+            display: inline-block; font-size: 0.72em; background: #f0f0f0;
+            color: #888; border-radius: 3px; padding: 1px 5px;
+            margin-left: 6px; vertical-align: middle; font-family: sans-serif;
+        }
+        .pdf-icon { color: #c00; margin-right: 4px; font-style: normal; font-size: 0.85em; }
+        details.compact-pdfs { margin-top: 10px; }
+        details.compact-pdfs summary {
+            font-size: 0.82em; color: #888; cursor: pointer;
+            list-style: none; display: flex; align-items: center; gap: 4px;
+        }
+        details.compact-pdfs summary::-webkit-details-marker { display: none; }
+        details.compact-pdfs summary::before { content: '▶'; font-size: 0.7em; }
+        details.compact-pdfs[open] summary::before { content: '▼'; }
+        details.compact-pdfs .compact-list { margin-top: 8px; padding-left: 4px; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Tantroktam Devi Suktam</h1>
+        <h1 data-title-en="Tantric Tools: Tantroktam Devi Suktam for Self-Reflection"
+            data-title-es="Herramientas Tántricas: Tantroktam Devi Suktam para la Autorreflexión">Tantric Tools: Tantroktam Devi Suktam for Self-Reflection</h1>
         <p>Satchidananda &mdash; SitaRam Darshan, La Paloma &mdash; February 18, 2026</p>
     </header>
 
     <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
-        Select <a href="../">another talk</a>:
+        <span id="other-talks-label">Select <a href="../">another talk</a>:</span>
+        <span id="other-talks-label-es" style="display:none">Ver <a href="../">otra charla</a>:</span>
         <select id="talk-select" onchange="handleTalkSelect(this)" style="font-size: 0.95em; padding: 4px 8px;"></select>
     </div>
 
@@ -51,8 +105,18 @@
         <button id="btn-es" onclick="loadTranscript('es')">Espa&ntilde;ol</button>
     </div>
 
+    <section id="resources-section" style="display:none">
+        <div class="resources-heading">Audio Resources</div>
+        <div id="resources-audio"></div>
+        <div id="resources-pdfs"></div>
+    </section>
+
     <div id="content">
         <p id="loading">Select a language above to read the transcript.</p>
+    </div>
+
+    <div id="img-modal" onclick="this.classList.remove('open')">
+        <img id="img-modal-img" src="" alt="">
     </div>
 
     <footer>
@@ -64,6 +128,10 @@
         async function loadTranscript(lang) {
             document.getElementById('btn-en').classList.toggle('active', lang === 'en');
             document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+            const h1 = document.querySelector('header h1');
+            h1.textContent = lang === 'es' ? h1.dataset.titleEs : h1.dataset.titleEn;
+            document.getElementById('other-talks-label').style.display = lang === 'es' ? 'none' : '';
+            document.getElementById('other-talks-label-es').style.display = lang === 'es' ? '' : 'none';
             const url = new URL(window.location);
             url.searchParams.set('lang', lang);
             history.replaceState(null, '', url);
@@ -82,9 +150,111 @@
                 el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
             }
         }
+
+        async function loadResources() {
+            try {
+                const res = await fetch('resources.json');
+                if (!res.ok) return;
+                const data = await res.json();
+                if (!data.resources || data.resources.length === 0) return;
+
+                const audioItems   = data.resources.filter(r => r.type === 'audio' || r.type === 'audio-external');
+                const fullPdfs     = data.resources.filter(r => r.type === 'pdf' && !r.compact);
+                const compactPdfs  = data.resources.filter(r => r.type === 'pdf' && r.compact);
+
+                const audioEl = document.getElementById('resources-audio');
+                audioItems.forEach(r => {
+                    if (r.type === 'audio-external') {
+                        const metaParts = [r.description, r.source].filter(Boolean);
+                        audioEl.innerHTML += `
+                            <div class="resource-audio-card">
+                                <div class="resource-body">
+                                    <div class="resource-title">${r.title}</div>
+                                    <div class="resource-meta">${metaParts.join(' &middot; ')}</div>
+                                    <a class="resource-download" href="${r.url}" target="_blank" rel="noopener">Listen on ${r.source} &rarr;</a>
+                                </div>
+                            </div>`;
+                    } else {
+                        const fileSrc    = 'resources/' + encodeURIComponent(r.file);
+                        const coverSrc   = r.cover ? 'resources/' + encodeURIComponent(r.cover) : '';
+                        const licenseStr = r.license_url
+                            ? `<a class="resource-download" href="${r.license_url}" target="_blank" rel="noopener">${r.license}</a>`
+                            : (r.license || '');
+                        const metaParts  = [r.description, r.artist, licenseStr].filter(Boolean);
+                        const downloadLink = r.no_download
+                            ? (r.external_url ? ` &middot; <a class="resource-download" href="${r.external_url}" target="_blank" rel="noopener">Listen on ${r.external_source} &rarr;</a>` : '')
+                            : ` &middot; <a class="resource-download" href="${fileSrc}" download>Download</a>`;
+                        const mime       = r.file.endsWith('.mp3') ? 'audio/mpeg' : 'audio/mp4';
+                        const extLink    = '';
+                        const coverClick = coverSrc ? `onclick="document.getElementById('img-modal-img').src=this.src;document.getElementById('img-modal').classList.add('open')"` : '';
+                        audioEl.innerHTML += `
+                            <div class="resource-audio-card">
+                                ${coverSrc ? `<img class="resource-cover" src="${coverSrc}" alt="${r.title}" ${coverClick}>` : ''}
+                                <div class="resource-body">
+                                    <div class="resource-title">${r.title}</div>
+                                    <div class="resource-meta">${metaParts.join(' &middot; ')}${downloadLink}</div>
+                                    <audio class="resource-player" controls preload="none">
+                                        <source src="${fileSrc}" type="${mime}">
+                                    </audio>
+                                    ${extLink}
+                                </div>
+                            </div>`;
+                    }
+                });
+
+                // Exclusive playback: starting one track pauses all others
+                document.querySelectorAll('.resource-player').forEach(player => {
+                    player.addEventListener('play', () => {
+                        document.querySelectorAll('.resource-player').forEach(other => {
+                            if (other !== player) other.pause();
+                        });
+                    });
+                });
+
+                if (fullPdfs.length > 0 || compactPdfs.length > 0) {
+                    const pdfsEl = document.getElementById('resources-pdfs');
+                    pdfsEl.innerHTML = '<div class="resources-heading">Translation Reference</div>';
+
+                    fullPdfs.forEach(r => {
+                        const fileSrc = 'resources/' + encodeURIComponent(r.file);
+                        const badge   = r.lang ? `<span class="lang-badge">${r.lang.toUpperCase()}</span>` : '';
+                        pdfsEl.innerHTML += `
+                            <div class="resource-pdf-item">
+                                <i class="pdf-icon">PDF</i>
+                                <a href="${fileSrc}" target="_blank">${r.title}</a>${badge}
+                            </div>`;
+                    });
+
+                    if (compactPdfs.length > 0) {
+                        let compactHtml = '<details class="compact-pdfs"><summary>Compact versions</summary><div class="compact-list">';
+                        compactPdfs.forEach(r => {
+                            const fileSrc = 'resources/' + encodeURIComponent(r.file);
+                            const badge   = r.lang ? `<span class="lang-badge">${r.lang.toUpperCase()}</span>` : '';
+                            compactHtml += `
+                                <div class="resource-pdf-item">
+                                    <i class="pdf-icon">PDF</i>
+                                    <a href="${fileSrc}" target="_blank">${r.title}</a>${badge}
+                                </div>`;
+                        });
+                        compactHtml += '</div></details>';
+                        pdfsEl.innerHTML += compactHtml;
+                    }
+                }
+
+                document.getElementById('resources-section').style.display = 'block';
+            } catch (e) {
+                // No resources.json — section stays hidden
+            }
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') document.getElementById('img-modal').classList.remove('open');
+        });
+
         const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
         loadTranscript(lang);
         loadTalkSelector(lang);
+        loadResources();
     </script>
 </body>
 </html>
