@@ -5,6 +5,27 @@ Repo: https://github.com/yogic-approach/yogaval-2026
 
 ---
 
+## Session: 2026-03-08 — La Paloma Resources Section + Bilingual UI (#15, #16, #17)
+
+**Focus:** Build resources section on La Paloma event page; inline audio playback; bilingual page header fixes; talk title rename.
+
+**Completed:**
+- **#16** — `resources.json` schema + dynamic resources section in index.html; audio cards (cover art thumbnail, HTML5 inline player, meta line with license/download); PDF section (full sheets visible, compact in collapsible `<details>`); ES before EN ordering; 3-letter lang badges
+- **#17** — Exclusive audio playback (starting one track auto-pauses others); cover art modal overlay (click or Esc to dismiss)
+- **#15** — Talk title renamed to "Tantric Tools: Tantroktam Devi Suktam for Self-Reflection" (EN) / "Herramientas Tántricas: Tantroktam Devi Suktam para la Autorreflexión" (ES) across events.json, transcripts, source-meta.md
+- Bilingual page `<h1>` — switches correctly with language toggle using `data-title-en` / `data-title-es` attributes
+- Bilingual "Select another talk" / "Ver otra charla" label
+- Language toggle moved above resources section
+- Section headings: "Audio Resources" + "Translation Reference" at same visual level
+- Sannyasa Peeth reference recording listed as ashram recording (no download; "Listen on Satyam Yoga Prasad →" link); cover art extracted from embedded MP3 tag
+- Removed 2 PDFs (ultra-compact Google Docs ES, Transliterated Key Terms EN)
+- Committed c72248b (#15) and 7029a80 (#16, #17); pushed to origin/main
+
+**Issues opened:** #17
+**Issues closed:** #16, #17 (La Paloma resources section complete)
+
+---
+
 ## Session: 2026-03-06 — La Paloma Kirtan Audio: Metadata, Cover Art + Glossary Expansion
 
 **Focus:** Embed metadata and cover art into La Paloma kirtan extracts; expand glossary with La Paloma terms.
