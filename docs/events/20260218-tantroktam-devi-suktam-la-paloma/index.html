@@ -132,6 +132,7 @@
             h1.textContent = lang === 'es' ? h1.dataset.titleEs : h1.dataset.titleEn;
             document.getElementById('other-talks-label').style.display = lang === 'es' ? 'none' : '';
             document.getElementById('other-talks-label-es').style.display = lang === 'es' ? '' : 'none';
+            loadTalkSelector(lang);
             const url = new URL(window.location);
             url.searchParams.set('lang', lang);
             history.replaceState(null, '', url);
