@@ -11,6 +11,8 @@
 
 ---
 
+*Hari Om Tat Sat*, a todos. Gracias por estar aquí. Vamos a empezar con un kirtan corto para dar tiempo a que llegue quien venga tarde, y después continuamos con el *Shantipat* y la sesión.
+
 ## Kirtan de Apertura
 
 > *PRACTICE — Kirtan: Jai Durga Lakshmi Saraswati*
