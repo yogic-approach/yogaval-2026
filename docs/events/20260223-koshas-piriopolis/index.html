@@ -33,16 +33,47 @@
         #content a { color: #2a6496; }
         #loading { text-align: center; padding: 40px; color: #999; }
         footer { text-align: center; padding: 30px 0 10px; border-top: 1px solid #ddd; margin-top: 40px; color: #999; font-size: 0.85em; }
+
+        /* Resources section */
+        #resources-section { margin: 0 0 24px; padding: 18px 0 4px; border-top: 1px solid #ddd; }
+        .resources-heading {
+            font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.1em;
+            color: #999; margin-bottom: 16px; font-family: Georgia, serif;
+        }
+        .resource-audio-card {
+            display: flex; gap: 14px; align-items: flex-start;
+            margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid #f0f0f0;
+        }
+        .resource-audio-card:last-of-type { border-bottom: none; }
+        .resource-cover {
+            width: 72px; height: 72px; object-fit: cover;
+            border-radius: 4px; flex-shrink: 0; cursor: zoom-in;
+        }
+        #img-modal {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,0.82); z-index: 999;
+            align-items: center; justify-content: center; cursor: zoom-out;
+        }
+        #img-modal.open { display: flex; }
+        #img-modal img { max-width: 90vw; max-height: 90vh; border-radius: 6px; }
+        .resource-body { flex: 1; min-width: 0; }
+        .resource-title { font-weight: bold; font-size: 0.95em; margin-bottom: 1px; }
+        .resource-meta { font-size: 0.82em; color: #888; margin-bottom: 6px; }
+        .resource-player { width: 100%; height: 32px; margin-top: 6px; }
+        .resource-download { font-size: 0.82em; color: #2a6496; text-decoration: none; }
+        .resource-download:hover { text-decoration: underline; }
     </style>
 </head>
 <body>
     <header>
-        <h1>The Koshas: A Map of the Inner World</h1>
+        <h1 data-title-en="The Koshas: A Map of the Inner World"
+            data-title-es="Los Koshas: Un Mapa del Mundo Interior">The Koshas: A Map of the Inner World</h1>
         <p>Satchidananda &mdash; Piri&aacute;polis, Uruguay &mdash; February 23, 2026</p>
     </header>
 
     <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
-        Select <a href="../">another talk</a>:
+        <span id="other-talks-label">Select <a href="../">another talk</a>:</span>
+        <span id="other-talks-label-es" style="display:none">Ver <a href="../">otra charla</a>:</span>
         <select id="talk-select" onchange="handleTalkSelect(this)" style="font-size: 0.95em; padding: 4px 8px;"></select>
     </div>
 
@@ -51,8 +82,17 @@
         <button id="btn-es" onclick="loadTranscript('es')">Espa&ntilde;ol</button>
     </div>
 
+    <section id="resources-section" style="display:none">
+        <div class="resources-heading">Audio Resources</div>
+        <div id="resources-audio"></div>
+    </section>
+
     <div id="content">
         <p id="loading">Select a language above to read the transcript.</p>
+    </div>
+
+    <div id="img-modal" onclick="this.classList.remove('open')">
+        <img id="img-modal-img" src="" alt="">
     </div>
 
     <footer>
@@ -64,6 +104,11 @@
         async function loadTranscript(lang) {
             document.getElementById('btn-en').classList.toggle('active', lang === 'en');
             document.getElementById('btn-es').classList.toggle('active', lang === 'es');
+            const h1 = document.querySelector('header h1');
+            h1.textContent = lang === 'es' ? h1.dataset.titleEs : h1.dataset.titleEn;
+            document.getElementById('other-talks-label').style.display = lang === 'es' ? 'none' : '';
+            document.getElementById('other-talks-label-es').style.display = lang === 'es' ? '' : 'none';
+            loadTalkSelector(lang);
             const url = new URL(window.location);
             url.searchParams.set('lang', lang);
             history.replaceState(null, '', url);
@@ -82,9 +127,63 @@
                 el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
             }
         }
+
+        async function loadResources() {
+            try {
+                const res = await fetch('resources.json');
+                if (!res.ok) return;
+                const data = await res.json();
+                if (!data.resources || data.resources.length === 0) return;
+
+                const audioItems = data.resources.filter(r => r.type === 'audio');
+                const audioEl = document.getElementById('resources-audio');
+
+                audioItems.forEach(r => {
+                    const fileSrc    = 'resources/' + encodeURIComponent(r.file);
+                    const coverSrc   = r.cover ? 'resources/' + encodeURIComponent(r.cover) : '';
+                    const licenseStr = r.license_url
+                        ? `<a class="resource-download" href="${r.license_url}" target="_blank" rel="noopener">${r.license}</a>`
+                        : (r.license || '');
+                    const metaParts  = [r.description, r.artist, licenseStr].filter(Boolean);
+                    const downloadLink = ` &middot; <a class="resource-download" href="${fileSrc}" download>Download</a>`;
+                    const mime       = r.file.endsWith('.mp3') ? 'audio/mpeg' : 'audio/mp4';
+                    const coverClick = coverSrc ? `onclick="document.getElementById('img-modal-img').src=this.src;document.getElementById('img-modal').classList.add('open')"` : '';
+                    audioEl.innerHTML += `
+                        <div class="resource-audio-card">
+                            ${coverSrc ? `<img class="resource-cover" src="${coverSrc}" alt="${r.title}" ${coverClick}>` : ''}
+                            <div class="resource-body">
+                                <div class="resource-title">${r.title}</div>
+                                <div class="resource-meta">${metaParts.join(' &middot; ')}${downloadLink}</div>
+                                <audio class="resource-player" controls preload="none">
+                                    <source src="${fileSrc}" type="${mime}">
+                                </audio>
+                            </div>
+                        </div>`;
+                });
+
+                // Exclusive playback: starting one track pauses all others
+                document.querySelectorAll('.resource-player').forEach(player => {
+                    player.addEventListener('play', () => {
+                        document.querySelectorAll('.resource-player').forEach(other => {
+                            if (other !== player) other.pause();
+                        });
+                    });
+                });
+
+                document.getElementById('resources-section').style.display = 'block';
+            } catch (e) {
+                // No resources.json — section stays hidden
+            }
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') document.getElementById('img-modal').classList.remove('open');
+        });
+
         const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
         loadTranscript(lang);
         loadTalkSelector(lang);
+        loadResources();
     </script>
 </body>
 </html>
