@@ -137,6 +137,7 @@
 
                 const audioItems = data.resources.filter(r => r.type === 'audio');
                 const audioEl = document.getElementById('resources-audio');
+                let audioHtml = '';
 
                 audioItems.forEach(r => {
                     const fileSrc    = 'resources/' + encodeURIComponent(r.file);
@@ -148,7 +149,7 @@
                     const downloadLink = ` &middot; <a class="resource-download" href="${fileSrc}" download>Download</a>`;
                     const mime       = r.file.endsWith('.mp3') ? 'audio/mpeg' : 'audio/mp4';
                     const coverClick = coverSrc ? `onclick="document.getElementById('img-modal-img').src=this.src;document.getElementById('img-modal').classList.add('open')"` : '';
-                    audioEl.innerHTML += `
+                    audioHtml += `
                         <div class="resource-audio-card">
                             ${coverSrc ? `<img class="resource-cover" src="${coverSrc}" alt="${r.title}" ${coverClick}>` : ''}
                             <div class="resource-body">
@@ -160,6 +161,7 @@
                             </div>
                         </div>`;
                 });
+                audioEl.innerHTML = audioHtml;
 
                 // Exclusive playback: starting one track pauses all others
                 document.querySelectorAll('.resource-player').forEach(player => {
