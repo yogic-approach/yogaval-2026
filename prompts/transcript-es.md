@@ -49,7 +49,7 @@ Translate all of Satchidananda's English words into Spanish. This is a bilingual
 
 ```markdown
 # [Talk Title in Spanish]
-## Talk by Satchidananda
+## Charla de Satchidananda
 ### Organizado por [Host/Organization], [City]
 ### [Month in Spanish] [Day], [Year]
 
@@ -100,6 +100,7 @@ Translate from the English RECONSTRUCTED block and flag it:
 - [ ] *Tú* form used consistently (no *usted*)
 - [ ] Sanskrit terms are unchanged from the English version
 - [ ] RECONSTRUCTED blocks: Case A uses original Spanish, Case B is flagged as translated from English reconstruction
+- [ ] Header uses `## Charla de Satchidananda` (NOT `## Talk by Satchidananda`)
 - [ ] Header metadata is in Spanish with correct month name
 - [ ] Glossary link uses `?lang=es`
 - [ ] Footer is present
