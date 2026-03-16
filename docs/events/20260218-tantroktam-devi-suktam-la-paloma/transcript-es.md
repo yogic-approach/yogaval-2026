@@ -1,5 +1,5 @@
 # Herramientas Tántricas: Tantroktam Devi Suktam para la Autorreflexión
-## Talk by Satchidananda
+## Charla de Satchidananda
 ### Organizado por SitaRam Darshan, La Paloma
 ### 18 de febrero, 2026
 
