@@ -91,7 +91,10 @@
     <header>
         <h1 data-title-en="Tantric Tools: Tantroktam Devi Suktam for Self-Reflection"
             data-title-es="Herramientas Tántricas: Tantroktam Devi Suktam para la Autorreflexión">Tantric Tools: Tantroktam Devi Suktam for Self-Reflection</h1>
-        <p>Satchidananda &mdash; SitaRam Darshan, La Paloma &mdash; February 18, 2026</p>
+        <p id="header-subtitle"
+           data-subtitle-en="Satchidananda &mdash; SitaRam Darshan, La Paloma &mdash; February 18, 2026"
+           data-subtitle-es="Satchidananda &mdash; SitaRam Darshan, La Paloma &mdash; 18 de febrero de 2026"
+           >Satchidananda &mdash; SitaRam Darshan, La Paloma &mdash; February 18, 2026</p>
     </header>
 
     <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
@@ -130,6 +133,8 @@
             document.getElementById('btn-es').classList.toggle('active', lang === 'es');
             const h1 = document.querySelector('header h1');
             h1.textContent = lang === 'es' ? h1.dataset.titleEs : h1.dataset.titleEn;
+            const sub = document.getElementById('header-subtitle');
+            sub.innerHTML = lang === 'es' ? sub.dataset.subtitleEs : sub.dataset.subtitleEn;
             document.getElementById('other-talks-label').style.display = lang === 'es' ? 'none' : '';
             document.getElementById('other-talks-label-es').style.display = lang === 'es' ? '' : 'none';
             loadTalkSelector(lang);
@@ -164,10 +169,11 @@
                 const compactPdfs  = data.resources.filter(r => r.type === 'pdf' && r.compact);
 
                 const audioEl = document.getElementById('resources-audio');
+                let audioHtml = '';
                 audioItems.forEach(r => {
                     if (r.type === 'audio-external') {
                         const metaParts = [r.description, r.source].filter(Boolean);
-                        audioEl.innerHTML += `
+                        audioHtml += `
                             <div class="resource-audio-card">
                                 <div class="resource-body">
                                     <div class="resource-title">${r.title}</div>
@@ -186,9 +192,8 @@
                             ? (r.external_url ? ` &middot; <a class="resource-download" href="${r.external_url}" target="_blank" rel="noopener">Listen on ${r.external_source} &rarr;</a>` : '')
                             : ` &middot; <a class="resource-download" href="${fileSrc}" download>Download</a>`;
                         const mime       = r.file.endsWith('.mp3') ? 'audio/mpeg' : 'audio/mp4';
-                        const extLink    = '';
                         const coverClick = coverSrc ? `onclick="document.getElementById('img-modal-img').src=this.src;document.getElementById('img-modal').classList.add('open')"` : '';
-                        audioEl.innerHTML += `
+                        audioHtml += `
                             <div class="resource-audio-card">
                                 ${coverSrc ? `<img class="resource-cover" src="${coverSrc}" alt="${r.title}" ${coverClick}>` : ''}
                                 <div class="resource-body">
@@ -197,11 +202,11 @@
                                     <audio class="resource-player" controls preload="none">
                                         <source src="${fileSrc}" type="${mime}">
                                     </audio>
-                                    ${extLink}
                                 </div>
                             </div>`;
                     }
                 });
+                audioEl.innerHTML = audioHtml;
 
                 // Exclusive playback: starting one track pauses all others
                 document.querySelectorAll('.resource-player').forEach(player => {
@@ -214,12 +219,12 @@
 
                 if (fullPdfs.length > 0 || compactPdfs.length > 0) {
                     const pdfsEl = document.getElementById('resources-pdfs');
-                    pdfsEl.innerHTML = '<div class="resources-heading">Translation Reference</div>';
+                    let pdfsHtml = '<div class="resources-heading">Translation Reference</div>';
 
                     fullPdfs.forEach(r => {
                         const fileSrc = 'resources/' + encodeURIComponent(r.file);
                         const badge   = r.lang ? `<span class="lang-badge">${r.lang.toUpperCase()}</span>` : '';
-                        pdfsEl.innerHTML += `
+                        pdfsHtml += `
                             <div class="resource-pdf-item">
                                 <i class="pdf-icon">PDF</i>
                                 <a href="${fileSrc}" target="_blank">${r.title}</a>${badge}
@@ -227,19 +232,20 @@
                     });
 
                     if (compactPdfs.length > 0) {
-                        let compactHtml = '<details class="compact-pdfs"><summary>Compact versions</summary><div class="compact-list">';
+                        pdfsHtml += '<details class="compact-pdfs"><summary>Compact versions</summary><div class="compact-list">';
                         compactPdfs.forEach(r => {
                             const fileSrc = 'resources/' + encodeURIComponent(r.file);
                             const badge   = r.lang ? `<span class="lang-badge">${r.lang.toUpperCase()}</span>` : '';
-                            compactHtml += `
+                            pdfsHtml += `
                                 <div class="resource-pdf-item">
                                     <i class="pdf-icon">PDF</i>
                                     <a href="${fileSrc}" target="_blank">${r.title}</a>${badge}
                                 </div>`;
                         });
-                        compactHtml += '</div></details>';
-                        pdfsEl.innerHTML += compactHtml;
+                        pdfsHtml += '</div></details>';
                     }
+
+                    pdfsEl.innerHTML = pdfsHtml;
                 }
 
                 document.getElementById('resources-section').style.display = 'block';

@@ -5,7 +5,7 @@
 
 ---
 
-**Nota sobre esta Transcripción:** Este documento fue creado mediante colaboración humano-IA utilizando tecnología de transcripción Whisper. La charla original fue dictada en inglés con traducción simultánea al español. Si bien se han realizado esfuerzos para garantizar la precisión, pueden ocurrir errores de transcripción. Por favor, consulta la grabación de video original como fuente definitiva: [https://youtu.be/p4q3XJvIZ3k](https://youtu.be/p4q3XJvIZ3k)
+**Nota sobre esta Transcripción:** Este documento fue creado mediante colaboración humano-IA utilizando tecnología de transcripción Whisper. La charla original fue dictada en inglés con traducción simultánea al español. Si bien se han realizado esfuerzos para garantizar la precisión, pueden ocurrir errores de transcripción. Por favor, consulta la grabación de video original como fuente definitiva: [https://youtu.be/zV_W76AMFgY](https://youtu.be/zV_W76AMFgY)
 
 *¿Nuevo en los términos de yoga de esta charla? Consulta el <a href="../../glossary.html?lang=es" target="_blank">Glosario de Términos</a>.*
 

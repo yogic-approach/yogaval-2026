@@ -68,7 +68,10 @@
     <header>
         <h1 data-title-en="The Koshas: A Map of the Inner World"
             data-title-es="Los Koshas: Un Mapa del Mundo Interior">The Koshas: A Map of the Inner World</h1>
-        <p>Satchidananda &mdash; Piri&aacute;polis, Uruguay &mdash; February 23, 2026</p>
+        <p id="header-subtitle"
+           data-subtitle-en="Satchidananda &mdash; Piri&aacute;polis, Uruguay &mdash; February 23, 2026"
+           data-subtitle-es="Satchidananda &mdash; Piri&aacute;polis, Uruguay &mdash; 23 de febrero de 2026"
+           >Satchidananda &mdash; Piri&aacute;polis, Uruguay &mdash; February 23, 2026</p>
     </header>
 
     <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
@@ -106,6 +109,8 @@
             document.getElementById('btn-es').classList.toggle('active', lang === 'es');
             const h1 = document.querySelector('header h1');
             h1.textContent = lang === 'es' ? h1.dataset.titleEs : h1.dataset.titleEn;
+            const sub = document.getElementById('header-subtitle');
+            sub.innerHTML = lang === 'es' ? sub.dataset.subtitleEs : sub.dataset.subtitleEn;
             document.getElementById('other-talks-label').style.display = lang === 'es' ? 'none' : '';
             document.getElementById('other-talks-label-es').style.display = lang === 'es' ? '' : 'none';
             loadTalkSelector(lang);
