@@ -29,7 +29,7 @@ header p { color: #666; font-size: 0.95em; }
 .topbar-credit a { color: #888; text-decoration: none; }
 .topbar-credit a:hover { text-decoration: underline; }
 .topbar-links { display: flex; align-items: center; gap: 6px; }
-.topbar-links a { color: #888; text-decoration: none; }
+.topbar-links a { color: #2a6496; text-decoration: none; }
 .topbar-links a:hover { text-decoration: underline; }
 .topbar-sep { color: #bbb; }
 .lang-sublabel { display: block; font-size: 0.65em; opacity: 0.75; }
@@ -77,7 +77,7 @@ footer {
 .footer-bar .site-credit a { color: #888; text-decoration: none; }
 .footer-bar .site-credit a:hover { text-decoration: underline; }
 .footer-links { display: flex; align-items: center; gap: 6px; }
-.footer-links a { color: #888; text-decoration: none; }
+.footer-links a { color: #2a6496; text-decoration: none; }
 .footer-links a:hover { text-decoration: underline; }
 
 /* Resources section */
