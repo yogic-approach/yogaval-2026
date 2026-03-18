@@ -13,6 +13,7 @@ header p { color: #666; font-size: 0.95em; }
 }
 .lang-toggle button.active { background: #555; color: white; }
 .lang-toggle button:hover { background: #444; color: white; }
+.lang-sublabel { display: block; font-size: 0.65em; opacity: 0.75; }
 #content { padding: 10px 0; }
 #content h1 { font-size: 1.6em; margin: 1.5em 0 0.5em; }
 #content h2 { font-size: 1.3em; margin: 1.3em 0 0.4em; }
