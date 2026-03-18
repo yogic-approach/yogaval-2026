@@ -3,46 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living Fully In Yourself - Yoga Carrasco | Feb 10, 2026</title>
+    <title>Living Fully In Yourself | Yoga Carrasco | Feb 10, 2026</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; padding: 30px 0 20px; border-bottom: 1px solid #ddd; margin-bottom: 20px; }
-        header h1 { font-size: 1.5em; margin-bottom: 5px; }
-        header p { color: #666; font-size: 0.95em; }
-        .lang-toggle { display: flex; justify-content: center; gap: 10px; margin: 20px 0; }
-        .lang-toggle button {
-            padding: 8px 24px; font-size: 1em; cursor: pointer;
-            border: 2px solid #555; border-radius: 4px;
-            background: white; color: #555; transition: all 0.2s;
-        }
-        .lang-toggle button.active { background: #555; color: white; }
-        .lang-toggle button:hover { background: #444; color: white; }
-        #content { padding: 10px 0; }
-        #content h1 { font-size: 1.6em; margin: 1.5em 0 0.5em; }
-        #content h2 { font-size: 1.3em; margin: 1.3em 0 0.4em; }
-        #content h3 { font-size: 1.1em; margin: 1.1em 0 0.3em; }
-        #content p { margin: 0.8em 0; }
-        #content ul, #content ol { margin: 0.8em 0; padding-left: 1.5em; }
-        #content li { margin: 0.3em 0; }
-        #content hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
-        #content blockquote { border-left: 3px solid #ccc; padding-left: 1em; color: #666; margin: 1em 0; }
-        #content em { font-style: italic; }
-        #content strong { font-weight: bold; }
-        #content a { color: #2a6496; }
-        #loading { text-align: center; padding: 40px; color: #999; }
-        footer { text-align: center; padding: 30px 0 10px; border-top: 1px solid #ddd; margin-top: 40px; color: #999; font-size: 0.85em; }
-    </style>
+    <link rel="stylesheet" href="../shared.css">
 </head>
 <body>
     <header>
-        <h1>Living Fully In Yourself</h1>
-        <p>Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; February 10, 2026</p>
+        <h1 data-title-en="Living Fully In Yourself"
+            data-title-es="Habitar el Cuerpo por Completo">Living Fully In Yourself</h1>
+        <p id="header-subtitle"
+           data-subtitle-en="Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; February 10, 2026"
+           data-subtitle-es="Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; 10 de febrero de 2026"
+           >Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; February 10, 2026</p>
     </header>
 
     <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
-        Select <a href="../">another talk</a>:
+        <span id="other-talks-label">Select <a href="../">another talk</a>:</span>
+        <span id="other-talks-label-es" style="display:none">Ver <a href="../">otra charla</a>:</span>
         <select id="talk-select" onchange="handleTalkSelect(this)" style="font-size: 0.95em; padding: 4px 8px;"></select>
     </div>
 
@@ -51,42 +28,30 @@
         <button id="btn-es" onclick="loadTranscript('es')">Espa&ntilde;ol</button>
     </div>
 
+    <section id="resources-section" style="display:none">
+        <div class="resources-heading">Audio Resources</div>
+        <div id="resources-audio"></div>
+        <div id="resources-pdfs"></div>
+    </section>
+
     <div id="content">
         <p id="loading">Select a language above to read the transcript.</p>
     </div>
 
+    <div id="img-modal" onclick="this.classList.remove('open')">
+        <img id="img-modal-img" src="" alt="">
+    </div>
+
     <footer>
         <a href="../">&#8592; Back to Events</a>
+        <div class="site-credit">Made with 🧠❤️🙏 by <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.</div>
     </footer>
 
     <script src="../shared.js"></script>
     <script>
-        marked.use({ renderer: { link({ href, title, text }) { return `<a href="${href}"${title ? ` title="${title}"` : ''} target="_blank" rel="noopener">${text}</a>`; } } });
-
-        async function loadTranscript(lang) {
-            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-            document.getElementById('btn-es').classList.toggle('active', lang === 'es');
-            const url = new URL(window.location);
-            url.searchParams.set('lang', lang);
-            history.replaceState(null, '', url);
-            const el = document.getElementById('content');
-            el.innerHTML = '<p id="loading">Loading...</p>';
-            try {
-                const res = await fetch('transcript-' + lang + '.md');
-                if (!res.ok) throw new Error('File not found');
-                const md = await res.text();
-                el.innerHTML = marked.parse(md);
-                if (window.location.hash) {
-                    var target = document.querySelector(window.location.hash);
-                    if (target) target.scrollIntoView({ behavior: 'smooth' });
-                }
-            } catch (e) {
-                el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
-            }
-        }
         const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
         loadTranscript(lang);
-        loadTalkSelector(lang);
+        loadResources();
     </script>
 </body>
 </html>
