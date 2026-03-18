@@ -181,7 +181,7 @@ function loadTalkSelector(lang) {
         if (!sel) return;
         var current = window.location.pathname.split('/').filter(Boolean).pop();
         var isEs = lang === 'es';
-        var onSynthesisPage = !inEventSubpage && !inEventsDir;
+        var onSynthesisPage = !inEventSubpage && !inEventsDir && window.location.pathname.endsWith('/');
         var synthLabel = isEs ? 'Resumen de Charlas — Informe IA de ideas principales de todas las charlas' : 'Summary of Talks — AI-generated report of main ideas from all the talks';
         var glossPath = synthPath + 'glossary.html?lang=' + lang;
         var glossLabel = isEs ? 'Glosario de Términos — Definiciones de términos del yoga y sánscrito' : 'Glossary of Terms — Definitions of yoga and Sanskrit terms';
