@@ -21,6 +21,16 @@ function updateTopbar(lang) {
     tb.querySelector('#topbar-feedback').href = formBase + '?type=feedback';
     tb.querySelector('#topbar-report').textContent = s.report;
     tb.querySelector('#topbar-report').href = formBase + '?type=issue';
+    updateFooterLinks(lang);
+}
+
+function updateFooterLinks(lang) {
+    var s = _topbarStrings(lang);
+    var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
+    var ff = document.getElementById('footer-feedback');
+    var fr = document.getElementById('footer-report');
+    if (ff) { ff.textContent = s.feedback; ff.href = formBase + '?type=feedback'; }
+    if (fr) { fr.textContent = s.report; fr.href = formBase + '?type=issue'; }
 }
 
 async function _loadEvents(path) {
@@ -364,4 +374,16 @@ document.addEventListener('DOMContentLoaded', function() {
             '<a id="topbar-report" href="' + formBase + '?type=issue" target="_blank" rel="noopener">' + s.report + '</a>' +
         '</div>';
     document.body.insertBefore(tb, document.body.firstChild);
+
+    var footerEl = document.querySelector('footer');
+    if (footerEl) {
+        var fl = document.createElement('div');
+        fl.id = 'footer-links';
+        fl.className = 'footer-links';
+        fl.innerHTML =
+            '<a id="footer-feedback" href="' + formBase + '?type=feedback" target="_blank" rel="noopener">' + s.feedback + '</a>' +
+            '<span class="topbar-sep">&middot;</span>' +
+            '<a id="footer-report" href="' + formBase + '?type=issue" target="_blank" rel="noopener">' + s.report + '</a>';
+        footerEl.appendChild(fl);
+    }
 });
