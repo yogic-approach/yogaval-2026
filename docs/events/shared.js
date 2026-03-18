@@ -84,7 +84,30 @@ async function loadTranscript(lang) {
     }
 }
 
-async function loadResources() {
+async function loadResources(lang) {
+    var _lang = lang || 'en';
+    var _strings = {
+        en: {
+            audioHeading: 'Audio Resources',
+            translationRef: 'Translation Reference',
+            download: 'Download',
+            listenOn: 'Listen on'
+        },
+        es: {
+            audioHeading: 'Recursos de Audio',
+            translationRef: 'Referencia de Traducción',
+            download: 'Descargar',
+            listenOn: 'Escuchar en'
+        },
+        ne: {
+            audioHeading: 'अडियो स्रोतहरू',
+            translationRef: 'अनुवाद सन्दर्भ',
+            download: 'डाउनलोड',
+            listenOn: 'सुन्नुहोस्'
+        }
+    };
+    var s = _strings[_lang] || _strings.en;
+
     try {
         var res = await fetch('resources.json');
         if (!res.ok) return;
@@ -97,6 +120,11 @@ async function loadResources() {
 
         var audioEl = document.getElementById('resources-audio');
         if (!audioEl) return;
+
+        // Set the section heading dynamically
+        var sectionHeading = document.querySelector('#resources-section .resources-heading');
+        if (sectionHeading) sectionHeading.textContent = s.audioHeading;
+
         var audioHtml = '';
         audioItems.forEach(function(r) {
             if (r.type === 'audio-external') {
@@ -106,7 +134,7 @@ async function loadResources() {
                         <div class="resource-body">
                             <div class="resource-title">${r.title}</div>
                             <div class="resource-meta">${metaParts.join(' &middot; ')}</div>
-                            <a class="resource-download" href="${r.url}" target="_blank" rel="noopener">Listen on ${r.source} &rarr;</a>
+                            <a class="resource-download" href="${r.url}" target="_blank" rel="noopener">${s.listenOn} ${r.source} &rarr;</a>
                         </div>
                     </div>`;
             } else {
@@ -117,8 +145,8 @@ async function loadResources() {
                     : (r.license || '');
                 var metaPartsA = [r.description, r.artist, licenseStr].filter(Boolean);
                 var downloadLink = r.no_download
-                    ? (r.external_url ? ` &middot; <a class="resource-download" href="${r.external_url}" target="_blank" rel="noopener">Listen on ${r.external_source} &rarr;</a>` : '')
-                    : ` &middot; <a class="resource-download" href="${fileSrc}" download>Download</a>`;
+                    ? (r.external_url ? ` &middot; <a class="resource-download" href="${r.external_url}" target="_blank" rel="noopener">${s.listenOn} ${r.external_source} &rarr;</a>` : '')
+                    : ` &middot; <a class="resource-download" href="${fileSrc}" download>${s.download}</a>`;
                 var mime       = r.file.endsWith('.mp3') ? 'audio/mpeg' : 'audio/mp4';
                 var coverClick = coverSrc ? `onclick="document.getElementById('img-modal-img').src=this.src;document.getElementById('img-modal').classList.add('open')"` : '';
                 audioHtml += `
@@ -148,7 +176,7 @@ async function loadResources() {
         if (fullPdfs.length > 0 || compactPdfs.length > 0) {
             var pdfsEl = document.getElementById('resources-pdfs');
             if (pdfsEl) {
-                var pdfsHtml = '<div class="resources-heading">Translation Reference</div>';
+                var pdfsHtml = '<div class="resources-heading">' + s.translationRef + '</div>';
                 fullPdfs.forEach(function(r) {
                     var fileSrc = 'resources/' + encodeURIComponent(r.file);
                     var badge   = r.lang ? `<span class="lang-badge">${r.lang.toUpperCase()}</span>` : '';

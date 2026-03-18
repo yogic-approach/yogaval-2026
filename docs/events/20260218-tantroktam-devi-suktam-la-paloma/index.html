@@ -25,7 +25,7 @@
     </div>
 
     <section id="resources-section" style="display:none">
-        <div class="resources-heading">Audio Resources</div>
+        <div class="resources-heading"></div>
         <div id="resources-audio"></div>
         <div id="resources-pdfs"></div>
     </section>
@@ -47,7 +47,7 @@
     <script>
         const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
         loadTranscript(lang);
-        loadResources();
+        loadResources(lang);
     </script>
 </body>
 </html>
