@@ -10,6 +10,7 @@ See `PROGRESS.md` for completed work and `PENDING-TASK.md` for in-progress sessi
 | # | Title | Status |
 |---|-------|--------|
 | #11 | State tracking files (PROGRESS, PENDING-TASK, TODO) | In progress |
+| #21 | Add Nepali language + metadata refactor (events.json → shared.js) | In progress |
 
 ---
 

@@ -181,11 +181,11 @@ When you finish, come back to a comfortable sitting position.
 
 ---
 
-## Intermediate Kirtan: Bajomana Ma
+## Intermission Kirtan: Bhaja Mana Ma
 
-> *PRACTICE — Kirtan: Bajomana Ma*
+> *PRACTICE — Intermission Kirtan: Bhaja Mana Ma*
 
-*Bajomana Ma, Ma, Ma. Anandamayi, Ma, Ma.*
+*Bhaja Mana Ma, Ma, Ma. Anandamayi, Ma, Ma.*
 
 *[Kirtan continues]*
 

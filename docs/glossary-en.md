@@ -190,6 +190,8 @@
 
 **Review of the Day** — A daily practice of systematically recalling the events of the day from waking to the present moment. "One of the most potent practices for recovering short-term memory and developing visualization." [4] Applied to assess and strengthen the Chitta (memory) aspect of the Manomaya Kosha.
 
+**Rikhiapeeth** — An ashram in Deoghar, Jharkhand, India, associated with the Bihar School of Yoga. The site where Swami Satyananda Saraswati performed his *Panchagni Sadhana* (five-fire austerity) and attained *Samadhi*. Referenced in the context of the *Satchandi Maha Yajna* and *Tantroktam Devi Suktam* practices. [5] See also: *Bihar School of Yoga*, *Satchandi Maha Yajna*.
+
 **Rishis** — *Sanskrit.* Seers or sages; spiritual adepts who received or intuited the Vedic and Tantric scriptures. "The rishis and yogis who intuited these verses tried to find ways for us to experience that energy in a real way." [5] "The yogis, the rishis, the munis — they were the parents of society. They were social architects. They had a vision of thousands of years where they saw the challenges and how they could keep us alive for as long as possible." [5]
 
 ---

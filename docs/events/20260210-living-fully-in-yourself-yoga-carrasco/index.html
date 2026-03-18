@@ -9,23 +9,19 @@
 </head>
 <body>
     <header>
-        <h1 data-title-en="Living Fully In Yourself"
-            data-title-es="Habitar el Cuerpo por Completo">Living Fully In Yourself</h1>
-        <p id="header-subtitle"
-           data-subtitle-en="Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; February 10, 2026"
-           data-subtitle-es="Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; 10 de febrero de 2026"
-           >Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; February 10, 2026</p>
+        <h1>Living Fully In Yourself</h1>
+        <p id="header-subtitle">Satchidananda &mdash; Cl&iacute;nica Vitola, Yoga Carrasco, Uruguay &mdash; February 10, 2026</p>
     </header>
 
     <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
-        <span id="other-talks-label">Select <a href="../">another talk</a>:</span>
-        <span id="other-talks-label-es" style="display:none">Ver <a href="../">otra charla</a>:</span>
+        <span id="other-talks-label" data-href="../">Select <a href="../">another talk</a>:</span>
         <select id="talk-select" onchange="handleTalkSelect(this)" style="font-size: 0.95em; padding: 4px 8px;"></select>
     </div>
 
     <div class="lang-toggle">
         <button id="btn-en" onclick="loadTranscript('en')">English</button>
         <button id="btn-es" onclick="loadTranscript('es')">Espa&ntilde;ol</button>
+        <button id="btn-ne" onclick="loadTranscript('ne')">नेपाली</button>
     </div>
 
     <section id="resources-section" style="display:none">

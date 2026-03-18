@@ -5,6 +5,40 @@ Repo: https://github.com/yogic-approach/yogaval-2026
 
 ---
 
+## Session: 2026-03-18 — Add Nepali Language (नेपाली) + Devanagari Conversion (#21)
+
+**Focus:** Add Nepali as third language across all event pages, synthesis, and glossary; convert all Sanskrit/Nepali-origin terms in NE transcripts from Roman to Devanagari.
+
+**Completed:**
+- Updated `events.json` with `title_ne`, `date_ne`, `subtitle_ne` for all 5 events
+- Refactored `shared.js`: loadTalkSelector supports `ne`; page metadata from events.json cache
+- Updated all 5 event `index.html` pages: added btn-ne, removed data-attrs
+- Updated `docs/index.html` (synthesis) and `docs/glossary.html`: added btn-ne
+- Created `transcript-ne.md` for all 5 talks
+- Created `synthesis-ne.md` and `glossary-ne.md`
+- Applied 4-round Python Devanagari conversion across 7 NE files
+- Fixed: OM/Om/Aum → ॐ; `ॐ Shanti Shanti Shanti Hi` → `ॐ शान्तिः शान्तिः शान्तिः` (visarga)
+- Identified: "Bajomana Ma" = "Bhaja Mana Ma" (भज मन माँ); applied in EN + NE Feb 18 transcript
+- Identified: "Rikyapit" = Rikhiapeeth (ऋखिया पीठ); added to all 3 glossaries
+- Bihar School of Yoga → बिहार योग विद्यालय in NE files
+- SitaRam Darshan → सीताराम दर्शन; Sw. → स्वामी in Piriápolis NE
+- Anatomy/body terms: Nepali-first (e.g., *स्थूल* (gross)); uncertain terms: English-first with ? (e.g., pubic bone (जघन हाड्?))
+- Fixed `*प्राण and प्राणायाम*` → `*प्राण र प्राणायाम*` in glossary-ne.md
+- Flipped `*gross* (स्थूल)` → `*स्थूल* (gross)` pattern; `*blissful*` → `*आनन्दमय*`
+- Created GH issues #22 (language sub-labels) and #23 (resources text localization)
+
+**Lessons learned — Devanagari conversion:**
+- Protect reference-style link definitions (`[label]: url`) before any substitution, not just inline `[text](url)` links — missed this in round 2 and corrupted folder paths
+- Compound phrases must be substituted BEFORE individual words (e.g., `Hari OM Tat Sat` → full Devanagari before `\bHari\b`)
+- One comprehensive pass with full file audit is better than iterative rounds
+- "Sw." abbreviation not caught by `\bSwami\b` pattern — check for abbreviated forms separately
+- English anatomy/instructional terms: use Nepali-first when confident; English-first with ? only when uncertain
+
+**Issues opened:** #22 (language sub-labels), #23 (resources text localization)
+**Issues closed:** #21 (pending final test + commit)
+
+---
+
 ## Session: 2026-03-08 — La Paloma Resources Section + Bilingual UI (#15, #16, #17)
 
 **Focus:** Build resources section on La Paloma event page; inline audio playback; bilingual page header fixes; talk title rename.
