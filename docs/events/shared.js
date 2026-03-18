@@ -1,6 +1,20 @@
 // Shared event navigation for all transcript pages
 
 var _eventsCache = null;
+var _currentProgram = '';
+
+var _FORM_ID = '1FAIpQLSd0ZP73-dDwgR52tmMPd-wSwx-W7hlHFaOdR-vV72fDwlaUYA';
+var _FORM_BASE = 'https://docs.google.com/forms/d/e/' + _FORM_ID + '/viewform';
+var _LANG_MAP = { en: 'English', es: 'Spanish', ne: 'Nepali' };
+
+function _formUrl(type, lang) {
+    var params = [
+        'entry.1318168213=' + encodeURIComponent(type === 'feedback' ? 'Share Feedback' : 'Report Issue'),
+        'entry.119875362=' + encodeURIComponent(_LANG_MAP[lang] || 'English')
+    ];
+    if (_currentProgram) params.push('entry.625098476=' + encodeURIComponent(_currentProgram));
+    return _FORM_BASE + '?' + params.join('&');
+}
 
 function _topbarStrings(lang) {
     var s = {
@@ -19,22 +33,20 @@ function updateTopbar(lang) {
     var tb = document.getElementById('topbar');
     if (!tb) return;
     var s = _topbarStrings(lang);
-    var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
     tb.querySelector('.topbar-credit').innerHTML = _creditHtml(s);
     tb.querySelector('#topbar-feedback').textContent = s.feedback;
-    tb.querySelector('#topbar-feedback').href = formBase + '?type=feedback';
+    tb.querySelector('#topbar-feedback').href = _formUrl('feedback', lang);
     tb.querySelector('#topbar-report').textContent = s.report;
-    tb.querySelector('#topbar-report').href = formBase + '?type=issue';
+    tb.querySelector('#topbar-report').href = _formUrl('report', lang);
     updateFooterLinks(lang);
 }
 
 function updateFooterLinks(lang) {
     var s = _topbarStrings(lang);
-    var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
     var ff = document.getElementById('footer-feedback');
     var fr = document.getElementById('footer-report');
-    if (ff) { ff.textContent = s.feedback; ff.href = formBase + '?type=feedback'; }
-    if (fr) { fr.textContent = s.report; fr.href = formBase + '?type=issue'; }
+    if (ff) { ff.textContent = s.feedback; ff.href = _formUrl('feedback', lang); }
+    if (fr) { fr.textContent = s.report; fr.href = _formUrl('report', lang); }
 }
 
 async function _loadEvents(path) {
@@ -61,6 +73,8 @@ async function loadTranscript(lang) {
         var folder = window.location.pathname.split('/').filter(Boolean).pop();
         var ev = events.find(function(e) { return e.folder === folder; });
         if (ev) {
+            _currentProgram = ev.date + ' - ' + ev.location + ' - ' + ev.title_short;
+            updateTopbar(lang);
             var h1 = document.querySelector('header h1');
             if (h1) {
                 h1.textContent = isNe ? ev.title_ne : (isEs ? ev.title_es : ev.title);
@@ -366,16 +380,15 @@ if (typeof marked !== 'undefined') {
 document.addEventListener('DOMContentLoaded', function() {
     var lang = new URLSearchParams(window.location.search).get('lang') || 'es';
     var s = _topbarStrings(lang);
-    var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
     var tb = document.createElement('div');
     tb.id = 'topbar';
     tb.className = 'topbar';
     tb.innerHTML =
         '<div class="topbar-credit">' + _creditHtml(s) + '</div>' +
         '<div class="topbar-links">' +
-            '<a id="topbar-feedback" href="' + formBase + '?type=feedback" target="_blank" rel="noopener">' + s.feedback + '</a>' +
+            '<a id="topbar-feedback" href="' + _formUrl('feedback', lang) + '" target="_blank" rel="noopener">' + s.feedback + '</a>' +
             '<span class="topbar-sep">&middot;</span>' +
-            '<a id="topbar-report" href="' + formBase + '?type=issue" target="_blank" rel="noopener">' + s.report + '</a>' +
+            '<a id="topbar-report" href="' + _formUrl('report', lang) + '" target="_blank" rel="noopener">' + s.report + '</a>' +
         '</div>';
     document.body.insertBefore(tb, document.body.firstChild);
 
@@ -389,9 +402,9 @@ document.addEventListener('DOMContentLoaded', function() {
         fl.id = 'footer-links';
         fl.className = 'footer-links';
         fl.innerHTML =
-            '<a id="footer-feedback" href="' + formBase + '?type=feedback" target="_blank" rel="noopener">' + s.feedback + '</a>' +
+            '<a id="footer-feedback" href="' + _formUrl('feedback', lang) + '" target="_blank" rel="noopener">' + s.feedback + '</a>' +
             '<span class="topbar-sep">&middot;</span>' +
-            '<a id="footer-report" href="' + formBase + '?type=issue" target="_blank" rel="noopener">' + s.report + '</a>';
+            '<a id="footer-report" href="' + _formUrl('report', lang) + '" target="_blank" rel="noopener">' + s.report + '</a>';
         bar.appendChild(fl);
         footerEl.appendChild(bar);
     }
