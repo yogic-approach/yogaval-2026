@@ -2,6 +2,27 @@
 
 var _eventsCache = null;
 
+function _topbarStrings(lang) {
+    var s = {
+        en: { credit: 'Made with 🧠❤️🙏 by YogicApproach', feedback: 'Share feedback', report: 'Report issue' },
+        es: { credit: 'Hecho con 🧠❤️🙏 por YogicApproach', feedback: 'Compartir comentarios', report: 'Reportar problema' },
+        ne: { credit: 'YogicApproach बाट 🧠❤️🙏 सँग बनाएको', feedback: 'प्रतिक्रिया दिनुहोस्', report: 'समस्या रिपोर्ट गर्नुहोस्' }
+    };
+    return s[lang] || s.en;
+}
+
+function updateTopbar(lang) {
+    var tb = document.getElementById('topbar');
+    if (!tb) return;
+    var s = _topbarStrings(lang);
+    var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
+    tb.querySelector('.topbar-credit a').textContent = s.credit;
+    tb.querySelector('#topbar-feedback').textContent = s.feedback;
+    tb.querySelector('#topbar-feedback').href = formBase + '?type=feedback';
+    tb.querySelector('#topbar-report').textContent = s.report;
+    tb.querySelector('#topbar-report').href = formBase + '?type=issue';
+}
+
 async function _loadEvents(path) {
     if (_eventsCache) return _eventsCache;
     var r = await fetch(path);
@@ -17,6 +38,8 @@ async function loadTranscript(lang) {
     document.getElementById('btn-es').classList.toggle('active', isEs);
     var btnNe = document.getElementById('btn-ne');
     if (btnNe) btnNe.classList.toggle('active', isNe);
+
+    updateTopbar(lang);
 
     // Load title/subtitle from events.json cache
     try {
@@ -325,3 +348,20 @@ if (typeof marked !== 'undefined') {
         return `<a href="${href}"${title ? ` title="${title}"` : ''} target="_blank" rel="noopener">${text}</a>`;
     } } });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    var lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+    var s = _topbarStrings(lang);
+    var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
+    var tb = document.createElement('div');
+    tb.id = 'topbar';
+    tb.className = 'topbar';
+    tb.innerHTML =
+        '<div class="topbar-credit"><a href="https://yogicapproach.com" target="_blank" rel="noopener">' + s.credit + '</a></div>' +
+        '<div class="topbar-links">' +
+            '<a id="topbar-feedback" href="' + formBase + '?type=feedback" target="_blank" rel="noopener">' + s.feedback + '</a>' +
+            '<span class="topbar-sep">&middot;</span>' +
+            '<a id="topbar-report" href="' + formBase + '?type=issue" target="_blank" rel="noopener">' + s.report + '</a>' +
+        '</div>';
+    document.body.insertBefore(tb, document.body.firstChild);
+});
