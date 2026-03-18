@@ -377,6 +377,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var footerEl = document.querySelector('footer');
     if (footerEl) {
+        var bar = document.createElement('div');
+        bar.className = 'footer-bar';
+        var siteCredit = footerEl.querySelector('.site-credit');
+        if (siteCredit) bar.appendChild(siteCredit);
         var fl = document.createElement('div');
         fl.id = 'footer-links';
         fl.className = 'footer-links';
@@ -384,6 +388,7 @@ document.addEventListener('DOMContentLoaded', function() {
             '<a id="footer-feedback" href="' + formBase + '?type=feedback" target="_blank" rel="noopener">' + s.feedback + '</a>' +
             '<span class="topbar-sep">&middot;</span>' +
             '<a id="footer-report" href="' + formBase + '?type=issue" target="_blank" rel="noopener">' + s.report + '</a>';
-        footerEl.appendChild(fl);
+        bar.appendChild(fl);
+        footerEl.appendChild(bar);
     }
 });
