@@ -70,6 +70,15 @@ async function loadTranscript(lang) {
             : (isEs ? '&#8592; Volver a los eventos' : '&#8592; Back to Events');
     }
 
+    // Localize site credit
+    var siteCredit = document.getElementById('site-credit');
+    if (siteCredit) {
+        var creditLink = '<a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>';
+        siteCredit.innerHTML = isNe
+            ? creditLink + ' बाट 🧠❤️🙏 सँग बनाएको'
+            : (isEs ? 'Hecho con 🧠❤️🙏 por ' + creditLink + '.' : 'Made with 🧠❤️🙏 by ' + creditLink + '.');
+    }
+
     loadTalkSelector(lang);
 
     var url = new URL(window.location);
@@ -279,10 +288,10 @@ function loadTalkSelector(lang) {
         var glossOption = '<option value="' + glossPath + '" data-newtab="true">' + glossLabel + '</option>';
         sel.innerHTML = '<option value="">' + choosePlaceholder + '</option>' +
             synthOption +
-            glossOption +
             events.filter(function(e) { return e.folder !== current; }).map(function(e) {
                 return '<option value="' + prefix + e.folder + '/?lang=' + lang + '">' + eventLabel(e, lang) + '</option>';
-            }).join('');
+            }).join('') +
+            glossOption;
     }).catch(function() {});
 }
 

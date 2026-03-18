@@ -26,7 +26,7 @@
 
     <div class="lang-toggle">
         <button id="btn-en" onclick="loadSynthesis('en')">English<span class="lang-sublabel">Original</span></button>
-        <button id="btn-es" onclick="loadSynthesis('es')">Espa&ntilde;ol<span class="lang-sublabel">AI Traducido</span></button>
+        <button id="btn-es" onclick="loadSynthesis('es')">Espa&ntilde;ol<span class="lang-sublabel">IA Traducido</span></button>
         <button id="btn-ne" onclick="loadSynthesis('ne')">नेपाली<span class="lang-sublabel">AI अनुवादित</span></button>
     </div>
 
@@ -36,7 +36,7 @@
 
     <footer>
         <a id="footer-nav" href="events/">&#8592; Browse Individual Talks</a>
-        <div class="site-credit">Made with 🧠❤️🙏 by <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.</div>
+        <div id="site-credit" class="site-credit">Made with 🧠❤️🙏 by <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.</div>
     </footer>
 
     <script src="events/shared.js"></script>
@@ -69,6 +69,13 @@
                 footerNav.innerHTML = isNe
                     ? '&#8592; व्यक्तिगत वार्ताहरू हेर्नुहोस्'
                     : (isEs ? '&#8592; Ver charlas individuales' : '&#8592; Browse Individual Talks');
+            }
+            var siteCredit = document.getElementById('site-credit');
+            if (siteCredit) {
+                var creditLink = '<a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>';
+                siteCredit.innerHTML = isNe
+                    ? creditLink + ' बाट 🧠❤️🙏 सँग बनाएको'
+                    : (isEs ? 'Hecho con 🧠❤️🙏 por ' + creditLink + '.' : 'Made with 🧠❤️🙏 by ' + creditLink + '.');
             }
             loadTalkSelector(lang);
             var el = document.getElementById('content');
