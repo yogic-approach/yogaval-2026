@@ -44,7 +44,7 @@
     </div>
 
     <footer>
-        <a href="../">&#8592; Home</a>
+        <a id="footer-nav" href="../">&#8592; Back to Synthesis</a>
     </footer>
 
     <script src="shared.js"></script>
@@ -66,6 +66,12 @@
                 : (isEs
                     ? 'Charlas de Satchidananda &mdash; Uruguay, febrero 2026'
                     : 'Talks by Satchidananda &mdash; Uruguay, February 2026');
+            var footerNav = document.getElementById('footer-nav');
+            if (footerNav) {
+                footerNav.innerHTML = isNe
+                    ? '&#8592; सारांशमा फर्कनुहोस्'
+                    : (isEs ? '&#8592; Volver a la s&iacute;ntesis' : '&#8592; Back to Synthesis');
+            }
             loadEventsList(lang);
         }
 

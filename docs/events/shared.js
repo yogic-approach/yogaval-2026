@@ -62,6 +62,14 @@ async function loadTranscript(lang) {
     var labelEs = document.getElementById('other-talks-label-es');
     if (labelEs) labelEs.style.display = 'none';
 
+    // Localize footer navigation link
+    var footerNav = document.getElementById('footer-nav');
+    if (footerNav) {
+        footerNav.innerHTML = isNe
+            ? '&#8592; कार्यक्रमहरूमा फर्कनुहोस्'
+            : (isEs ? '&#8592; Volver a los eventos' : '&#8592; Back to Events');
+    }
+
     loadTalkSelector(lang);
 
     var url = new URL(window.location);
