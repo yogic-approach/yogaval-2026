@@ -5,6 +5,28 @@ Repo: https://github.com/yogic-approach/yogaval-2026
 
 ---
 
+## Session: 2026-03-18 (cont.) — UI Polish: Selector, Footer, Sub-labels, Resources (#20–#25)
+
+**Focus:** Parallel agent work on four UI issues; synthesis La Paloma section; site-wide localization.
+
+**Completed:**
+- **#20** — Synthesis and Glossary moved to top of talk selector dropdown; Glossary confirmed at bottom (already correct in shared.js)
+- **#22** — Language sub-labels added to all buttons: "Original" / "AI Traducido" / "AI अनुवादित"
+- **#23** — Resources section text localized (EN/ES/NE): headings, Download, Listen On
+- **#25** — Footer navigation localized and standardized across all 8 pages (EN/ES/NE)
+- **#24** — La Paloma "Beyond the Map: Shakti, Bhakti" section added to synthesis-en.md
+- Synthesis date label updated: "Last updated: March 18, 2026" (all 3 languages)
+- Site credit "Made with" localized: ES "Hecho con", NE "YogicApproach बाट ... सँग बनाएको"
+- Worktree agent workflow established: 4 agents ran in parallel on isolated branches, auto-merged
+- Closed 17 completed issues in bulk
+
+**Issues opened:** #25 (footer localization)
+**Issues closed:** #2, #3, #5–#9, #11, #13–#23, #24, #25
+
+**Workflow note:** Agents without Bash permission commit to worktrees but can't self-commit; edits fall back to main working directory if worktree is cleaned before manual commit. Grant git-only Bash allowlist via .claude/settings.json to fix.
+
+---
+
 ## Session: 2026-03-18 — Add Nepali Language (नेपाली) + Devanagari Conversion (#21)
 
 **Focus:** Add Nepali as third language across all event pages, synthesis, and glossary; convert all Sanskrit/Nepali-origin terms in NE transcripts from Roman to Devanagari.
