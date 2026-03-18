@@ -43,6 +43,7 @@
     <script src="events/shared.js"></script>
     <script>
         async function loadGlossary(lang) {
+            updateTopbar(lang);
             var isEs = lang === 'es';
             var isNe = lang === 'ne';
             document.getElementById('btn-en').classList.toggle('active', lang === 'en');
