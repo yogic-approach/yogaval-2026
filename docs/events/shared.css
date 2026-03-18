@@ -26,7 +26,7 @@ header p { color: #666; font-size: 0.95em; }
     gap: 4px;
     margin: -20px -20px 20px -20px;
 }
-.topbar-credit a { color: #888; text-decoration: none; }
+.topbar-credit a { color: #2a6496; text-decoration: none; }
 .topbar-credit a:hover { text-decoration: underline; }
 .topbar-links { display: flex; align-items: center; gap: 6px; }
 .topbar-links a { color: #2a6496; text-decoration: none; }
@@ -74,7 +74,7 @@ footer {
     color: #666;
     gap: 4px;
 }
-.footer-bar .site-credit a { color: #888; text-decoration: none; }
+.footer-bar .site-credit a { color: #2a6496; text-decoration: none; }
 .footer-bar .site-credit a:hover { text-decoration: underline; }
 .footer-links { display: flex; align-items: center; gap: 6px; }
 .footer-links a { color: #2a6496; text-decoration: none; }

@@ -4,11 +4,15 @@ var _eventsCache = null;
 
 function _topbarStrings(lang) {
     var s = {
-        en: { credit: 'Made with 🧠❤️🙏 by YogicApproach', feedback: 'Share feedback', report: 'Report issue' },
-        es: { credit: 'Hecho con 🧠❤️🙏 por YogicApproach', feedback: 'Compartir comentarios', report: 'Reportar problema' },
-        ne: { credit: 'YogicApproach बाट 🧠❤️🙏 सँग बनाएको', feedback: 'प्रतिक्रिया दिनुहोस्', report: 'समस्या रिपोर्ट गर्नुहोस्' }
+        en: { creditBefore: 'Made with 🧠❤️🙏 by ', creditAfter: '', feedback: 'Share feedback', report: 'Report issue' },
+        es: { creditBefore: 'Hecho con 🧠❤️🙏 por ', creditAfter: '', feedback: 'Compartir comentarios', report: 'Reportar problema' },
+        ne: { creditBefore: '', creditAfter: ' बाट 🧠❤️🙏 सँग बनाएको', feedback: 'प्रतिक्रिया दिनुहोस्', report: 'समस्या रिपोर्ट गर्नुहोस्' }
     };
     return s[lang] || s.en;
+}
+
+function _creditHtml(s) {
+    return s.creditBefore + '<a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>' + s.creditAfter;
 }
 
 function updateTopbar(lang) {
@@ -16,7 +20,7 @@ function updateTopbar(lang) {
     if (!tb) return;
     var s = _topbarStrings(lang);
     var formBase = 'https://docs.google.com/forms/d/e/PLACEHOLDER/viewform';
-    tb.querySelector('.topbar-credit a').textContent = s.credit;
+    tb.querySelector('.topbar-credit').innerHTML = _creditHtml(s);
     tb.querySelector('#topbar-feedback').textContent = s.feedback;
     tb.querySelector('#topbar-feedback').href = formBase + '?type=feedback';
     tb.querySelector('#topbar-report').textContent = s.report;
@@ -367,7 +371,7 @@ document.addEventListener('DOMContentLoaded', function() {
     tb.id = 'topbar';
     tb.className = 'topbar';
     tb.innerHTML =
-        '<div class="topbar-credit"><a href="https://yogicapproach.com" target="_blank" rel="noopener">' + s.credit + '</a></div>' +
+        '<div class="topbar-credit">' + _creditHtml(s) + '</div>' +
         '<div class="topbar-links">' +
             '<a id="topbar-feedback" href="' + formBase + '?type=feedback" target="_blank" rel="noopener">' + s.feedback + '</a>' +
             '<span class="topbar-sep">&middot;</span>' +
