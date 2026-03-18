@@ -35,7 +35,7 @@
     </div>
 
     <footer>
-        <a href="events/">Browse Individual Talks</a>
+        <a id="footer-nav" href="events/">&#8592; Browse Individual Talks</a>
         <div class="site-credit">Made with 🧠❤️🙏 by <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.</div>
     </footer>
 
@@ -63,6 +63,12 @@
                     : (isEs
                         ? 'Ver <a href="' + href + '">una charla</a>:'
                         : 'Select <a href="' + href + '">a talk</a>:');
+            }
+            var footerNav = document.getElementById('footer-nav');
+            if (footerNav) {
+                footerNav.innerHTML = isNe
+                    ? '&#8592; व्यक्तिगत वार्ताहरू हेर्नुहोस्'
+                    : (isEs ? '&#8592; Ver charlas individuales' : '&#8592; Browse Individual Talks');
             }
             loadTalkSelector(lang);
             var el = document.getElementById('content');
