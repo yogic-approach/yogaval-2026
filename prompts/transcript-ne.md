@@ -176,6 +176,12 @@ Translate from the English RECONSTRUCTED block. Keep the confirmation note in Ne
 
 ---
 
+## Don't Forget: events.json
+
+When adding a new talk, the `title_ne` and `title_short_ne` fields in `docs/events/events.json` also need Devanagari for any Sanskrit terms — not just the transcript file. These fields drive the page `<h1>` and the dropdown selector respectively.
+
+---
+
 ## After Generation: Checklist
 
 - [ ] All Sanskrit and Nepali-origin terms are in Devanagari — not Roman
@@ -190,3 +196,4 @@ Translate from the English RECONSTRUCTED block. Keep the confirmation note in Ne
 - [ ] Connective "and" in Nepali text → `र` (not English "and")
 - [ ] Footer is present
 - [ ] No URL corruption in reference-style link definitions
+- [ ] `events.json` — verify `title_ne` and `title_short_ne` for this talk use Devanagari (dropdown selector and page h1 pull from these fields)
