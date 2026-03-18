@@ -80,7 +80,7 @@ This pattern also maps onto the four ashramas or life stages: learning and consu
 
 Across all five talks, willpower emerged as the force that originates from the most subtle dimension and has the power to transform every other layer.
 
-"If you try to lift your hand from your leg, by what power are you able to do that?" [1] The biology supports the movement, the energy is required, the nervous system must be intact — but ultimately, something within gives consent. This is Iccha Shakti, the power of desire or intention [1], [5].
+"If you try to lift your hand from your leg, by what power are you able to do that?" [1] The biology supports the movement, the energy is required, the nervous system must be intact — but ultimately, something within gives consent. This is Iccha Shakti, the power of desire or intention [1], [4], [5].
 
 In the yogic and tantric tradition, Iccha Shakti is the first Shakti — the original impulse that brought creation into being. "Science calls it Big Bang for our current physical reality. The esoteric explanation is an act of Iccha Shakti." [5]
 
@@ -113,6 +113,48 @@ Each kosha contains subsystems that can be individually assessed and developed [
 **Intuitive body** — mapped through the chakra system, spanning from security and basic needs at the base to intuition and integration at the crown [2], [5].
 
 The practice of **kosha scanning** was recommended as a daily habit: "When someone asks you, 'How are you doing?' we want that question to automatically go into a process of checking: How am I feeling? How am I feeling? How am I feeling? How am I feeling?" — once for each body [1].
+
+---
+
+## Beyond the Map: Shakti, Bhakti, and Working the Deeper Layers
+
+The kosha framework tells us *what* the layers are. The La Paloma session turned to a different question: *how* do we actually work with them — especially the emotional and intuitive dimensions that resist intellectual approaches?
+
+The answer offered was Tantric: through mantra, invocation, and the deliberate cultivation of feeling.
+
+"It's in this manifest, tangible reality that we contact *Shakti*. It's her domain — she creates this reality. From the Tantric perspective, anything we can experience is her in some form." [4]
+
+*Shakti* — the creative-destructive-transforming force in the Tantric tradition — animates each kosha. She creates, maintains, and destroys. Bhakti yoga, the fourth great branch, is specifically the practice of mastering this dimension: learning to consciously generate, direct, and transform emotional states rather than be unconsciously shaped by them.
+
+"*Bhakti yoga* is the management of emotions. Feelings. Those waves of emotion — every day, all the time — constantly shaping our personality. Our emotions are what shape our life." [4]
+
+### Mantra as Invocation
+
+The *Tantroktam Devi Suktam* — a Sanskrit text chanted in the Satyananda tradition — provides a structured map of the qualities *Shakti* takes within human consciousness: *Buddhi* (intelligence), *Nidra* (sleep), *Kshudha* (hunger), *Chaya* (shadow), *Shakti* (power), *Shanti* (peace), *Shraddha* (faith), *Daya* (compassion), *Smriti* (memory), and more.
+
+From verse 8 onward, each verse follows the same pattern: *She who resides in all beings in the form of [quality] — salutations, salutations, salutations to her.*
+
+The Tantric premise is that these qualities can be deliberately invoked rather than merely waited for:
+
+"Giving *Shakti* the permission to modify consciousness within yourself will have an effect on the personal consciousness." [4]
+
+This connects directly to *pratipaksha bhavana* — the yoga practice of cultivating the opposite of a negative state rather than suppressing or analyzing it [4]. Where analytical tools belong to the mental body, bhavana operates at the level of the intuitive body.
+
+### Hunger and the Right Kosha
+
+Hunger (*Kshudha*) and thirst (*Trishna*) are forms of *Shakti* — and they arise at every level of experience, not only the physical.
+
+"You have to feel your hunger in the *kosha* that it's coming from. If you can't imagine what that feels like, you don't know what's driving you. The hunger is real, but the direction it's coming from is unknown." [4]
+
+Misidentifying which kosha a hunger originates from leads to feeding it the wrong thing. "Sometimes we're hungry for relief from an emotion, and we feed it with ice cream and fries. Mismatch of *koshas*. The body gets fat, the emotion doesn't go away." [4]
+
+### The Suktam as Consciousness Rotation
+
+The closing reflection made the connection to the broader kosha practice explicit:
+
+"In the same way that we do body rotation in *Yoga Nidra*, you can use this rotation for seeing where you feel and experience these modifications of consciousness. And just like in *Yoga Nidra*, if you feel an absence or a block, that's an area to pay attention to — and invite *Shakti* into." [4]
+
+Body rotation scans the physical body systematically. The Devi Suktam rotates through states of consciousness within the deeper layers. The structure is identical; the vocabulary shifts from anatomical to archetypal.
 
 ---
 
