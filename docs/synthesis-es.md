@@ -215,7 +215,7 @@ Los koshas no son un destino. Son un marco para hacer mejores preguntas — sobr
 
 ---
 
-*Generado: 26 de febrero de 2026*
+*Última actualización: 18 de marzo de 2026*
 
 [1]: events/20260209-koshas-escuela-de-yoga-satyam/?lang=es "Los Cinco Koshas — Escuela de Yoga Satyam"
 [2]: events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=es "Habitar el Cuerpo por Completo — Yoga Carrasco"

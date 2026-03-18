@@ -215,7 +215,7 @@ The koshas are not a destination. They are a framework for asking better questio
 
 ---
 
-*Generated: February 26, 2026*
+*Last updated: March 18, 2026*
 
 [1]: events/20260209-koshas-escuela-de-yoga-satyam/?lang=en "The Five Koshas — Escuela de Yoga Satyam"
 [2]: events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=en "Living Fully In Yourself — Yoga Carrasco"
