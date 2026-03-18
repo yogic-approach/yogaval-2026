@@ -156,25 +156,42 @@ function eventLabel(e, isEs) {
 }
 
 function loadTalkSelector(lang) {
-    var jsonPath = window.location.pathname.indexOf('/events/') !== -1 &&
-        window.location.pathname.split('/events/')[1].split('/').filter(Boolean).length > 0
-        ? '../events.json' : 'events.json';
+    var inEventSubpage = window.location.pathname.indexOf('/events/') !== -1 &&
+        window.location.pathname.split('/events/')[1].split('/').filter(Boolean).length > 0;
+    var inEventsDir = !inEventSubpage && window.location.pathname.indexOf('/events') !== -1;
+
+    var jsonPath, prefix, synthPath;
+    if (inEventSubpage) {
+        jsonPath = '../events.json';
+        prefix   = '../';
+        synthPath = '../../';
+    } else if (inEventsDir) {
+        jsonPath  = 'events.json';
+        prefix    = '';
+        synthPath = '../';
+    } else {
+        // Root / synthesis page
+        jsonPath  = 'events/events.json';
+        prefix    = 'events/';
+        synthPath = './';
+    }
 
     fetch(jsonPath).then(function(r) { return r.json(); }).then(function(events) {
         var sel = document.getElementById('talk-select');
         if (!sel) return;
         var current = window.location.pathname.split('/').filter(Boolean).pop();
         var isEs = lang === 'es';
-        var prefix = jsonPath === 'events.json' ? '' : '../';
-        var synthPath = jsonPath === 'events.json' ? '../' : '../../';
+        var onSynthesisPage = !inEventSubpage && !inEventsDir;
         var synthLabel = isEs ? 'Resumen de Charlas — Informe IA de ideas principales de todas las charlas' : 'Summary of Talks — AI-generated report of main ideas from all the talks';
         var glossPath = synthPath + 'glossary.html?lang=' + lang;
         var glossLabel = isEs ? 'Glosario de Términos — Definiciones de términos del yoga y sánscrito' : 'Glossary of Terms — Definitions of yoga and Sanskrit terms';
+        var synthOption = onSynthesisPage ? '' :
+            '<option value="' + synthPath + '?lang=' + lang + '">' + synthLabel + '</option>';
         sel.innerHTML = '<option value="">' + (isEs ? '-- Elegir --' : '-- Choose --') + '</option>' +
+            synthOption +
             events.filter(function(e) { return e.folder !== current; }).map(function(e) {
                 return '<option value="' + prefix + e.folder + '/">' + eventLabel(e, isEs) + '</option>';
             }).join('') +
-            '<option value="' + synthPath + '?lang=' + lang + '">' + synthLabel + '</option>' +
             '<option value="' + glossPath + '" data-newtab="true">' + glossLabel + '</option>';
     }).catch(function() {});
 }
