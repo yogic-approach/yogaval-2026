@@ -240,12 +240,13 @@ function loadTalkSelector(lang) {
         var synthOption = onSynthesisPage ? '' :
             '<option value="' + synthPath + '?lang=' + lang + '">' + synthLabel + '</option>';
 
+        var glossOption = '<option value="' + glossPath + '" data-newtab="true">' + glossLabel + '</option>';
         sel.innerHTML = '<option value="">' + choosePlaceholder + '</option>' +
             synthOption +
+            glossOption +
             events.filter(function(e) { return e.folder !== current; }).map(function(e) {
                 return '<option value="' + prefix + e.folder + '/?lang=' + lang + '">' + eventLabel(e, lang) + '</option>';
-            }).join('') +
-            '<option value="' + glossPath + '" data-newtab="true">' + glossLabel + '</option>';
+            }).join('');
     }).catch(function() {});
 }
 
