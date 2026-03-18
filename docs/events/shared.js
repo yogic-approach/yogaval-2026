@@ -73,7 +73,7 @@ async function loadTranscript(lang) {
         var folder = window.location.pathname.split('/').filter(Boolean).pop();
         var ev = events.find(function(e) { return e.folder === folder; });
         if (ev) {
-            _currentProgram = ev.date + ' - ' + ev.location + ' - ' + ev.title_short;
+            _currentProgram = ev.date + ' \u2014 ' + ev.location + ' \u2014 ' + ev.title_short;
             updateTopbar(lang);
             var h1 = document.querySelector('header h1');
             if (h1) {
