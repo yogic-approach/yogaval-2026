@@ -4,14 +4,15 @@
 
 ---
 
-**Note on This Synthesis:** Throughout February 2026, Satchidananda delivered four talks across Uruguay exploring the koshas — the five yogic bodies that describe the full spectrum of what it means to be human. Each built upon the last, revisiting core ideas from new angles with fresh metaphors, practices, and provocations. This synthesis of central themes was created through human-AI collaboration; citations \[1\]–\[4\] link to the original transcripts.
+**Note on This Synthesis:** Throughout February 2026, Satchidananda delivered five talks across Uruguay exploring the koshas — the five yogic bodies that describe the full spectrum of what it means to be human. Each built upon the last, revisiting core ideas from new angles with fresh metaphors, practices, and provocations. This synthesis of central themes was created through human-AI collaboration; citations \[1\]–\[5\] link to the original transcripts.
 
 | # | Date | Location | Talk |
 |---|------|----------|------|
 | \[1\] | Feb 9 | Escuela de Yoga Satyam | [The Five Koshas: A Practical Framework for Wholeness](events/20260209-koshas-escuela-de-yoga-satyam/?lang=en) |
 | \[2\] | Feb 10 | Clínica Vitola, Yoga Carrasco | [Living Fully In Yourself](events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=en) |
 | \[3\] | Feb 11 | MACA Museum | [The Levels of the Human Being According to Yoga and Their Dialogue with AI](events/20260211-koshas-and-ai-maca/?lang=en) |
-| \[4\] | Feb 23 | Piriápolis | [The Koshas: A Map of the Inner World](events/20260223-koshas-piriopolis/?lang=en) |
+| \[4\] | Feb 18 | SitaRam Darshan, La Paloma | [Tantric Tools: Tantroktam Devi Suktam for Self-Reflection](events/20260218-tantroktam-devi-suktam-la-paloma/?lang=en) |
+| \[5\] | Feb 23 | Piriápolis | [The Koshas: A Map of the Inner World](events/20260223-koshas-piriopolis/?lang=en) |
 
 *New to these terms? See the <a href="glossary.html?lang=en" target="_blank">Glossary of Terms</a> for definitions drawn from the talks.*
 
@@ -21,15 +22,15 @@
 
 The koshas are a map. Not a territory, but a guide for navigating one that most of us inhabit without ever having charted. They describe five layers of human experience arranged along a continuum from gross to subtle [1]:
 
-1. **Annamaya Kosha** — the physical body, literally the "food body," constructed from what we eat [1], [4]
+1. **Annamaya Kosha** — the physical body, literally the "food body," constructed from what we eat [1], [5]
 2. **Pranamaya Kosha** — the energetic body, the vital force that animates matter [1], [2]
-3. **Manomaya Kosha** — the mental body, encompassing cognition, perception, memory, and ego [1], [4]
+3. **Manomaya Kosha** — the mental body, encompassing cognition, perception, memory, and ego [1], [5]
 4. **Vijnanamaya Kosha** — the intuitive or psychic body, the seat of emotions, wisdom, and deep knowing [1], [3]
 5. **Anandamaya Kosha** — the causal body, described variously as blissful, undifferentiated, or the dimension of pure consciousness [1], [3]
 
-These five are a finer subdivision of three broader bodies recognized in yoga: the gross body (physical), the subtle body (energetic and mental), and the causal body (intuitive and blissful) [1], [2], [4].
+These five are a finer subdivision of three broader bodies recognized in yoga: the gross body (physical), the subtle body (energetic and mental), and the causal body (intuitive and blissful) [1], [2], [5].
 
-A recurring invitation across all four talks was to not let these remain words. "Whenever I say one of them, please take your awareness into it. Don't let it be a word. Let it be an experience." [1]
+A recurring invitation across all five talks was to not let these remain words. "Whenever I say one of them, please take your awareness into it. Don't let it be a word. Let it be an experience." [1]
 
 ---
 
@@ -39,13 +40,13 @@ The metaphor of maps appeared in every talk. Maps help sailors avoid crashes and
 
 "What happened to sailors with bad maps? We don't know. Because they crashed or got lost. And what happened to sailors that had really good maps? They expanded our view of not the world, but the universe." [2]
 
-The Piriápolis talk deepened this further: the map is necessarily "fairly rustic" at first, but it sharpens through repetition and personal exploration. "At the start we trust others. We want to take note and build our own map." [4] The goal is not to adopt someone else's map wholesale, but to use it as a starting point for charting your own experience.
+The Piriápolis talk deepened this further: the map is necessarily "fairly rustic" at first, but it sharpens through repetition and personal exploration. "At the start we trust others. We want to take note and build our own map." [5] The goal is not to adopt someone else's map wholesale, but to use it as a starting point for charting your own experience.
 
 ---
 
 ## The Table Metaphor: Measuring Balance
 
-One of the most practical models presented was the image of a four-legged table, where each leg represents one of the first four koshas [1], [4].
+One of the most practical models presented was the image of a four-legged table, where each leg represents one of the first four koshas [1], [5].
 
 **A missing leg** — If one kosha is entirely neglected, the table may still stand on three legs, as long as nothing is placed on the unsupported corner. But the moment an unexpected event strikes that dimension — job loss, heartbreak, illness — the table falls [1].
 
@@ -53,7 +54,7 @@ One of the most practical models presented was the image of a four-legged table,
 
 **Weak legs under stress** — Perhaps the most insidious scenario: all legs are the same length but not the same strength. Everything appears stable until one more weight is added to the compromised leg and it shatters. "This is almost the worst situation to be in because it gives a sense of false confidence." [1]
 
-The solution is diagnostic: measure the legs. Yoga provides dozens of tools for assessing the health of each kosha — flexibility, breath capacity, memory, emotional range, willpower [1]. The Piriápolis talk extended this into a structured practice called SWAN (Strengths, Weaknesses, Ambitions, Needs), applied to each kosha individually [4].
+The solution is diagnostic: measure the legs. Yoga provides dozens of tools for assessing the health of each kosha — flexibility, breath capacity, memory, emotional range, willpower [1]. The Piriápolis talk extended this into a structured practice called SWAN (Strengths, Weaknesses, Ambitions, Needs), applied to each kosha individually [5].
 
 ---
 
@@ -77,11 +78,11 @@ This pattern also maps onto the four ashramas or life stages: learning and consu
 
 ## Willpower and Sankalpa: The Deepest Engine
 
-Across all four talks, willpower emerged as the force that originates from the most subtle dimension and has the power to transform every other layer.
+Across all five talks, willpower emerged as the force that originates from the most subtle dimension and has the power to transform every other layer.
 
-"If you try to lift your hand from your leg, by what power are you able to do that?" [1] The biology supports the movement, the energy is required, the nervous system must be intact — but ultimately, something within gives consent. This is Iccha Shakti, the power of desire or intention [1], [4].
+"If you try to lift your hand from your leg, by what power are you able to do that?" [1] The biology supports the movement, the energy is required, the nervous system must be intact — but ultimately, something within gives consent. This is Iccha Shakti, the power of desire or intention [1], [5].
 
-In the yogic and tantric tradition, Iccha Shakti is the first Shakti — the original impulse that brought creation into being. "Science calls it Big Bang for our current physical reality. The esoteric explanation is an act of Iccha Shakti." [4]
+In the yogic and tantric tradition, Iccha Shakti is the first Shakti — the original impulse that brought creation into being. "Science calls it Big Bang for our current physical reality. The esoteric explanation is an act of Iccha Shakti." [5]
 
 This same force is cultivated through sankalpa — a resolve, an affirmation that carries commitment behind it [2]. "It is the vision of what you want to manifest. It doesn't have ideas of maybe I can, maybe I can't." [2] Sankalpa is practiced at the beginning and end of every Satyananda Yoga session, and ideally before every action in life [1], [2].
 
@@ -91,25 +92,25 @@ The practical demonstration: a twelve-year-old boy in Australia who swam for hou
 
 ## The Genius of Shanti Patha
 
-Each talk opened and closed with Shanti Patha, and each time it was pointed to as far more than ritual. "You take something that we do at the beginning and end of every class, that for many of us we think of as routine, obligatory. And yet it is almost a perfect sequence of moving through the koshas." [1], [2], [4]
+Each talk opened and closed with Shanti Patha, and each time it was pointed to as far more than ritual. "You take something that we do at the beginning and end of every class, that for many of us we think of as routine, obligatory. And yet it is almost a perfect sequence of moving through the koshas." [1], [2], [5]
 
 The practice asks us to settle the physical body, observe the breath, witness mental activity, contact emotional presence, and stabilize ourselves through to completion — regardless of whatever storm or calm is within [2]. "That is a sufficient life teaching — we don't need much more yoga than that." [2]
 
-The deeper teaching: "What you do the most is probably the most significant." [2], [4] If the most repeated practices in the Satyananda tradition are chanting Om, Shanti Patha, and sankalpa, they deserve not just repetition but genuine investigation.
+The deeper teaching: "What you do the most is probably the most significant." [2], [5] If the most repeated practices in the Satyananda tradition are chanting Om, Shanti Patha, and sankalpa, they deserve not just repetition but genuine investigation.
 
 ---
 
 ## Subsystems and Diagnostic Tools
 
-Each kosha contains subsystems that can be individually assessed and developed [1], [2], [4]:
+Each kosha contains subsystems that can be individually assessed and developed [1], [2], [5]:
 
 **Physical body** — muscular, skeletal, hormonal, lymphatic, digestive, circulatory systems. Modern medicine excels here with X-rays, MRIs, and bloodwork [1].
 
-**Energetic body** — the five pranas (Prana, Apana, Samana, Udana, Vyana), each governing different regions and functions. Diagnostic signs include breath quality, temperature, hiccups, sneezing, blinking [1], [2], [4].
+**Energetic body** — the five pranas (Prana, Apana, Samana, Udana, Vyana), each governing different regions and functions. Diagnostic signs include breath quality, temperature, hiccups, sneezing, blinking [1], [2], [5].
 
-**Mental body** — four classical divisions: Manas (perception/cognition), Chitta (memory), Buddhi (intellect/discernment), and Ahamkara (ego/sense of self). These can be assessed through memory tests, concentration exercises, decision-making quality [1], [2], [4].
+**Mental body** — four classical divisions: Manas (perception/cognition), Chitta (memory), Buddhi (intellect/discernment), and Ahamkara (ego/sense of self). These can be assessed through memory tests, concentration exercises, decision-making quality [1], [2], [5].
 
-**Intuitive body** — mapped through the chakra system, spanning from security and basic needs at the base to intuition and integration at the crown [2], [4].
+**Intuitive body** — mapped through the chakra system, spanning from security and basic needs at the base to intuition and integration at the crown [2], [5].
 
 The practice of **kosha scanning** was recommended as a daily habit: "When someone asks you, 'How are you doing?' we want that question to automatically go into a process of checking: How am I feeling? How am I feeling? How am I feeling? How am I feeling?" — once for each body [1].
 
@@ -119,11 +120,11 @@ The practice of **kosha scanning** was recommended as a daily habit: "When someo
 
 ### Relationships
 
-The kosha model offers a diagnostic framework for relationship challenges. Rather than trying to address complex dysfunction all at once, one can walk through the layers: "Am I even comfortable just touching you or being near you?" If the answer is no, there's no need to address more complex dimensions yet [2]. Can two people simply harmonize their breathing together? Sit in silence? Share a sensory experience? [2], [4]
+The kosha model offers a diagnostic framework for relationship challenges. Rather than trying to address complex dysfunction all at once, one can walk through the layers: "Am I even comfortable just touching you or being near you?" If the answer is no, there's no need to address more complex dimensions yet [2]. Can two people simply harmonize their breathing together? Sit in silence? Share a sensory experience? [2], [5]
 
 ### Sleep
 
-Sleep was identified as a cross-kosha phenomenon — it involves all five bodies and serves as a diagnostic indicator for multiple dimensions at once. "Even life forms without spinal cords display sleep," suggesting it originates from a dimension deeper than biology alone [4].
+Sleep was identified as a cross-kosha phenomenon — it involves all five bodies and serves as a diagnostic indicator for multiple dimensions at once. "Even life forms without spinal cords display sleep," suggesting it originates from a dimension deeper than biology alone [5].
 
 ### Finding Your Key Practices
 
@@ -150,7 +151,7 @@ From this perspective, each kosha is an instrument, a conduit. The yogic traditi
 
 Two metaphors captured the relationship between surface experience and deeper causation:
 
-**The seed** — "In Vedanta, the seed is the tree. There's no difference. It's just the perception of time that gives the illusion of growth." [2] If we know our seed form — our latent patterns, our unconscious conditioning — we can predict and navigate the life that unfolds from it [2], [4].
+**The seed** — "In Vedanta, the seed is the tree. There's no difference. It's just the perception of time that gives the illusion of growth." [2] If we know our seed form — our latent patterns, our unconscious conditioning — we can predict and navigate the life that unfolds from it [2], [5].
 
 **The river** — A rafting guide in Nepal walked the river during the driest season, when all the boulders and crevices were revealed. Once the terrain was memorized, he could navigate any flood. "If we develop a vision of our most subtle self, then we are in a much better position to handle whatever life brings to us in the form of various raindrops." [2]
 
@@ -164,7 +165,7 @@ The month of talks concluded not with answers but with an invitation to experime
 
 "There are no rules or limits on how you can make this knowledge your own." [1]
 
-"Create your own version of this map. And then give me some feedback." [4]
+"Create your own version of this map. And then give me some feedback." [5]
 
 "Bring your awareness of your koshas into daily life. I think many things will come through this framework when you begin to do that." [2]
 
@@ -177,4 +178,5 @@ The koshas are not a destination. They are a framework for asking better questio
 [1]: events/20260209-koshas-escuela-de-yoga-satyam/?lang=en "The Five Koshas — Escuela de Yoga Satyam"
 [2]: events/20260210-living-fully-in-yourself-yoga-carrasco/?lang=en "Living Fully In Yourself — Yoga Carrasco"
 [3]: events/20260211-koshas-and-ai-maca/?lang=en "Koshas and AI — MACA Museum"
-[4]: events/20260223-koshas-piriopolis/?lang=en "The Koshas: A Map of the Inner World — Piriápolis"
+[4]: events/20260218-tantroktam-devi-suktam-la-paloma/?lang=en "Tantric Tools: Tantroktam Devi Suktam — La Paloma"
+[5]: events/20260223-koshas-piriopolis/?lang=en "The Koshas: A Map of the Inner World — Piriápolis"
