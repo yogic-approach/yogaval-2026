@@ -1,5 +1,5 @@
 # Los Koshas: Un Mapa del Mundo Interior
-## Charla por Satchidananda
+## Charla de Satchidananda
 ### Organizado por Padmashree y Hotel Tamriz, Piriápolis
 ### 23 de febrero de 2026
 

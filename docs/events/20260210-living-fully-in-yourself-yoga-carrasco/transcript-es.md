@@ -1,5 +1,5 @@
 # Habitar el Cuerpo por Completo
-## Charla por Satchidananda
+## Charla de Satchidananda
 ### Organizado por Clínica Vitola, Yoga Carrasco
 ### 10 de febrero de 2026
 

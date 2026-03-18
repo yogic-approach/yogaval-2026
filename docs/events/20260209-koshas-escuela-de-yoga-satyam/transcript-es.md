@@ -1,5 +1,5 @@
 # Los Cinco Koshas: Un Marco Práctico para la Totalidad
-## Charla por Satchidananda
+## Charla de Satchidananda
 ### Organizado por Escuela de Yoga Satyam
 ### 9 de febrero de 2026
 
@@ -15,7 +15,7 @@
 
 Hari Om Tat Sat. Bienvenidos a todos.
 
-Mi nombre es Sachidananda. Antes de comenzar, quiero dejar en claro que no soy médico ni psicólogo. De ninguna manera estoy certificado como profesional de la salud. Tampoco soy un representante oficial del ashram o de ninguna escuela.
+Mi nombre es Satchidananda. Antes de comenzar, quiero dejar en claro que no soy médico ni psicólogo. De ninguna manera estoy certificado como profesional de la salud. Tampoco soy un representante oficial del ashram o de ninguna escuela.
 
 He estado estudiando bajo la tradición de Satyananda Yoga durante muchos años, y yoga en general por casi el doble de ese tiempo. Todo lo que comparto esta noche está basado en experiencias de vida. Mis experiencias no deben tomarse como una guía de lo que puede ser tu experiencia o de lo que has experimentado. Esta es una invitación para que uses tu discernimiento y tu propia conciencia respecto a cualquier técnica que pueda sugerir que pruebes, o cualquier idea que presente como buena o perspicaz. Por favor, pásala a través de tus propios filtros y tu propio sentido común para determinar si es buena para ti.
 

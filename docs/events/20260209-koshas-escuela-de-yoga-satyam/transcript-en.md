@@ -15,7 +15,7 @@
 
 Hari Om Tat Sat. Welcome to everyone.
 
-My name is Sachidananda. Before we begin, I want to make clear that I'm not a doctor or a psychologist. I'm in no way certified as a healthcare practitioner. I'm also not an official representative of the ashram or any school.
+My name is Satchidananda. Before we begin, I want to make clear that I'm not a doctor or a psychologist. I'm in no way certified as a healthcare practitioner. I'm also not an official representative of the ashram or any school.
 
 I have been studying under the Satyananda Yoga tradition for many years, and yoga in general for almost double that time. Everything I share tonight is based on life experiences. My experiences should not be taken as a guide for what your experience may be or what you have already experienced. This is an invitation for you to use your discernment and your own awareness regarding any techniques I may suggest you try, or any idea that I present as good or insightful. Please run it through your own filters and your own common sense to determine if it's good for you.
 

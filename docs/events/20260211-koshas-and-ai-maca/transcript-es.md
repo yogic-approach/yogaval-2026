@@ -1,5 +1,5 @@
 # Arte, conciencia e IA: Lo humano en la era de la inteligencia artificial
-## Charla por Satchidananda
+## Charla de Satchidananda
 ### Organizado por Yoga 104, Museo MACA
 ### 11 de febrero de 2026
 
