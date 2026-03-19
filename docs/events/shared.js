@@ -1,5 +1,14 @@
 // Shared event navigation for all transcript pages
 
+// GoatCounter analytics
+(function() {
+    var gc = document.createElement('script');
+    gc.async = true;
+    gc.src = '//gc.zgo.at/count.js';
+    gc.setAttribute('data-goatcounter', 'https://yogicapproach.goatcounter.com/count');
+    document.head.appendChild(gc);
+})();
+
 var _eventsCache = null;
 var _currentProgram = '';
 
