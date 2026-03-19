@@ -159,6 +159,7 @@ async function loadTranscript(lang) {
     } catch (e) {
         el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
     }
+    loadResources(lang);
 }
 
 async function loadResources(lang) {
