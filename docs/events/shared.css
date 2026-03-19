@@ -131,3 +131,71 @@ details.compact-pdfs summary::-webkit-details-marker { display: none; }
 details.compact-pdfs summary::before { content: '▶'; font-size: 0.7em; }
 details.compact-pdfs[open] summary::before { content: '▼'; }
 details.compact-pdfs .compact-list { margin-top: 8px; padding-left: 4px; }
+
+/* ── Talk selector row ───────────────────────────────────────── */
+#other-talks {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+#talk-select {
+    font-size: 0.95em;
+    padding: 4px 8px;
+    max-width: 100%;
+}
+
+/* ── Error message ───────────────────────────────────────────── */
+.error-message { color: #c00; }
+
+/* ── Responsive / Mobile ─────────────────────────────────────── */
+@media (max-width: 480px) {
+    body { padding: 12px; }
+
+    /* Topbar and footer-bar: tighter on small screens */
+    .topbar { margin: -12px -12px 12px -12px; padding: 3px 12px; }
+    .footer-bar { margin: 0 -12px -12px -12px; padding: 3px 12px; }
+
+    /* Language toggle: stack vertically on very narrow screens */
+    .lang-toggle { flex-direction: column; align-items: center; gap: 6px; }
+    .lang-toggle button { width: 100%; max-width: 260px; padding: 12px 16px; }
+
+    /* Talk selector: prevent overflow */
+    #talk-select { max-width: 100%; }
+    #other-talks { padding: 0 4px; }
+
+    /* Resource cards: tighter layout */
+    .resource-audio-card { gap: 10px; }
+    .resource-cover { width: 56px; height: 56px; }
+
+    /* Headings: scale down slightly */
+    header h1 { font-size: 1.25em; }
+    #content h1 { font-size: 1.35em; }
+    #content h2 { font-size: 1.15em; }
+}
+
+@media (max-width: 360px) {
+    /* Extra-narrow fallback */
+    .topbar-credit { display: none; }
+    .lang-toggle button { font-size: 0.9em; }
+}
+
+/* ── Focus indicators (WCAG 2.1 SC 2.4.7) ───────────────────── */
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+    outline: 2px solid #2a6496;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* ── Skip navigation ─────────────────────────────────────────── */
+.skip-nav {
+    position: absolute; top: -40px; left: 0;
+    background: #2a6496; color: white;
+    padding: 8px 16px; text-decoration: none;
+    border-radius: 0 0 4px 0; z-index: 1000;
+    transition: top 0.2s;
+}
+.skip-nav:focus { top: 0; }

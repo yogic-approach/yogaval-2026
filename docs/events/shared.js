@@ -45,8 +45,10 @@ function updateTopbar(lang) {
     tb.querySelector('.topbar-credit').innerHTML = _creditHtml(s);
     tb.querySelector('#topbar-feedback').textContent = s.feedback;
     tb.querySelector('#topbar-feedback').href = _formUrl('feedback', lang);
+    tb.querySelector('#topbar-feedback').setAttribute('aria-label', 'Share feedback (opens Google Form in new tab)');
     tb.querySelector('#topbar-report').textContent = s.report;
     tb.querySelector('#topbar-report').href = _formUrl('report', lang);
+    tb.querySelector('#topbar-report').setAttribute('aria-label', 'Report an issue (opens Google Form in new tab)');
     updateFooterLinks(lang);
 }
 
@@ -54,8 +56,8 @@ function updateFooterLinks(lang) {
     var s = _topbarStrings(lang);
     var ff = document.getElementById('footer-feedback');
     var fr = document.getElementById('footer-report');
-    if (ff) { ff.textContent = s.feedback; ff.href = _formUrl('feedback', lang); }
-    if (fr) { fr.textContent = s.report; fr.href = _formUrl('report', lang); }
+    if (ff) { ff.textContent = s.feedback; ff.href = _formUrl('feedback', lang); ff.setAttribute('aria-label', 'Share feedback (opens Google Form in new tab)'); }
+    if (fr) { fr.textContent = s.report; fr.href = _formUrl('report', lang); fr.setAttribute('aria-label', 'Report an issue (opens Google Form in new tab)'); }
 }
 
 async function _loadEvents(path) {
@@ -73,8 +75,12 @@ async function loadTranscript(lang) {
     document.getElementById('btn-es').classList.toggle('active', isEs);
     var btnNe = document.getElementById('btn-ne');
     if (btnNe) btnNe.classList.toggle('active', isNe);
+    document.querySelectorAll('.lang-toggle button').forEach(function(btn) {
+        btn.setAttribute('aria-pressed', btn.classList.contains('active') ? 'true' : 'false');
+    });
 
     updateTopbar(lang);
+    document.documentElement.lang = lang === 'ne' ? 'ne' : (lang === 'es' ? 'es' : 'en');
 
     // Load title/subtitle from events.json cache
     try {
@@ -95,15 +101,7 @@ async function loadTranscript(lang) {
             }
         }
     } catch(err) {
-        // fallback: use data-attrs if present
-        var h1 = document.querySelector('header h1');
-        if (h1 && h1.dataset.titleEn) {
-            h1.textContent = isEs ? h1.dataset.titleEs : h1.dataset.titleEn;
-        }
-        var sub = document.getElementById('header-subtitle');
-        if (sub && sub.dataset.subtitleEn) {
-            sub.innerHTML = isEs ? sub.dataset.subtitleEs : sub.dataset.subtitleEn;
-        }
+        // events.json unavailable — title stays as static HTML fallback
     }
 
     // "Select another talk" label — single span, content set by lang
@@ -157,7 +155,7 @@ async function loadTranscript(lang) {
             if (target) target.scrollIntoView({ behavior: 'smooth' });
         }
     } catch (e) {
-        el.innerHTML = '<p style="color:#c00;">Could not load transcript. Please try again.</p>';
+        el.innerHTML = '<p class="error-message">Could not load transcript. Please try again.</p>';
     }
     loadResources(lang);
 }
@@ -218,7 +216,7 @@ async function loadResources(lang) {
                     </div>`;
             } else {
                 var fileSrc    = 'resources/' + encodeURIComponent(r.file);
-                var coverSrc   = r.cover ? 'resources/' + encodeURIComponent(r.cover) : '';
+                var coverSrc   = r.cover ? 'resources/' + encodeURIComponent(r.cover) + '?v=1' : '';
                 var licenseStr = r.license_url
                     ? `<a class="resource-download" href="${r.license_url}" target="_blank" rel="noopener">${r.license}</a>`
                     : (r.license || '');
@@ -228,10 +226,9 @@ async function loadResources(lang) {
                     ? (r.external_url ? ` &middot; <a class="resource-download" href="${r.external_url}" target="_blank" rel="noopener">${s.listenOn} ${r.external_source} &rarr;</a>` : '')
                     : ` &middot; <a class="resource-download" href="${fileSrc}" download>${s.download}</a>`;
                 var mime       = r.file.endsWith('.mp3') ? 'audio/mpeg' : 'audio/mp4';
-                var coverClick = coverSrc ? `onclick="document.getElementById('img-modal-img').src=this.src;document.getElementById('img-modal').classList.add('open')"` : '';
                 audioHtml += `
                     <div class="resource-audio-card">
-                        ${coverSrc ? `<img class="resource-cover" src="${coverSrc}" alt="${r.title}" ${coverClick}>` : ''}
+                        ${coverSrc ? `<img class="resource-cover" src="${coverSrc}" alt="${r.title}" data-modal="true">` : ''}
                         <div class="resource-body">
                             <div class="resource-title">${r.title}</div>
                             <div class="resource-meta">${metaPartsA.join(' &middot; ')}${downloadLink}</div>
@@ -243,6 +240,18 @@ async function loadResources(lang) {
             }
         });
         audioEl.innerHTML = audioHtml;
+
+        audioEl.querySelectorAll('img[data-modal]').forEach(function(img) {
+            img.addEventListener('click', function() {
+                var modal = document.getElementById('img-modal');
+                var modalImg = document.getElementById('img-modal-img');
+                if (modal && modalImg) {
+                    modalImg.src = img.src;
+                    modalImg.alt = img.alt;
+                    modal.classList.add('open');
+                }
+            });
+        });
 
         // Exclusive playback: starting one track pauses all others
         document.querySelectorAll('.resource-player').forEach(function(player) {
@@ -378,7 +387,7 @@ function loadEventsList(lang) {
         }).join('') + '</ul>';
     }).catch(function() {
         var el = document.getElementById('events');
-        if (el) el.innerHTML = '<p style="color:#c00;">Could not load events.</p>';
+        if (el) el.innerHTML = '<p class="error-message">Could not load events.</p>';
     });
 }
 
@@ -398,9 +407,9 @@ document.addEventListener('DOMContentLoaded', function() {
     tb.innerHTML =
         '<div class="topbar-credit">' + _creditHtml(s) + '</div>' +
         '<div class="topbar-links">' +
-            '<a id="topbar-feedback" href="' + _formUrl('feedback', lang) + '" target="_blank" rel="noopener">' + s.feedback + '</a>' +
+            '<a id="topbar-feedback" href="' + _formUrl('feedback', lang) + '" target="_blank" rel="noopener" aria-label="Share feedback (opens Google Form in new tab)">' + s.feedback + '</a>' +
             '<span class="topbar-sep">&middot;</span>' +
-            '<a id="topbar-report" href="' + _formUrl('report', lang) + '" target="_blank" rel="noopener">' + s.report + '</a>' +
+            '<a id="topbar-report" href="' + _formUrl('report', lang) + '" target="_blank" rel="noopener" aria-label="Report an issue (opens Google Form in new tab)">' + s.report + '</a>' +
         '</div>';
     document.body.insertBefore(tb, document.body.firstChild);
 
@@ -414,9 +423,9 @@ document.addEventListener('DOMContentLoaded', function() {
         fl.id = 'footer-links';
         fl.className = 'footer-links';
         fl.innerHTML =
-            '<a id="footer-feedback" href="' + _formUrl('feedback', lang) + '" target="_blank" rel="noopener">' + s.feedback + '</a>' +
+            '<a id="footer-feedback" href="' + _formUrl('feedback', lang) + '" target="_blank" rel="noopener" aria-label="Share feedback (opens Google Form in new tab)">' + s.feedback + '</a>' +
             '<span class="topbar-sep">&middot;</span>' +
-            '<a id="footer-report" href="' + _formUrl('report', lang) + '" target="_blank" rel="noopener">' + s.report + '</a>';
+            '<a id="footer-report" href="' + _formUrl('report', lang) + '" target="_blank" rel="noopener" aria-label="Report an issue (opens Google Form in new tab)">' + s.report + '</a>';
         bar.appendChild(fl);
         footerEl.appendChild(bar);
     }

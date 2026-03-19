@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yogaval 2026 | Exploring the Koshas</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <meta name="description" content="AI-generated synthesis of talks by Satchidananda on the five koshas — Uruguay, February 2026">
+    <meta name="author" content="Satchidananda">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Yogaval 2026 — Exploring the Koshas">
+    <meta property="og:description" content="A synthesis of talks by Satchidananda on the five yogic bodies, delivered in Uruguay, February 2026.">
+    <meta property="og:url" content="https://yogic-approach.github.io/yogaval-2026/">
+    <meta property="og:image" content="https://yogic-approach.github.io/yogaval-2026/events/20260218-tantroktam-devi-suktam-la-paloma/resources/cover-tantroktam-devi-suktam.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Yogaval 2026 — Exploring the Koshas">
+    <meta name="twitter:description" content="A synthesis of talks by Satchidananda on the five yogic bodies, delivered in Uruguay, February 2026.">
+    <meta name="twitter:image" content="https://yogic-approach.github.io/yogaval-2026/events/20260218-tantroktam-devi-suktam-la-paloma/resources/cover-tantroktam-devi-suktam.jpg">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://docs.google.com">
+    <link rel="preconnect" href="https://gc.zgo.at">
+    <link rel="icon" href="/yogaval-2026/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/yogaval-2026/favicon.svg">
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.4/marked.min.js"></script>
     <link rel="stylesheet" href="events/shared.css">
     <style>
         /* Table styles for synthesis page */
@@ -14,14 +30,15 @@
     </style>
 </head>
 <body>
+    <a href="#content" class="skip-nav">Skip to content</a>
     <header>
         <h1>Yogaval 2026</h1>
         <p id="page-subtitle">Exploring the Koshas &mdash; Satchidananda &mdash; Uruguay, February 2026</p>
     </header>
 
-    <div id="other-talks" style="text-align:center; margin-bottom: 10px; font-size: 0.9em; color: #666;">
+    <div id="other-talks">
         <span id="other-talks-label" data-href="events/">Select <a href="events/">a talk</a>:</span>
-        <select id="talk-select" onchange="handleTalkSelect(this)" style="font-size: 0.95em; padding: 4px 8px;"></select>
+        <select id="talk-select" aria-label="Select a talk" onchange="handleTalkSelect(this)"></select>
     </div>
 
     <div class="lang-toggle">
@@ -101,7 +118,7 @@
                         + 'सारांश अहिले नेपालीमा उपलब्ध छैन।<br>'
                         + '<a href="?lang=en">Read in English</a></p>';
                 } else {
-                    el.innerHTML = '<p style="color:#c00;">Could not load synthesis. Please try again.</p>';
+                    el.innerHTML = '<p class="error-message">Could not load synthesis. Please try again.</p>';
                 }
             }
         }
