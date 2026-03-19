@@ -110,7 +110,7 @@ Slow, full breath in to chant the mantra OM.
 *Om Sahana Bhavatu Sahano Bhunaktu
 Sahaveeryam Karavavahe Tejas
 Vinavaditamastu Ma Vindhisavahe
-Om Shanti Shanti Shanti Hi*
+Om Shanti Shanti Shanti*
 
 Remain with your body still and eyes closed for a few moments longer, and consider the intention for which you are here this evening.
 

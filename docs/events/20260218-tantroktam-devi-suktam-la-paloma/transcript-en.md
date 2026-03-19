@@ -65,11 +65,11 @@ Usually we stay awake because we have work to finish or an exam. And singing out
 
 And on the fifth day, we had a speaker who had worked with cancer patients saying: cancer does not touch the spirit. Because *Shivaratri* was the peak experience, a lot of emphasis was around this idea of consciousness, and the idea of subtlety in reality. But in every case, the speakers would always come back to the body as where we experience being human.
 
-And it's in this manifest, tangible reality that we contact *shakti*. It's her domain — she creates this reality. From the Tantric perspective, or the *shakti* Tantric perspective, anything we can experience is her in some form. And so there are a number of chants that try and describe her.
+And it's in this manifest, tangible reality that we contact *Shakti*. It's Her domain — she creates this reality. From the Tantric perspective, or the *Shakti* Tantric perspective, anything we can experience is Her in some form. And so there are a number of chants that try and describe Her.
 
-The *rishis* and *yogis* who intuited these verses tried to find ways for us to experience that energy in a real way. And from the Tantric perspective, to remind us that she is not only the positive, good, bright rainbow. She can also be the dark, heavy, unpleasant, destructive. And we all have that experience at home daily. If you keep filling the trash without emptying it, your house is going to stink. If you keep filling the toilet without flushing, your bathroom is going to stink. And so *shakti* creates, but she also destroys. And throughout she is maintaining and transforming.
+The *rishis* and *yogis* who intuited these verses tried to find ways for us to experience that energy in a real way. And from the Tantric perspective, to remind us that She is not only the positive, good, bright rainbow. She can also be the dark, heavy, unpleasant, destructive. And we all have that experience at home daily. If you keep filling the trash without emptying it, your house is going to stink. If you keep filling the toilet without flushing, your bathroom is going to stink. And so *Shakti* creates, but She also destroys. And throughout She is maintaining and transforming.
 
-The *suktam* that we are going to look at today talks about that — the various forms that she takes in our consciousness.
+The *suktam* that we are going to look at today talks about that — the various forms that She takes in our consciousness.
 
 ---
 

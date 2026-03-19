@@ -31,7 +31,7 @@ header p { color: #666; font-size: 0.95em; }
 .topbar-links { display: flex; align-items: center; gap: 6px; }
 .topbar-links a { color: #2a6496; text-decoration: none; }
 .topbar-links a:hover { text-decoration: underline; }
-.topbar-sep { color: #bbb; }
+.topbar-sep { color: #2a6496; }
 .lang-sublabel { display: block; font-size: 0.65em; opacity: 0.75; }
 #content { padding: 10px 0; }
 #content h1 { font-size: 1.6em; margin: 1.5em 0 0.5em; }

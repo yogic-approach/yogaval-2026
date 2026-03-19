@@ -110,7 +110,7 @@ Respiración lenta y completa para cantar el mantra OM.
 *Om Sahana Bhavatu Sahano Bhunaktu
 Sahaveeryam Karavavahe Tejas
 Vinavaditamastu Ma Vindhisavahe
-Om Shanti Shanti Shanti Hi*
+Om Shanti Shanti Shanti*
 
 Permanece con tu cuerpo quieto y ojos cerrados por unos momentos más, y considera la intención por la cual estás aquí esta noche.
 

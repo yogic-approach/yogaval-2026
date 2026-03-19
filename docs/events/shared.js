@@ -196,7 +196,8 @@ async function loadResources(lang) {
         var audioHtml = '';
         audioItems.forEach(function(r) {
             if (r.type === 'audio-external') {
-                var metaParts = [r.description, r.source].filter(Boolean);
+                var desc = (_lang === 'ne' && r.description_ne) ? r.description_ne : (_lang === 'es' && r.description_es) ? r.description_es : r.description;
+                var metaParts = [desc, r.source].filter(Boolean);
                 audioHtml += `
                     <div class="resource-audio-card">
                         <div class="resource-body">
@@ -211,7 +212,8 @@ async function loadResources(lang) {
                 var licenseStr = r.license_url
                     ? `<a class="resource-download" href="${r.license_url}" target="_blank" rel="noopener">${r.license}</a>`
                     : (r.license || '');
-                var metaPartsA = [r.description, r.artist, licenseStr].filter(Boolean);
+                var desc = (_lang === 'ne' && r.description_ne) ? r.description_ne : (_lang === 'es' && r.description_es) ? r.description_es : r.description;
+                var metaPartsA = [desc, r.artist, licenseStr].filter(Boolean);
                 var downloadLink = r.no_download
                     ? (r.external_url ? ` &middot; <a class="resource-download" href="${r.external_url}" target="_blank" rel="noopener">${s.listenOn} ${r.external_source} &rarr;</a>` : '')
                     : ` &middot; <a class="resource-download" href="${fileSrc}" download>${s.download}</a>`;
