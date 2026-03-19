@@ -5,22 +5,36 @@ Session resume point — contains full plan so work can restart from scratch if 
 
 ---
 
-## Status: No active task — all verified complete as of 2026-03-18
+## Status: No active task — clean close as of 2026-03-19
 
-All sub-tasks from issue #21 and follow-on issues (#20, #22, #23, #24, #25) are committed and pushed.
+All work from today's session is committed, pushed, and tagged.
 
-**Last commit pushed:** 8863a61 (Update synthesis date label to 'Last updated')
-**Open GH issues:** #4, #10, #12 (pre-existing, not from this session)
+**Last commit:** c3f00e0 (Fix resources not re-rendering on language switch)
+**Stable tag:** `v1.0-stable` — rollback point before audit-fixes work begins
+**Active branch for next work:** `audit-fixes`
 
-### Verified complete (agent-checked 2026-03-18)
-- Piriápolis NE line 56: `Sw.` → `स्वामी` ✓
-- Feb 9 NE line 86: gross/subtle/causal → Nepali-first order ✓
-- Feb 9 NE line 100: `*blissful*` → `*आनन्दमय*` ✓
-- La Paloma "Beyond the Map: Shakti, Bhakti" section present in synthesis-en.md ✓
-- Glossary at bottom of dropdown in shared.js ✓
+---
 
-### Next session candidates
-- #4, #10, #12 — check what these are and whether still relevant
-- Synthesis additions for La Paloma (ES + NE versions of the new section)
-- Site credit "Made with" localization (EN/ES/NE) — partially done this session, verify live
-- Glossary: link-out pages for lineage figures (backlog)
+## Next session: Audit fixes (#28–#34) + #27 floating toolbar
+
+Work should happen on the `audit-fixes` branch. Run regression checklist (#37) before merging to main.
+
+**Safe to run in parallel:**
+- #30 (SEO meta tags) + #32 (responsiveness) — no file overlap
+- #31 (security) can run alongside #30/#32
+
+**Do NOT run together:**
+- #29 (accessibility) + #34 (code cleanup) — both touch shared.css
+
+**After audit-fixes merged:**
+- #27 — Floating toolbar + Web Share API
+- #35 — Eleventy migration (separate branch, larger effort)
+- #36 — GoatCounter ✅ DONE
+
+---
+
+## Other open items
+
+- GoatCounter also needed on Das Mahavidya repo (saved in memory)
+- Analytics: confirm GoatCounter is registering visits after deploy
+- Framework research (#35): Eleventy + Pagefind recommended, Option B (directory-based language routes), GitHub Actions from day one, local build also supported

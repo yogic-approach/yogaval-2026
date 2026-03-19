@@ -5,6 +5,31 @@ Repo: https://github.com/yogic-approach/yogaval-2026
 
 ---
 
+## Session: 2026-03-19 — Audit, Analytics, Form Polish, Bug Fixes
+
+**Focus:** Google Form pre-fill finalization, comprehensive site audit, analytics, content fixes, architecture planning.
+
+**Completed:**
+- Form pre-fill: em-dash format fixed to match talk selector labels exactly; Summary and Glossary added as program options with correct labels; all 7 options verified against live form
+- GoatCounter analytics added via shared.js (#36) — all 8 pages tracked, dashboard at https://yogicapproach.goatcounter.com
+- Shakti/She/Her capitalized as divine throughout Tantroktam EN transcript
+- Om Shanti visarga (ः) added to final Shanti in all NE transcripts (Feb 9, Feb 10); trailing "Hi" removed from Feb 10 EN + ES
+- Resource descriptions translated (ES/NE) in resources.json; shared.js renderer updated to use localized descriptions
+- Events listing page (events/index.html): migrated from inline styles to shared.css; sticky footer added; site credit added to footer
+- Separator dot color updated to link blue (#2a6496) in shared.css and events/index.html
+- Resources language bug fixed: loadResources() now called inside loadTranscript() so resources re-render on language switch
+- Comprehensive site audit run (8 pages, shared.css, shared.js) — report posted to #28
+- Issues created: #26 (form/topbar work), #27 (floating toolbar + Web Share API), #28–#34 (audit sub-issues), #35 (framework research), #36 (GoatCounter ✅), #37 (regression checklist)
+- Framework research completed (#35): Eleventy + Pagefind recommended; Option B (directory-based language routes) chosen; GitHub Actions from day one; report posted as issue comment
+- Stable tag created: `v1.0-stable`
+- Branch created: `audit-fixes` for upcoming #29–#34 work
+
+**Issues opened:** #27, #28, #29, #30, #31, #32, #33, #34, #35, #37
+**Issues closed:** #36 (GoatCounter)
+**Tag:** v1.0-stable
+
+---
+
 ## Session: 2026-03-18 (cont.) — UI Polish: Selector, Footer, Sub-labels, Resources (#20–#25)
 
 **Focus:** Parallel agent work on four UI issues; synthesis La Paloma section; site-wide localization.
