@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+lang: es
+permalink: /2026-uruguay/es/glossary/
+title: "Glosario de Términos"
+heading: "Glosario de Términos"
+subtitle: "Satchidananda &mdash; Uruguay, febrero de 2026"
+description: "Definiciones de términos del yoga y sánscrito de las charlas de Satchidananda — Uruguay, febrero 2026"
+ogUrl: /2026-uruguay/es/glossary/
+footerNavHref: /2026-uruguay/es/
+footerNavLabel: "&#8592; Volver a la síntesis"
+---
+
+{# ── Other-talks selector ───────────────────────────────────────────────── #}
+<div id="other-talks">
+  <span id="other-talks-label" data-href="/2026-uruguay/es/">Ver <a href="/2026-uruguay/es/">una charla</a>:</span>
+  <select id="talk-select" aria-label="Select a talk" onchange="handleTalkSelect(this)">
+    <option value="">-- Elegir --</option>
+    <option value="/2026-uruguay/es/">Resumen de Charlas — Informe IA de ideas principales de todas las charlas</option>
+    {% for ev in events %}
+    <option value="/2026-uruguay/es/events/{{ ev.folder }}/">{% eventLabel ev, "es" %}</option>
+    {% endfor %}
+  </select>
+</div>
+
+{# ── Language toggle ─────────────────────────────────────────────────────── #}
+<div class="lang-toggle">
+  <a href="/2026-uruguay/en/glossary/" class="lang-btn" role="button" id="btn-en">English<span class="lang-sublabel">Original</span></a>
+  <a href="/2026-uruguay/es/glossary/" class="lang-btn active" role="button" id="btn-es">Español<span class="lang-sublabel">IA Traducido</span></a>
+  <a href="/2026-uruguay/ne/glossary/" class="lang-btn" role="button" id="btn-ne">नेपाली<span class="lang-sublabel">AI अनुवादित</span></a>
+</div>
+
+<style>
+  #content h2 { border-bottom: 1px solid #eee; padding-bottom: 4px; }
+  #content table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  #content th, #content td { border: 1px solid #ddd; padding: 6px 12px; text-align: left; }
+  #content th { background: #f5f5f5; }
+</style>
+
+{%- set _glossPath = "es" | glossaryPath -%}
+<div id="content">
+  {% renderMarkdownFile _glossPath, "es" %}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof updateTopbar === "function") updateTopbar("es");
+  });
+</script>

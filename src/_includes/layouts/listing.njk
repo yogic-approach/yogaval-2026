@@ -1,0 +1,53 @@
+{% extends "layouts/base.njk" %}
+
+{% block head_extra %}
+<style>
+  html { height: 100%; }
+  body { min-height: 100vh; display: flex; flex-direction: column; }
+  #events { flex: 1; }
+  #events ul { list-style: none; padding: 0; }
+  #events li { padding: 12px 0; border-bottom: 1px solid #eee; }
+  #events li a { text-decoration: none; color: #2a6496; font-size: 1.1em; }
+  #events li a:hover { text-decoration: underline; }
+</style>
+{% endblock %}
+
+{% block body %}
+  {# ── Language toggle ──────────────────────────────────────────────────── #}
+  <div class="lang-toggle">
+    <a href="/2026-uruguay/en/events/" class="lang-btn{% if lang == 'en' %} active{% endif %}" role="button" id="btn-en">English<span class="lang-sublabel">Original</span></a>
+    <a href="/2026-uruguay/es/events/" class="lang-btn{% if lang == 'es' %} active{% endif %}" role="button" id="btn-es">Español<span class="lang-sublabel">IA Traducido</span></a>
+    <a href="/2026-uruguay/ne/events/" class="lang-btn{% if lang == 'ne' %} active{% endif %}" role="button" id="btn-ne">नेपाली<span class="lang-sublabel">AI अनुवादित</span></a>
+  </div>
+
+  {# ── Search link ──────────────────────────────────────────────────────── #}
+  <p data-pagefind-ignore>
+    {%- if lang == "ne" -%}
+      <a href="/2026-uruguay/search/">सबै प्रतिलिपिहरूमा खोज्नुहोस्</a>
+    {%- elif lang == "es" -%}
+      <a href="/2026-uruguay/search/">Buscar en todas las transcripciones</a>
+    {%- else -%}
+      <a href="/2026-uruguay/search/">Search across all transcripts</a>
+    {%- endif -%}
+  </p>
+
+  {# ── Static events list ───────────────────────────────────────────────── #}
+  <div id="events" id="content">
+    <ul>
+      {% for ev in events %}
+      <li>
+        <a href="/2026-uruguay/{{ lang }}/events/{{ ev.folder }}/">{% eventLabel ev, lang %}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var lang = "{{ lang }}";
+    if (typeof updateTopbar === "function") updateTopbar(lang);
+  });
+</script>
+{% endblock %}

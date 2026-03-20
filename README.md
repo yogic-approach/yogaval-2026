@@ -2,7 +2,7 @@
 
 Bilingual transcript archive for yoga talks delivered in Uruguay during February 2026 by Satchidananda. Published via GitHub Pages.
 
-**Live site:** https://yogic-approach.github.io/yogaval-2026/
+**Live site:** https://yogic-approach.github.io/2026-uruguay/
 
 ## Synthesis
 

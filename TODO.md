@@ -1,4 +1,4 @@
-# TODO — yogaval-2026
+# TODO — 2026-uruguay
 
 Structured task list. Quick captures go in `TODO.txt` first; this file tracks issues and priorities.
 See `PROGRESS.md` for completed work and `PENDING-TASK.md` for in-progress session plan.

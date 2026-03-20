@@ -1,0 +1,163 @@
+---
+# Generates one talk page per (lang × event) combination.
+# 5 talks × 3 languages = 15 output pages.
+# Data comes from src/_data/talks_matrix.js.
+
+pagination:
+  data: talks_matrix
+  size: 1
+  alias: item
+
+permalink: "/2026-uruguay/{{ item.lang }}/events/{{ item.event.folder }}/"
+---
+{% extends "layouts/base.njk" %}
+{#
+  Nunjucks block overrides for the base.njk layout.
+  We set page-specific variables here; they are in scope inside all blocks.
+
+  NOTE: Variables set with {% set %} in the child template body are available
+  inside {% block %} overrides in the same template file (Nunjucks scoping).
+  They are NOT available in code outside blocks in the parent layout (base.njk).
+  For that reason, we override the `header` and `footer` blocks explicitly.
+#}
+
+{%- set lang       = item.lang -%}
+{%- set ev         = item.event -%}
+{%- set talkFolder = item.event.folder -%}
+
+{%- if lang == "ne" -%}
+  {%- set _title    = ev.title_ne -%}
+  {%- set _subtitle = ev.subtitle_ne -%}
+{%- elif lang == "es" -%}
+  {%- set _title    = ev.title_es -%}
+  {%- set _subtitle = ev.subtitle_es -%}
+{%- else -%}
+  {%- set _title    = ev.title -%}
+  {%- set _subtitle = ev.subtitle_en -%}
+{%- endif -%}
+
+{% block page_title %}{{ _title }} | Yogaval 2026{% endblock %}
+{% block og_title %}{{ _title }} | Yogaval 2026{% endblock %}
+{% block twitter_title %}{{ _title }} | Yogaval 2026{% endblock %}
+{% block meta_description %}{{ _subtitle | striptags }} — Yogaval 2026{% endblock %}
+{% block og_description %}{{ _subtitle | striptags }} — Yogaval 2026{% endblock %}
+{% block twitter_description %}{{ _subtitle | striptags }} — Yogaval 2026{% endblock %}
+
+{% block head_extra %}
+<style>
+  #resources-section { display: none; }
+</style>
+{% endblock %}
+
+{% block header %}
+<header data-pagefind-ignore>
+  <h1>{{ _title }}</h1>
+  <p id="header-subtitle">{{ _subtitle | safe }}</p>
+</header>
+{% endblock %}
+
+{% block body %}
+  {# ── Other-talks selector ─────────────────────────────────────────────── #}
+  <div id="other-talks" data-pagefind-ignore>
+    <span id="other-talks-label" data-href="/2026-uruguay/{{ lang }}/events/">
+      {%- if lang == "ne" -%}अर्को चर्चा <a href="/2026-uruguay/{{ lang }}/events/">छान्नुहोस्</a>:
+      {%- elif lang == "es" -%}Ver <a href="/2026-uruguay/{{ lang }}/events/">otra charla</a>:
+      {%- else -%}Select <a href="/2026-uruguay/{{ lang }}/events/">another talk</a>:
+      {%- endif -%}
+    </span>
+    <select id="talk-select" aria-label="Select a talk" onchange="handleTalkSelect(this)">
+      <option value="">
+        {%- if lang == "ne" %}-- छान्नुहोस् --{% elif lang == "es" %}-- Elegir --{% else %}-- Choose --{% endif -%}
+      </option>
+      <option value="/2026-uruguay/{{ lang }}/">
+        {%- if lang == "ne" -%}सबै कुराहरूको सारांश — सबै चर्चाका मुख्य विचार
+        {%- elif lang == "es" -%}Resumen de Charlas — Informe IA de ideas principales de todas las charlas
+        {%- else -%}Summary of Talks — AI-generated report of main ideas from all the talks
+        {%- endif -%}
+      </option>
+      {% for other in events %}
+        {% if other.folder !== talkFolder %}
+        <option value="/2026-uruguay/{{ lang }}/events/{{ other.folder }}/">{% eventLabel other, lang %}</option>
+        {% endif %}
+      {% endfor %}
+      <option value="/2026-uruguay/{{ lang }}/glossary/" data-newtab="true">
+        {%- if lang == "ne" -%}शब्दावली — योग र संस्कृत शब्दहरूको परिभाषा
+        {%- elif lang == "es" -%}Glosario de Términos — Definiciones de términos del yoga y sánscrito
+        {%- else -%}Glossary of Terms — Definitions of yoga and Sanskrit terms
+        {%- endif -%}
+      </option>
+    </select>
+  </div>
+
+  {# ── Language toggle — hard <a> links, works without JavaScript ─────── #}
+  <div class="lang-toggle" data-pagefind-ignore>
+    <a href="/2026-uruguay/en/events/{{ talkFolder }}/"
+       class="lang-btn{% if lang == 'en' %} active{% endif %}"
+       role="button" aria-pressed="{{ 'true' if lang == 'en' else 'false' }}"
+       id="btn-en">English<span class="lang-sublabel">Original</span></a>
+    <a href="/2026-uruguay/es/events/{{ talkFolder }}/"
+       class="lang-btn{% if lang == 'es' %} active{% endif %}"
+       role="button" aria-pressed="{{ 'true' if lang == 'es' else 'false' }}"
+       id="btn-es">Español<span class="lang-sublabel">IA Traducido</span></a>
+    <a href="/2026-uruguay/ne/events/{{ talkFolder }}/"
+       class="lang-btn{% if lang == 'ne' %} active{% endif %}"
+       role="button" aria-pressed="{{ 'true' if lang == 'ne' else 'false' }}"
+       id="btn-ne">नेपाली<span class="lang-sublabel">AI अनुवादित</span></a>
+  </div>
+
+  {# ── Resources section (populated at runtime by shared.js loadResources()) #}
+  <section id="resources-section">
+    <div class="resources-heading"></div>
+    <div id="resources-audio"></div>
+    <div id="resources-pdfs"></div>
+  </section>
+
+  {# ── Pre-rendered transcript content ─────────────────────────────────── #}
+  <div id="content" data-pagefind-body>
+    {% renderMarkdownFile item.transcriptPath, item.lang %}
+  </div>
+
+  {# ── Image modal ─────────────────────────────────────────────────────── #}
+  <div id="img-modal" onclick="this.classList.remove('open')">
+    <img id="img-modal-img" src="" alt="">
+  </div>
+{% endblock %}
+
+{% block footer %}
+<footer data-pagefind-ignore>
+  <a id="footer-nav" href="/2026-uruguay/{{ lang }}/events/">
+    {%- if lang == "ne" -%}&#8592; कार्यक्रमहरूमा फर्कनुहोस्
+    {%- elif lang == "es" -%}&#8592; Volver a los eventos
+    {%- else -%}&#8592; Back to Events
+    {%- endif -%}
+  </a>
+  <div id="site-credit" class="site-credit">
+    {%- if lang == "ne" -%}
+      <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a> बाट 🧠❤️🙏 सँग बनाएको
+    {%- elif lang == "es" -%}
+      Hecho con 🧠❤️🙏 por <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.
+    {%- else -%}
+      Made with 🧠❤️🙏 by <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.
+    {%- endif -%}
+  </div>
+</footer>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  var lang = {{ lang | dump | safe }};
+  var evDate = {{ ev.date | dump | safe }};
+  var evLocation = {{ ev.location | dump | safe }};
+  var evTitle = {% if lang == "ne" %}{{ ev.title_short_ne | dump | safe }}{% elif lang == "es" %}{{ ev.title_short_es | dump | safe }}{% else %}{{ ev.title_short | dump | safe }}{% endif %};
+
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof updateTopbar === "function") {
+      window._currentProgram = evDate + " \u2014 " + evLocation + " \u2014 " + evTitle;
+      updateTopbar(lang);
+    }
+    if (typeof loadResources === "function") loadResources(lang, "/2026-uruguay/events/{{ talkFolder }}/resources/");
+  });
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,48 @@
+---
+layout: layouts/base.njk
+lang: es
+permalink: /2026-uruguay/es/
+title: "Resumen de Charlas"
+heading: "Yogaval 2026"
+subtitle: "Explorando los Koshas &mdash; Satchidananda &mdash; Uruguay, febrero 2026"
+description: "Síntesis generada por IA de las charlas de Satchidananda sobre los cinco koshas — Uruguay, febrero 2026"
+ogUrl: /2026-uruguay/es/
+footerNavHref: /2026-uruguay/es/events/
+footerNavLabel: "&#8592; Ver charlas individuales"
+---
+
+{# ── Other-talks selector ───────────────────────────────────────────────── #}
+<div id="other-talks">
+  <span id="other-talks-label" data-href="/2026-uruguay/es/events/">Ver <a href="/2026-uruguay/es/events/">una charla</a>:</span>
+  <select id="talk-select" aria-label="Select a talk" onchange="handleTalkSelect(this)">
+    <option value="">-- Elegir --</option>
+    {% for ev in events %}
+    <option value="/2026-uruguay/es/events/{{ ev.folder }}/">{% eventLabel ev, "es" %}</option>
+    {% endfor %}
+    <option value="/2026-uruguay/es/glossary/" data-newtab="true">Glosario de Términos — Definiciones de términos del yoga y sánscrito</option>
+  </select>
+</div>
+
+{# ── Language toggle ─────────────────────────────────────────────────────── #}
+<div class="lang-toggle">
+  <a href="/2026-uruguay/en/" class="lang-btn" role="button" id="btn-en">English<span class="lang-sublabel">Original</span></a>
+  <a href="/2026-uruguay/es/" class="lang-btn active" role="button" id="btn-es">Español<span class="lang-sublabel">IA Traducido</span></a>
+  <a href="/2026-uruguay/ne/" class="lang-btn" role="button" id="btn-ne">नेपाली<span class="lang-sublabel">AI अनुवादित</span></a>
+</div>
+
+<style>
+  #content table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  #content th, #content td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
+  #content th { background: #f5f5f5; }
+</style>
+
+{%- set _synthPath = "es" | synthesisPath -%}
+<div id="content">
+  {% renderMarkdownFile _synthPath, "es" %}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof updateTopbar === "function") updateTopbar("es");
+  });
+</script>

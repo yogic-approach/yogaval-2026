@@ -1,0 +1,35 @@
+/*
+ * eleventy-extra.css — supplemental styles for the Eleventy-built site.
+ * Loaded in addition to shared.css (which comes from docs/events/shared.css).
+ *
+ * Purpose: the new lang-toggle uses <a class="lang-btn"> instead of <button>
+ * (so language switching works without JavaScript). These rules mirror the
+ * existing .lang-toggle button rules from shared.css.
+ */
+
+/* lang-btn: <a> elements styled as the existing language toggle buttons */
+.lang-toggle .lang-btn {
+  display: inline-block;
+  padding: 8px 24px;
+  font-size: 1em;
+  text-decoration: none;
+  border: 2px solid #555;
+  border-radius: 4px;
+  background: white;
+  color: #555;
+  transition: all 0.2s;
+  text-align: center;
+}
+.lang-toggle .lang-btn.active {
+  background: #555;
+  color: white;
+}
+.lang-toggle .lang-btn:hover {
+  background: #444;
+  color: white;
+}
+.lang-toggle .lang-btn:focus-visible {
+  outline: 2px solid #2a6496;
+  outline-offset: 2px;
+  border-radius: 2px;
+}

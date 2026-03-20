@@ -1,7 +1,7 @@
-# yogaval-2026 — Session Progress
+# 2026-uruguay — Session Progress
 
-Site: https://yogic-approach.github.io/yogaval-2026/
-Repo: https://github.com/yogic-approach/yogaval-2026
+Site: https://yogic-approach.github.io/2026-uruguay/
+Repo: https://github.com/yogic-approach/2026-uruguay
 
 ---
 
