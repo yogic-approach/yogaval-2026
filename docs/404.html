@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
+</head>
+<body>
+<p>This site has moved. <a id="link" href="https://yogicapproach.com/events/2026-uruguay/es/">Go to the new site</a>.</p>
+<script>
+(function () {
+  // Detect language: prefer ?lang= param, then browser language
+  var params = new URLSearchParams(window.location.search);
+  var p = params.get('lang');
+  var nl = (navigator.language || 'es').toLowerCase();
+  var browserLang = nl.startsWith('ne') ? 'ne' : nl.startsWith('en') ? 'en' : 'es';
+  var lang = (p === 'en' || p === 'es' || p === 'ne') ? p : browserLang;
+
+  var path = window.location.pathname; // e.g. /yogaval-2026/events/20260223-koshas-piriopolis/
+  var base = 'https://yogicapproach.com/events/2026-uruguay/' + lang + '/';
+  var dest = base;
+
+  // Glossary
+  if (path.indexOf('glossary') !== -1) {
+    dest = base + 'glossary/';
+  } else {
+    // Extract event folder: last non-empty path segment that looks like a date slug
+    var m = path.match(/\/events\/([^/]+)\/?$/);
+    if (m && m[1]) {
+      dest = base + m[1] + '/';
+    }
+  }
+
+  document.getElementById('link').href = dest;
+  location.replace(dest);
+})();
+</script>
+</body>
+</html>

@@ -1,130 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yogaval 2026 | Exploring the Koshas</title>
-    <meta name="description" content="AI-generated synthesis of talks by Satchidananda on the five koshas — Uruguay, February 2026">
-    <meta name="author" content="Satchidananda">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Yogaval 2026 — Exploring the Koshas">
-    <meta property="og:description" content="A synthesis of talks by Satchidananda on the five yogic bodies, delivered in Uruguay, February 2026.">
-    <meta property="og:url" content="https://yogic-approach.github.io/yogaval-2026/">
-    <meta property="og:image" content="https://yogic-approach.github.io/yogaval-2026/events/20260218-tantroktam-devi-suktam-la-paloma/resources/cover-tantroktam-devi-suktam.jpg">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Yogaval 2026 — Exploring the Koshas">
-    <meta name="twitter:description" content="A synthesis of talks by Satchidananda on the five yogic bodies, delivered in Uruguay, February 2026.">
-    <meta name="twitter:image" content="https://yogic-approach.github.io/yogaval-2026/events/20260218-tantroktam-devi-suktam-la-paloma/resources/cover-tantroktam-devi-suktam.jpg">
-    <link rel="preconnect" href="https://cdn.jsdelivr.net">
-    <link rel="preconnect" href="https://docs.google.com">
-    <link rel="preconnect" href="https://gc.zgo.at">
-    <link rel="icon" type="image/x-icon" href="/yogaval-2026/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="/yogaval-2026/favicon.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/yogaval-2026/apple-touch-icon.png">
-    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.4/marked.min.js"></script>
-    <link rel="stylesheet" href="events/shared.css">
-    <style>
-        /* Table styles for synthesis page */
-        #content table { border-collapse: collapse; width: 100%; margin: 1em 0; }
-        #content th, #content td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; }
-        #content th { background: #f5f5f5; }
-    </style>
+<meta charset="UTF-8">
+<title>Redirecting…</title>
+<meta name="robots" content="noindex">
 </head>
 <body>
-    <a href="#content" class="skip-nav">Skip to content</a>
-    <header>
-        <h1>Yogaval 2026</h1>
-        <p id="page-subtitle">Exploring the Koshas &mdash; Satchidananda &mdash; Uruguay, February 2026</p>
-    </header>
-
-    <div id="other-talks">
-        <span id="other-talks-label" data-href="events/">Select <a href="events/">a talk</a>:</span>
-        <select id="talk-select" aria-label="Select a talk" onchange="handleTalkSelect(this)"></select>
-    </div>
-
-    <div class="lang-toggle">
-        <button id="btn-en" onclick="loadSynthesis('en')">English<span class="lang-sublabel">Original</span></button>
-        <button id="btn-es" onclick="loadSynthesis('es')">Espa&ntilde;ol<span class="lang-sublabel">IA Traducido</span></button>
-        <button id="btn-ne" onclick="loadSynthesis('ne')">नेपाली<span class="lang-sublabel">AI अनुवादित</span></button>
-    </div>
-
-    <div id="content">
-        <p id="loading">Loading synthesis...</p>
-    </div>
-
-    <footer>
-        <a id="footer-nav" href="events/">&#8592; Browse Individual Talks</a>
-        <div id="site-credit" class="site-credit">Made with 🧠❤️🙏 by <a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>.</div>
-    </footer>
-
-    <script src="events/shared.js"></script>
-    <script>
-        async function loadSynthesis(lang) {
-            _currentProgram = 'Summary of Talks \u2014 AI-generated report of main ideas from all the talks';
-            updateTopbar(lang);
-            var isEs = lang === 'es';
-            var isNe = lang === 'ne';
-            document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-            document.getElementById('btn-es').classList.toggle('active', isEs);
-            document.getElementById('btn-ne').classList.toggle('active', isNe);
-            var url = new URL(window.location);
-            url.searchParams.set('lang', lang);
-            history.replaceState(null, '', url);
-            document.getElementById('page-subtitle').innerHTML = isNe
-                ? 'कोशहरूको अन्वेषण &mdash; सत्चिदानन्द &mdash; Uruguay, फेब्रुअरी २०२६'
-                : (isEs
-                    ? 'Explorando los Koshas &mdash; Satchidananda &mdash; Uruguay, febrero 2026'
-                    : 'Exploring the Koshas &mdash; Satchidananda &mdash; Uruguay, February 2026');
-            var labelEl = document.getElementById('other-talks-label');
-            if (labelEl) {
-                var href = labelEl.dataset.href || 'events/';
-                labelEl.innerHTML = isNe
-                    ? 'चर्चा <a href="' + href + '">छान्नुहोस्</a>:'
-                    : (isEs
-                        ? 'Ver <a href="' + href + '">una charla</a>:'
-                        : 'Select <a href="' + href + '">a talk</a>:');
-            }
-            var footerNav = document.getElementById('footer-nav');
-            if (footerNav) {
-                footerNav.innerHTML = isNe
-                    ? '&#8592; व्यक्तिगत वार्ताहरू हेर्नुहोस्'
-                    : (isEs ? '&#8592; Ver charlas individuales' : '&#8592; Browse Individual Talks');
-            }
-            var siteCredit = document.getElementById('site-credit');
-            if (siteCredit) {
-                var creditLink = '<a href="https://yogicapproach.com" target="_blank" rel="noopener">YogicApproach</a>';
-                siteCredit.innerHTML = isNe
-                    ? creditLink + ' बाट 🧠❤️🙏 सँग बनाएको'
-                    : (isEs ? 'Hecho con 🧠❤️🙏 por ' + creditLink + '.' : 'Made with 🧠❤️🙏 by ' + creditLink + '.');
-            }
-            loadTalkSelector(lang);
-            var el = document.getElementById('content');
-            el.innerHTML = '<p id="loading">Loading...</p>';
-            try {
-                var res = await fetch('synthesis-' + lang + '.md');
-                if (!res.ok) throw new Error('File not found');
-                var md = await res.text();
-                el.innerHTML = marked.parse(md);
-                if (window.location.hash) {
-                    var target = document.querySelector(window.location.hash);
-                    if (target) target.scrollIntoView({ behavior: 'smooth' });
-                }
-            } catch (e) {
-                if (lang === 'es') {
-                    el.innerHTML = '<p style="text-align:center; padding: 40px; color: #666;">'
-                        + 'La s&iacute;ntesis est&aacute; disponible solo en ingl&eacute;s por el momento.<br>'
-                        + '<a href="?lang=en">Read in English</a></p>';
-                } else if (lang === 'ne') {
-                    el.innerHTML = '<p style="text-align:center; padding: 40px; color: #666;">'
-                        + 'सारांश अहिले नेपालीमा उपलब्ध छैन।<br>'
-                        + '<a href="?lang=en">Read in English</a></p>';
-                } else {
-                    el.innerHTML = '<p class="error-message">Could not load synthesis. Please try again.</p>';
-                }
-            }
-        }
-        const lang = new URLSearchParams(window.location.search).get('lang') || 'es';
-        loadSynthesis(lang);
-    </script>
+<p>This site has moved. <a id="link" href="https://yogicapproach.com/events/2026-uruguay/es/">Go to the new site</a>.</p>
+<script>
+(function () {
+  var nl = (navigator.language || 'es').toLowerCase();
+  var lang = nl.startsWith('ne') ? 'ne' : nl.startsWith('en') ? 'en' : 'es';
+  var dest = 'https://yogicapproach.com/events/2026-uruguay/' + lang + '/';
+  document.getElementById('link').href = dest;
+  location.replace(dest);
+})();
+</script>
 </body>
 </html>
