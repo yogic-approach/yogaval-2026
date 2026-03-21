@@ -160,7 +160,7 @@ async function loadTranscript(lang) {
     loadResources(lang);
 }
 
-async function loadResources(lang) {
+async function loadResources(lang, resourcesBasePath) {
     var _lang = lang || 'en';
     var _strings = {
         en: {
@@ -215,8 +215,9 @@ async function loadResources(lang) {
                         </div>
                     </div>`;
             } else {
-                var fileSrc    = 'resources/' + encodeURIComponent(r.file);
-                var coverSrc   = r.cover ? 'resources/' + encodeURIComponent(r.cover) + '?v=1' : '';
+                var _base      = resourcesBasePath || 'resources/';
+                var fileSrc    = _base + encodeURIComponent(r.file);
+                var coverSrc   = r.cover ? _base + encodeURIComponent(r.cover) + '?v=1' : '';
                 var licenseStr = r.license_url
                     ? `<a class="resource-download" href="${r.license_url}" target="_blank" rel="noopener">${r.license}</a>`
                     : (r.license || '');
@@ -399,7 +400,9 @@ if (typeof marked !== 'undefined') {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    var lang = new URLSearchParams(window.location.search).get('lang') || 'es';
+    var lang = new URLSearchParams(window.location.search).get('lang')
+               || (window.location.pathname.match(/\/(en|es|ne)\//) || [])[1]
+               || 'es';
     var s = _topbarStrings(lang);
     var tb = document.createElement('div');
     tb.id = 'topbar';

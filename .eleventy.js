@@ -31,9 +31,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({
     "docs/events/shared.js": "2026-uruguay/events/shared.js"
   });
-  // favicon → _site/2026-uruguay/favicon.svg
+  // favicon files → _site/2026-uruguay/
   eleventyConfig.addPassthroughCopy({
-    "docs/favicon.svg": "2026-uruguay/favicon.svg"
+    "docs/favicon.ico": "2026-uruguay/favicon.ico"
+  });
+  eleventyConfig.addPassthroughCopy({
+    "docs/favicon.png": "2026-uruguay/favicon.png"
+  });
+  eleventyConfig.addPassthroughCopy({
+    "docs/apple-touch-icon.png": "2026-uruguay/apple-touch-icon.png"
   });
 
   // Eleventy-specific supplemental CSS (lang-btn styles, etc.)
